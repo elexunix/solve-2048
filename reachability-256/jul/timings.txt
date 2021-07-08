@@ -1,0 +1,41 @@
+11:43
+20:43
+
+g++
+11:10:06
+23:37:29
+12h27m - 9h = 3h27m = 207m
+?? why not 81m, as before
+
+nvcc
+12:16:53
+15:47:04
+3h31m, let it be
+
+nvcc -O2
+16:21:13
+17:40:05
+79m, all ok
+
+after 2-sorted modification:
+
+g++ -O2 -fsanitize=address
+20:06:22
+21:24:50
+78m
+
+g++ -O2
+21:28:19
+22:10:41
+42m
+
+third
+
+g++ -O2
+37m-44m
+42m3s after fixing a bug
+42m2s
+
+g++ -Ofast
+39m16s
+

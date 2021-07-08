@@ -77,6 +77,7 @@ __global__ void process_layer(unsigned char *arr, int sum, long long **updates, 
 }
 
 int main() {
+    system("date");
     unsigned char *arr;
     report_start("allocating global array (" + itos(arr_size) + ")");
     gpuErrchk(cudaMallocManaged(&arr, arr_size));
@@ -130,7 +131,7 @@ int main() {
         }
         std::cout << '\n';
     }
-
+    system("date");
     // std::cout << "Discussed position (97734630):\n";
     // decode_position(97734630).print();
     /*while (true) {
