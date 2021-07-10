@@ -7,7 +7,7 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include "field3by4lib-cpu.h"
+#include "field3by5lib-cpu.h"
 
 // try to rewrite set_value, check performance
 // try to rewrite operator[]s, check performance
@@ -22,14 +22,15 @@ void set_value(unsigned char *arr, long long pos, bool value) {
 }
 
 
-const int layers_cnt = 3 * 4 * win_const / 2 + 1;
-int index_dp[13][layers_cnt];
+const int layers_cnt = 3 * 5 * win_const / 2 + 1;
+long long index_dp[16][layers_cnt];
 
-int encode_inside_layer(const board &b, int sum) {
+long long encode_inside_layer(const board &b, int sum) {
     // assert(b.sum() == sum);
-    int result = 0, left = 11;
+    long long result = 0;
+    int left = 14;
     for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < 4; ++j, --left) {
+        for (int j = 0; j < 5; ++j, --left) {
             if (b.f[i][j] == 0)
                 continue;
             result += index_dp[left][sum];
@@ -41,14 +42,14 @@ int encode_inside_layer(const board &b, int sum) {
     // assert(sum == 0);
     return result;
 }
-int encode_inside_layer(const board &b) {
+long long encode_inside_layer(const board &b) {
     return encode_inside_layer(b, b.sum());
 }
-board decode_inside_layer(int id, int sum) {
+board decode_inside_layer(long long id, int sum) {
     board result;
-    int left = 11;
+    int left = 14;
     for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < 4; ++j, --left) {
+        for (int j = 0; j < 5; ++j, --left) {
             if (id < index_dp[left][sum]) {
                 result.f[i][j] = 0;
                 continue;
@@ -75,8 +76,8 @@ bool get_value(const unsigned char *const arr[layers_cnt], const board &b) {
 
 const int CPU_concurrency = 7;  // works better than 8
 void process_user_layer(unsigned char *const user_layers[layers_cnt], const unsigned char *const hater_layers[layers_cnt],
-                int sum, int begin, int end) {
-    for (int position_id = begin; position_id < end; ++position_id) {
+                int sum, long long begin, long long end) {
+    for (long long position_id = begin; position_id < end; ++position_id) {
         board position(decode_inside_layer(position_id, sum));
         bool winnable = false;
         for (int swipe = 0; swipe < 4; ++swipe) {
@@ -95,11 +96,11 @@ void process_user_layer(unsigned char *const user_layers[layers_cnt], const unsi
     }
 }
 void process_hater_layer(const unsigned char *const user_layers[layers_cnt], unsigned char *const hater_layers[layers_cnt],
-                int sum, int begin, int end) {
-    for (int position_id = begin; position_id < end; ++position_id) {
+                int sum, long long begin, long long end) {
+    for (long long position_id = begin; position_id < end; ++position_id) {
         board position(decode_inside_layer(position_id, sum));
         bool winnable = true;
-        for (int shot = 0; shot < 24; ++shot) {
+        for (int shot = 0; shot < 30; ++shot) {
             board temp(position);
             winnable &= !temp.addTile(shot) || get_value(user_layers, temp);
         }
@@ -122,15 +123,15 @@ void read_arr_from_disk(int n, unsigned char *arr, const std::string filename) {
 }
 
 bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) [[deprecated]] {
-    arr[b.sum()] = new unsigned char[index_dp[12][b.sum()] / 8 + 1];
-    read_arr_from_disk(index_dp[12][b.sum()] / 8 + 1, arr[b.sum()], "arrays/ulayer" + itos(b.sum(), 3) + ".dat");
+    arr[b.sum()] = new unsigned char[index_dp[15][b.sum()] / 8 + 1];
+    read_arr_from_disk(index_dp[15][b.sum()] / 8 + 1, arr[b.sum()], "arrays3by5/ulayer" + itos(b.sum(), 3) + ".dat");
     bool result = get_value(arr, b);
     delete[] arr[b.sum()];
     return result;
 }
 bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) [[deprecated]] {  // impossible to provide unless recorded
-    arr[b.sum()] = new unsigned char[index_dp[12][b.sum()] / 8 + 1];
-    read_arr_from_disk(index_dp[12][b.sum()] / 8 + 1, arr[b.sum()], "arrays/hlayer" + itos(b.sum(), 3) + ".dat");
+    arr[b.sum()] = new unsigned char[index_dp[15][b.sum()] / 8 + 1];
+    read_arr_from_disk(index_dp[15][b.sum()] / 8 + 1, arr[b.sum()], "arrays3by5/hlayer" + itos(b.sum(), 3) + ".dat");
     bool result = get_value(arr, b);
     delete[] arr[b.sum()];
     return result;
@@ -138,41 +139,50 @@ bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) [
 
 
 int main() {
+    // const long long sz = 8'000'000'000;
+    // unsigned char *t = new unsigned char[sz];
+    // t[0] = 42;
+    // for (long long i = 1; i < sz; ++i)
+    //     t[i] = t[i - 1] * t[i - 1] + 1;
+    // std::cout << std::accumulate(t, t + sz, 0);
     system("date");
-    system("mkdir arrays");
+    system("mkdir arrays3by5");
 
     report_start("calculating index dp");
     // index_dp[cnt][sum] gives the number of ways to get sum in cnt cells (empty allowed)
-    // useful for fast indexation inside layers of constant sum; checked to be at most 150246756
+    // useful for fast indexation inside layers of constant sum; checked to be at most ...
     index_dp[0][0] = 1;
     std::fill(index_dp[0] + 1, index_dp[0] + layers_cnt, 0);
-    for (int cnt = 1; cnt <= 12; ++cnt) {
-        for (int sum = 0; sum <= 3 * 4 * win_const / 2; ++sum) {
+    for (int cnt = 1; cnt <= 15; ++cnt) {
+        for (int sum = 0; sum <= 3 * 5 * win_const / 2; ++sum) {
             index_dp[cnt][sum] = index_dp[cnt - 1][sum];
             for (int tile = 2; tile < win_const && tile <= sum; tile *= 2)
                 index_dp[cnt][sum] += index_dp[cnt - 1][sum - tile];
         }
     }
+    std::cout << "max size of layer: " << *std::max_element(index_dp[15], index_dp[15] + 3 * 5 * win_const / 2 + 1) << "\n";
     report_finish();
 
-    unsigned char *user_turn_positions[layers_cnt], *hater_turn_positions[layers_cnt];  // sized index_dp[12][sum]/8+1
+    unsigned char *user_turn_positions[layers_cnt], *hater_turn_positions[layers_cnt];  // sized index_dp[15][sum]/8+1
     // values are always _for user_; for example, a unit in hater's array means the position is winnable by user, same as with user's array
 
     std::thread kernels[CPU_concurrency];
-    for (int sum = 3 * 4 * win_const / 2; sum >= 0; sum -= 2) {
+    for (int sum = 3 * 5 * win_const / 2; sum >= 0; sum -= 2) {
         report_start("processing layer with sum " + itos(sum));
-        int total_cnt = index_dp[12][sum];  // in a layer for one player
+        std::cout << "sizes in bytes of current, current+2, current+4: ";
+        std::cout << index_dp[15][sum] / 8 + 1 << " " << index_dp[15][sum + 2] / 8 + 1 << " " << index_dp[15][sum + 4] / 8 + 1 << "\n";
+        long long total_cnt = index_dp[15][sum];  // in a layer for one player
         if (sum + 2 < layers_cnt) {
-            user_turn_positions[sum + 2] = new unsigned char[index_dp[12][sum + 2] / 8 + 1];
-            read_arr_from_disk(index_dp[12][sum + 2] / 8 + 1, user_turn_positions[sum + 2], "arrays/ulayer" + itos(sum + 2, 3) + ".dat");
+            user_turn_positions[sum + 2] = new unsigned char[index_dp[15][sum + 2] / 8 + 1];
+            read_arr_from_disk(index_dp[15][sum + 2] / 8 + 1, user_turn_positions[sum + 2], "arrays3by5/ulayer" + itos(sum + 2, 3) + ".dat");
         }
         if (sum + 4 < layers_cnt) {
-            user_turn_positions[sum + 4] = new unsigned char[index_dp[12][sum + 4] / 8 + 1];
-            read_arr_from_disk(index_dp[12][sum + 4] / 8 + 1, user_turn_positions[sum + 4], "arrays/ulayer" + itos(sum + 4, 3) + ".dat");
+            user_turn_positions[sum + 4] = new unsigned char[index_dp[15][sum + 4] / 8 + 1];
+            read_arr_from_disk(index_dp[15][sum + 4] / 8 + 1, user_turn_positions[sum + 4], "arrays3by5/ulayer" + itos(sum + 4, 3) + ".dat");
         }
         // first hater positions
-        hater_turn_positions[sum] = new unsigned char[index_dp[12][sum] / 8 + 1];
-        hater_turn_positions[sum][index_dp[12][sum] / 8] = 0;  // useless line to avoid UB later
+        hater_turn_positions[sum] = new unsigned char[index_dp[15][sum] / 8 + 1];
+        hater_turn_positions[sum][index_dp[15][sum] / 8] = 0;  // useless line to avoid UB later
         for (int i = 0; i < CPU_concurrency; ++i)
             kernels[i] = std::thread(process_hater_layer, user_turn_positions, hater_turn_positions, sum, total_cnt / CPU_concurrency * i / 8 * 8,
                     i == CPU_concurrency - 1 ? total_cnt : total_cnt / CPU_concurrency * (i + 1) / 8 * 8);
@@ -183,16 +193,16 @@ int main() {
         if (sum + 4 < layers_cnt)
             delete[] user_turn_positions[sum + 4];
         // then user positions
-        user_turn_positions[sum] = new unsigned char[index_dp[12][sum] / 8 + 1];
-        user_turn_positions[sum][index_dp[12][sum] / 8] = 0;  // useless line to avoid UB later
+        user_turn_positions[sum] = new unsigned char[index_dp[15][sum] / 8 + 1];
+        user_turn_positions[sum][index_dp[15][sum] / 8] = 0;  // useless line to avoid UB later
         for (int i = 0; i < CPU_concurrency; ++i)
             kernels[i] = std::thread(process_user_layer, user_turn_positions, hater_turn_positions, sum, total_cnt / CPU_concurrency * i / 8 * 8,
                     i == CPU_concurrency - 1 ? total_cnt : total_cnt / CPU_concurrency * (i + 1) / 8 * 8);
-        write_arr_to_disk(index_dp[12][sum] / 8 + 1, hater_turn_positions[sum], "arrays/hlayer" + itos(sum, 3) + ".dat");
+        write_arr_to_disk(index_dp[15][sum] / 8 + 1, hater_turn_positions[sum], "arrays3by5/hlayer" + itos(sum, 3) + ".dat");
         for (int i = 0; i < CPU_concurrency; ++i)
             kernels[i].join();
         delete[] hater_turn_positions[sum];
-        write_arr_to_disk(index_dp[12][sum] / 8 + 1, user_turn_positions[sum], "arrays/ulayer" + itos(sum, 3) + ".dat");
+        write_arr_to_disk(index_dp[15][sum] / 8 + 1, user_turn_positions[sum], "arrays3by5/ulayer" + itos(sum, 3) + ".dat");
         delete[] user_turn_positions[sum];
         report_finish();
     }
@@ -201,7 +211,7 @@ int main() {
     std::cout << "empty field:\n";
     board empty;
     for (int i = 0; i < 3; ++i)
-        for (int j = 0; j < 4; ++j)
+        for (int j = 0; j < 5; ++j)
             empty.f[i][j] = 0;
     std::cout << "\tuser " << get_user_value_from_disk(user_turn_positions, empty) << ", ";
     std::cout << "hater " << get_hater_value_from_disk(hater_turn_positions, empty) << "\n";
@@ -210,10 +220,10 @@ int main() {
         std::cout << "\t" << (player == 0 ? "user" : "hater") << ":\n";
         for (int i = 0; i < 3; ++i) {
             std::cout << "\t";
-            for (int j = 0; j < 4; ++j) {
+            for (int j = 0; j < 5; ++j) {
                 board b;
                 for (int k = 0; k < 3; ++k)
-                    for (int l = 0; l < 4; ++l)
+                    for (int l = 0; l < 5; ++l)
                         b.f[k][l] = k == i && l == j ? 2 : 0;
                 if (player == 0)
                     std::cout << get_user_value_from_disk(user_turn_positions, b);
@@ -234,16 +244,16 @@ int main() {
         for (int _ = 0; _ < 2; ++_) {
             for (int i1 = 0; i1 < 3; ++i1) {
                 for (int i2 = 0; i2 < 3; ++i2) {
-                    for (int j1 = 0; j1 < 4; ++j1) {
+                    for (int j1 = 0; j1 < 5; ++j1) {
                         std::cout << "\t";
-                        for (int j2 = 0; j2 < 4; ++j2) {
+                        for (int j2 = 0; j2 < 5; ++j2) {
                             if (i1 == i2 && j1 == j2) {
                                 std::cout << "-- ";
                                 continue;
                             }
                             board b;
                             for (int k = 0; k < 3; ++k)
-                                for (int l = 0; l < 4; ++l)
+                                for (int l = 0; l < 5; ++l)
                                     b.f[k][l] = k == i1 && l == j1 ? 2 : k == i2 && l == j2 ? _ ? 4 : 2 : 0;
                             if (player == 0)
                                 std::cout << get_user_value_from_disk(user_turn_positions, b);
@@ -257,16 +267,16 @@ int main() {
                         }
                     }
                     std::cout << "\t\t";
-                    for (int j1 = 0; j1 < 4; ++j1) {
+                    for (int j1 = 0; j1 < 5; ++j1) {
                         std::cout << "\t";
-                        for (int j2 = 0; j2 < 4; ++j2) {
+                        for (int j2 = 0; j2 < 5; ++j2) {
                             if (i1 == i2 && j1 == j2) {
                                 std::cout << "-- ";
                                 continue;
                             }
                             board b;
                             for (int k = 0; k < 3; ++k)
-                                for (int l = 0; l < 4; ++l)
+                                for (int l = 0; l < 5; ++l)
                                     b.f[k][l] = k == i1 && l == j1 ? 4 : k == i2 && l == j2 ? _ ? 4 : 2 : 0;
                             if (player == 0)
                                 std::cout << get_user_value_from_disk(user_turn_positions, b);
@@ -296,7 +306,7 @@ int main() {
     board b;
     for (int i = 0; i < 3; ++i) {
         std::cout << '\t';
-        for (int j = 0; j < 4; ++j)
+        for (int j = 0; j < 5; ++j)
             std::cin >> b.f[i][j];
     }
     std::cout << "winnable (for user, i.e. for you): " << get_user_value_from_disk(user_turn_positions, b) << "\n";
@@ -326,7 +336,7 @@ int main() {
         std::cout << "position after swipe: " << b << "\n";
         assert(!get_hater_value_from_disk(hater_turn_positions, b));
         std::vector<int> ways;
-        for (int i = 0; i < 24; ++i) {
+        for (int i = 0; i < 30; ++i) {
             board test(b);
             if (test.addTile(i) && !get_user_value_from_disk(user_turn_positions, test))
                 ways.push_back(i);
