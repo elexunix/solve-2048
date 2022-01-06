@@ -11,70 +11,6 @@
 #include <vector>
 #include "field4by4lib-cpu.h"
 
-// try to rewrite set_value, check performance
-// try to rewrite operator[]s, check performance
-
-
-bool get_value(const unsigned char *arr, long long pos) {
-    return arr[pos >> 3] & 1 << (pos & 7);
-}
-void set_value(unsigned char *arr, long long pos, bool value) {
-    if (value != get_value(arr, pos))
-        arr[pos >> 3] ^= 1 << (pos & 7);
-}
-
-
-const int layers_cnt = 4 * 4 * win_const / 2 + 1;
-long long index_dp[17][layers_cnt];
-
-long long encode_inside_layer(const board &b, int sum) {
-    // assert(b.sum() == sum);
-    long long result = 0;
-    int left = 15;
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j, --left) {
-            if (b.f[i][j] == 0)
-                continue;
-            result += index_dp[left][sum];
-            for (int tile = 2; tile < b.f[i][j]; tile *= 2)
-                result += index_dp[left][sum - tile];
-            sum -= b.f[i][j];
-        }
-    }
-    // assert(sum == 0);
-    return result;
-}
-long long encode_inside_layer(const board &b) {
-    return encode_inside_layer(b, b.sum());
-}
-board decode_inside_layer(long long id, int sum) {
-    board result;
-    int left = 15;
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j, --left) {
-            if (id < index_dp[left][sum]) {
-                result.f[i][j] = 0;
-                continue;
-            }
-            id -= index_dp[left][sum];
-            int tile = 2;
-            while (id >= index_dp[left][sum - tile])
-                id -= index_dp[left][sum - tile], tile *= 2;
-            result.f[i][j] = tile;
-            sum -= tile;
-        }
-    }
-    // assert(sum == 0);
-    return result;
-}
-
-bool get_value(const unsigned char *const arr[layers_cnt], const board &b, int hint_sum) {
-    return get_value(arr[hint_sum], encode_inside_layer(b, hint_sum));
-}
-bool get_value(const unsigned char *const arr[layers_cnt], const board &b) {
-    return get_value(arr, b, b.sum());
-}
-
 
 void process_user_layer(unsigned char *const user_layers[layers_cnt], const unsigned char *const hater_layers[layers_cnt],
                 int sum, long long begin, long long end) {
@@ -107,44 +43,6 @@ void process_hater_layer(const unsigned char *const user_layers[layers_cnt], uns
         }
         set_value(hater_layers[sum], position_id, winnable);
     }
-}
-
-
-void write_arr_to_disk(long long n, const unsigned char *arr, const std::string filename) {
-    // report_start("writing to \"" + filename + "\"");
-    std::ofstream fout(filename, std::ios::out | std::ios::binary);
-    fout.write(reinterpret_cast<const char*>(arr), n);
-    // report_finish();
-}
-void read_arr_from_disk(long long n, unsigned char *arr, const std::string filename) {
-    // report_start("reading \"" + filename + "\"");
-    std::ifstream fin(filename, std::ios::in | std::ios::binary);
-    if (!fin.is_open()) {
-        std::cerr << "UNABLE TO OPEN " << filename << "\n";
-        exit(1);
-    }
-    fin.read(reinterpret_cast<char*>(arr), n);
-    // report_finish();
-}
-
-bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) /*[[deprecated]]*/ {
-    arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
-    read_arr_from_disk(index_dp[16][b.sum()] / 8 + 1, arr[b.sum()], "arrays4by4-256/ulayer" + itos(b.sum(), 4) + ".dat");
-    bool result = get_value(arr, b);
-    delete[] arr[b.sum()];
-    return result;
-}
-bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) /*[[deprecated]]*/ {  // impossible to provide unless recorded
-    arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
-    read_arr_from_disk(index_dp[16][b.sum()] / 8 + 1, arr[b.sum()], "arrays4by4-256/hlayer" + itos(b.sum(), 4) + ".dat");
-    bool result = get_value(arr, b);
-    delete[] arr[b.sum()];
-    return result;
-}
-
-
-void system(const std::string command) {
-    system(command.c_str());
 }
 
 
