@@ -50,20 +50,7 @@ int main() {
     system("date");
     system("mkdir arrays4by4-256");
 
-    report_start("calculating index dp");
-    // index_dp[cnt][sum] gives the number of ways to get sum in cnt cells (empty allowed)
-    // useful for fast indexation inside layers of constant sum; checked to be at most ...
-    index_dp[0][0] = 1;
-    std::fill(index_dp[0] + 1, index_dp[0] + layers_cnt, 0);
-    for (int cnt = 1; cnt <= 16; ++cnt) {
-        for (int sum = 0; sum <= 4 * 4 * win_const / 2; ++sum) {
-            index_dp[cnt][sum] = index_dp[cnt - 1][sum];
-            for (int tile = 2; tile < win_const && tile <= sum; tile *= 2)
-                index_dp[cnt][sum] += index_dp[cnt - 1][sum - tile];
-        }
-    }
-    std::cout << "max size of layer: " << *std::max_element(index_dp[16], index_dp[16] + 4 * 4 * win_const / 2 + 1) << "\n";
-    report_finish();
+    fill_index_dp();
 
     unsigned char *user_turn_positions[layers_cnt], *hater_turn_positions[layers_cnt];  // sized index_dp[16][sum]/8+1
     // values are always _for user_; for example, a unit in hater's array means the position is winnable by user, same as with user's array
@@ -126,73 +113,7 @@ int main() {
         report_finish();
     }
 
-    std::cout << "FINAL RESULT:\n";
-    std::cout << "empty field:\n";
-    board empty;
-    for (int i = 0; i < 4; ++i)
-        for (int j = 0; j < 4; ++j)
-            empty.f[i][j] = 0;
-    std::cout << "\tuser " << get_user_value_from_disk(user_turn_positions, empty) << ", ";
-    std::cout << "hater " << get_hater_value_from_disk(hater_turn_positions, empty) << "\n";
-    std::cout << "field with just one tile:\n";
-    for (int player = 0; player < 2; ++player) {
-        std::cout << "\t" << (player == 0 ? "user" : "hater") << ":\n";
-        for (int i = 0; i < 4; ++i) {
-            std::cout << "\t";
-            for (int j = 0; j < 4; ++j) {
-                board b;
-                for (int k = 0; k < 4; ++k)
-                    for (int l = 0; l < 4; ++l)
-                        b.f[k][l] = k == i && l == j ? 2 : 0;
-                if (player == 0)
-                    std::cout << get_user_value_from_disk(user_turn_positions, b);
-                else
-                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
-                b.f[i][j] = 4;
-                if (player == 0)
-                    std::cout << get_user_value_from_disk(user_turn_positions, b) << " ";
-                else
-                    std::cout << get_hater_value_from_disk(hater_turn_positions, b) << " ";
-            }
-            std::cout << "\n";
-        }
-    }
-    std::cout << "field with two tiles:\n";
-    for (int player = 0; player < 2; ++player) {
-        std::cout << "\n\t" << (player == 0 ? "user" : "hater") << ":\n\n";
-        for (int i1 = 0; i1 < 4; ++i1) {
-            for (int i2 = 0; i2 < 4; ++i2) {
-                std::cout << "\t";
-                for (int j1 = 0; j1 < 4; ++j1) {
-                    for (int j2 = 0; j2 < 4; ++j2) {
-                        if (i1 == i2 && j1 == j2) {
-                            std::cout << "---- ";
-                            continue;
-                        }
-                        board b;
-                        for (int k = 0; k < 4; ++k)
-                            for (int l = 0; l < 4; ++l)
-                                b.f[k][l] = 0;
-                        for (int u1 = 2; u1 <= 4; u1 += 2) {
-                            for (int u2 = 2; u2 <= 4; u2 += 2) {
-                                b.f[i1][j1] = u1, b.f[i2][j2] = u2;
-                                if (player == 0)
-                                    std::cout << get_user_value_from_disk(user_turn_positions, b);
-                                else
-                                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
-                            }
-                        }
-                        std::cout << " ";
-                    }
-                    std::cout << "  ";
-                }
-                std::cout << "\n";
-            }
-            std::cout << "\n";
-        }
-        std::cout << "\n";
-    }
-
+    report_final_result(user_turn_positions, hater_turn_positions);
 
     system("date");
 

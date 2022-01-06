@@ -268,28 +268,129 @@ void read_arr_from_disk(long long n, unsigned char *arr, const std::string filen
     std::ifstream fin(filename, std::ios::in | std::ios::binary);
     if (!fin.is_open()) {
         std::cerr << "UNABLE TO OPEN " << filename << "\n";
-        exit(1);
+        // exit(1);
     }
     fin.read(reinterpret_cast<char*>(arr), n);
     // report_finish();
 }
 
-bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) /*[[deprecated]]*/ {
+bool get_user_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &b) /*[[deprecated]]*/ {
     arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
     read_arr_from_disk(index_dp[16][b.sum()] / 8 + 1, arr[b.sum()], "arrays4by4-256/ulayer" + itos(b.sum(), 4) + ".dat");
     bool result = get_value(arr, b);
     delete[] arr[b.sum()];
     return result;
 }
-bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) /*[[deprecated]]*/ {  // impossible to provide unless recorded
+bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
+    return get_user_value_from_disk_slow(arr, b);
+}
+/*bool get_hater_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &b) [[deprecated]] {  // impossible to provide unless recorded
     arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
     read_arr_from_disk(index_dp[16][b.sum()] / 8 + 1, arr[b.sum()], "arrays4by4-256/hlayer" + itos(b.sum(), 4) + ".dat");
     bool result = get_value(arr, b);
     delete[] arr[b.sum()];
     return result;
+}*/
+bool get_hater_value_from_disk_damn_slow(unsigned char *arr[layers_cnt], const board &b) {
+    for (int way = 0; way < 30; ++way) {
+        board temp(b);
+        if (temp.addTile(way) && !get_user_value_from_disk(arr, temp))
+            return false;
+    }
+    return true;
+}
+bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
+    return get_hater_value_from_disk_damn_slow(arr, b);
 }
 
 
 void system(const std::string command) {
     system(command.c_str());
+}
+
+
+void fill_index_dp() {
+    report_start("calculating index dp");
+    // index_dp[cnt][sum] gives the number of ways to get sum in cnt cells (empty allowed)
+    // useful for fast indexation inside layers of constant sum; checked to be at most ...
+    index_dp[0][0] = 1;
+    std::fill(index_dp[0] + 1, index_dp[0] + layers_cnt, 0);
+    for (int cnt = 1; cnt <= 16; ++cnt) {
+        for (int sum = 0; sum <= 4 * 4 * win_const / 2; ++sum) {
+            index_dp[cnt][sum] = index_dp[cnt - 1][sum];
+            for (int tile = 2; tile < win_const && tile <= sum; tile *= 2)
+                index_dp[cnt][sum] += index_dp[cnt - 1][sum - tile];
+        }
+    }
+    std::cout << "max size of layer: " << *std::max_element(index_dp[16], index_dp[16] + 4 * 4 * win_const / 2 + 1) << "\n";
+    report_finish();
+}
+
+void report_final_result(unsigned char* user_turn_positions[layers_cnt], unsigned char* hater_turn_positions[layers_cnt]) {
+    std::cout << "FINAL RESULT:\n";
+    std::cout << "empty field:\n";
+    board empty;
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
+            empty.f[i][j] = 0;
+    std::cout << "\tuser " << get_user_value_from_disk(user_turn_positions, empty) << ", ";
+    std::cout << "hater " << get_hater_value_from_disk(hater_turn_positions, empty) << "\n";
+    std::cout << "field with just one tile:\n";
+    for (int player = 0; player < 2; ++player) {
+        std::cout << "\t" << (player == 0 ? "user" : "hater") << ":\n";
+        for (int i = 0; i < 4; ++i) {
+            std::cout << "\t";
+            for (int j = 0; j < 4; ++j) {
+                board b;
+                for (int k = 0; k < 4; ++k)
+                    for (int l = 0; l < 4; ++l)
+                        b.f[k][l] = k == i && l == j ? 2 : 0;
+                if (player == 0)
+                    std::cout << get_user_value_from_disk(user_turn_positions, b);
+                else
+                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
+                b.f[i][j] = 4;
+                if (player == 0)
+                    std::cout << get_user_value_from_disk(user_turn_positions, b) << " ";
+                else
+                    std::cout << get_hater_value_from_disk(hater_turn_positions, b) << " ";
+            }
+            std::cout << "\n";
+        }
+    }
+    std::cout << "field with two tiles:\n";
+    for (int player = 0; player < 2; ++player) {
+        std::cout << "\n\t" << (player == 0 ? "user" : "hater") << ":\n\n";
+        for (int i1 = 0; i1 < 4; ++i1) {
+            for (int i2 = 0; i2 < 4; ++i2) {
+                std::cout << "\t";
+                for (int j1 = 0; j1 < 4; ++j1) {
+                    for (int j2 = 0; j2 < 4; ++j2) {
+                        if (i1 == i2 && j1 == j2) {
+                            std::cout << "---- ";
+                            continue;
+                        }
+                        board b;
+                        for (int k = 0; k < 4; ++k)
+                            for (int l = 0; l < 4; ++l)
+                                b.f[k][l] = 0;
+                        for (int u1 = 2; u1 <= 4; u1 += 2) {
+                            for (int u2 = 2; u2 <= 4; u2 += 2) {
+                                b.f[i1][j1] = u1, b.f[i2][j2] = u2;
+                                if (player == 0)
+                                    std::cout << get_user_value_from_disk(user_turn_positions, b);
+                                else
+                                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
+                            }
+                        }
+                        std::cout << " ";
+                    }
+                    std::cout << "  ";
+                }
+                std::cout << "\n";
+            }
+            std::cout << "\n";
+        }
+        std::cout << "\n";
+    }
 }
