@@ -1,0 +1,150 @@
+-O0
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 4.48242
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 11.7585
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 9.25554
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 14.203
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.04456
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m32.508s
+user	2m49.310s
+sys	0m0.138s
+-O1
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 1.63569
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.19913
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.36035
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 5.12299
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.381068
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m11.822s
+user	1m0.475s
+sys	0m0.145s
+-O2
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 1.42206
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.5666
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.95577
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.52467
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.305818
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m10.325s
+user	0m52.626s
+sys	0m0.121s
+-O3
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 1.43702
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.58005
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.83852
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.5087
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.30455
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m10.150s
+user	0m51.919s
+sys	0m0.113s
+-Ofast
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 1.42808
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.56404
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.90622
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.60971
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.307582
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m10.244s
+user	0m52.424s
+sys	0m0.174s
+-Os
+In file included from field4by4-cpu.cpp:12:
+field4by4lib-cpu.h: In function ‘int encode_cell(int)’:
+field4by4lib-cpu.h:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+field4by4lib-cpu.h: In function ‘int decode_cell(int)’:
+field4by4lib-cpu.h:192:1: warning: control reaches end of non-void function [-Wreturn-type]
+  192 | }
+      | ^
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+	done in 2.80199
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 6.60602
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 5.35008
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 8.07743
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.643958
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+
+real	0m19.104s
+user	1m38.977s
+sys	0m0.127s
