@@ -1,0 +1,1226 @@
+Mon  3 Jan 19:14:54 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000342
+CPU concurrency: start with layer (default 2048): processing layer with sum 2048... sizes in bytes of current, current+2, current+4: 0M [doesn't exist] [doesn't exist] 
+	done in 0.007779
+processing layer with sum 2046... sizes in bytes of current, current+2, current+4: 0M 0M [doesn't exist] 
+	done in 0.005678
+processing layer with sum 2044... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006879
+processing layer with sum 2042... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007118
+processing layer with sum 2040... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006414
+processing layer with sum 2038... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005637
+processing layer with sum 2036... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00538
+processing layer with sum 2034... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005194
+processing layer with sum 2032... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005237
+processing layer with sum 2030... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005117
+processing layer with sum 2028... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005339
+processing layer with sum 2026... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005244
+processing layer with sum 2024... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005244
+processing layer with sum 2022... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005403
+processing layer with sum 2020... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005352
+processing layer with sum 2018... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005224
+processing layer with sum 2016... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005181
+processing layer with sum 2014... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005201
+processing layer with sum 2012... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005292
+processing layer with sum 2010... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005285
+processing layer with sum 2008... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00525
+processing layer with sum 2006... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005135
+processing layer with sum 2004... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005155
+processing layer with sum 2002... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005262
+processing layer with sum 2000... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005198
+processing layer with sum 1998... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005378
+processing layer with sum 1996... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005432
+processing layer with sum 1994... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005269
+processing layer with sum 1992... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005136
+processing layer with sum 1990... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005218
+processing layer with sum 1988... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005226
+processing layer with sum 1986... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00523
+processing layer with sum 1984... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005471
+processing layer with sum 1982... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005068
+processing layer with sum 1980... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005276
+processing layer with sum 1978... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005174
+processing layer with sum 1976... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005507
+processing layer with sum 1974... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00517
+processing layer with sum 1972... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005272
+processing layer with sum 1970... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005116
+processing layer with sum 1968... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005214
+processing layer with sum 1966... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005089
+processing layer with sum 1964... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005159
+processing layer with sum 1962... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00509
+processing layer with sum 1960... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005874
+processing layer with sum 1958... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005207
+processing layer with sum 1956... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005148
+processing layer with sum 1954... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005219
+processing layer with sum 1952... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005139
+processing layer with sum 1950... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005258
+processing layer with sum 1948... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005284
+processing layer with sum 1946... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005239
+processing layer with sum 1944... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005097
+processing layer with sum 1942... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005036
+processing layer with sum 1940... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005214
+processing layer with sum 1938... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005305
+processing layer with sum 1936... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005167
+processing layer with sum 1934... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00513
+processing layer with sum 1932... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00507
+processing layer with sum 1930... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005139
+processing layer with sum 1928... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005382
+processing layer with sum 1926... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005295
+processing layer with sum 1924... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005293
+processing layer with sum 1922... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005143
+processing layer with sum 1920... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005306
+processing layer with sum 1918... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00514
+processing layer with sum 1916... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005221
+processing layer with sum 1914... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005145
+processing layer with sum 1912... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005217
+processing layer with sum 1910... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005132
+processing layer with sum 1908... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005528
+processing layer with sum 1906... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005046
+processing layer with sum 1904... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00507
+processing layer with sum 1902... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005191
+processing layer with sum 1900... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005287
+processing layer with sum 1898... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005266
+processing layer with sum 1896... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005173
+processing layer with sum 1894... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005013
+processing layer with sum 1892... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005144
+processing layer with sum 1890... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005171
+processing layer with sum 1888... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00536
+processing layer with sum 1886... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005068
+processing layer with sum 1884... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005177
+processing layer with sum 1882... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005139
+processing layer with sum 1880... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.004954
+processing layer with sum 1878... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005081
+processing layer with sum 1876... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005224
+processing layer with sum 1874... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005237
+processing layer with sum 1872... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005351
+processing layer with sum 1870... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005091
+processing layer with sum 1868... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005131
+processing layer with sum 1866... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005266
+processing layer with sum 1864... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005345
+processing layer with sum 1862... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005139
+processing layer with sum 1860... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005366
+processing layer with sum 1858... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005222
+processing layer with sum 1856... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005877
+processing layer with sum 1854... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005241
+processing layer with sum 1852... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005109
+processing layer with sum 1850... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005102
+processing layer with sum 1848... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00531
+processing layer with sum 1846... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005235
+processing layer with sum 1844... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005198
+processing layer with sum 1842... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005163
+processing layer with sum 1840... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005336
+processing layer with sum 1838... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005077
+processing layer with sum 1836... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005104
+processing layer with sum 1834... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005214
+processing layer with sum 1832... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005317
+processing layer with sum 1830... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005185
+processing layer with sum 1828... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005488
+processing layer with sum 1826... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005362
+processing layer with sum 1824... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006974
+processing layer with sum 1822... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005219
+processing layer with sum 1820... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005156
+processing layer with sum 1818... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005383
+processing layer with sum 1816... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006935
+processing layer with sum 1814... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005021
+processing layer with sum 1812... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005377
+processing layer with sum 1810... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005327
+processing layer with sum 1808... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006701
+processing layer with sum 1806... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005278
+processing layer with sum 1804... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005256
+processing layer with sum 1802... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005295
+processing layer with sum 1800... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006652
+processing layer with sum 1798... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005327
+processing layer with sum 1796... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006737
+processing layer with sum 1794... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006582
+processing layer with sum 1792... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.009338
+processing layer with sum 1790... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005174
+processing layer with sum 1788... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005478
+processing layer with sum 1786... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005417
+processing layer with sum 1784... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005233
+processing layer with sum 1782... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005151
+processing layer with sum 1780... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005204
+processing layer with sum 1778... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.004996
+processing layer with sum 1776... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007154
+processing layer with sum 1774... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005029
+processing layer with sum 1772... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005112
+processing layer with sum 1770... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005025
+processing layer with sum 1768... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007611
+processing layer with sum 1766... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005217
+processing layer with sum 1764... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007248
+processing layer with sum 1762... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00729
+processing layer with sum 1760... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.013585
+processing layer with sum 1758... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005014
+processing layer with sum 1756... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005121
+processing layer with sum 1754... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005106
+processing layer with sum 1752... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007461
+processing layer with sum 1750... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005319
+processing layer with sum 1748... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007387
+processing layer with sum 1746... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007253
+processing layer with sum 1744... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.014248
+processing layer with sum 1742... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005194
+processing layer with sum 1740... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007351
+processing layer with sum 1738... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00719
+processing layer with sum 1736... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.014257
+processing layer with sum 1734... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007195
+processing layer with sum 1732... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.01436
+processing layer with sum 1730... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.01355
+processing layer with sum 1728... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025035
+processing layer with sum 1726... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005244
+processing layer with sum 1724... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005276
+processing layer with sum 1722... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005151
+processing layer with sum 1720... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007567
+processing layer with sum 1718... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005244
+processing layer with sum 1716... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007385
+processing layer with sum 1714... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007281
+processing layer with sum 1712... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.020993
+processing layer with sum 1710... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005092
+processing layer with sum 1708... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007233
+processing layer with sum 1706... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007205
+processing layer with sum 1704... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.022025
+processing layer with sum 1702... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007246
+processing layer with sum 1700... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.021561
+processing layer with sum 1698... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.020747
+processing layer with sum 1696... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.045587
+processing layer with sum 1694... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005596
+processing layer with sum 1692... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.011103
+processing layer with sum 1690... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00754
+processing layer with sum 1688... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.020482
+processing layer with sum 1686... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007393
+processing layer with sum 1684... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.021179
+processing layer with sum 1682... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019698
+processing layer with sum 1680... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.051846
+processing layer with sum 1678... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00933
+processing layer with sum 1676... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024647
+processing layer with sum 1674... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.020556
+processing layer with sum 1672... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.05392
+processing layer with sum 1670... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019605
+processing layer with sum 1668... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.049852
+processing layer with sum 1666... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.045055
+processing layer with sum 1664... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.085839
+processing layer with sum 1662... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007549
+processing layer with sum 1660... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00585
+processing layer with sum 1658... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.008306
+processing layer with sum 1656... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.027047
+processing layer with sum 1654... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005108
+processing layer with sum 1652... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025488
+processing layer with sum 1650... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024869
+processing layer with sum 1648... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.095137
+processing layer with sum 1646... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005311
+processing layer with sum 1644... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.02625
+processing layer with sum 1642... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025359
+processing layer with sum 1640... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.101023
+processing layer with sum 1638... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.02442
+processing layer with sum 1636... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.10284
+processing layer with sum 1634... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.090544
+processing layer with sum 1632... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.197393
+processing layer with sum 1630... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006013
+processing layer with sum 1628... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.026969
+processing layer with sum 1626... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025865
+processing layer with sum 1624... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.103594
+processing layer with sum 1622... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.02583
+processing layer with sum 1620... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.115354
+processing layer with sum 1618... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.09957
+processing layer with sum 1616... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.247319
+processing layer with sum 1614... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.02541
+processing layer with sum 1612... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.108177
+processing layer with sum 1610... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.097076
+processing layer with sum 1608... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.25739
+processing layer with sum 1606... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.09149
+processing layer with sum 1604... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.242236
+processing layer with sum 1602... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.199117
+processing layer with sum 1600... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.361784
+processing layer with sum 1598... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007005
+processing layer with sum 1596... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.026695
+processing layer with sum 1594... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025528
+processing layer with sum 1592... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.174725
+processing layer with sum 1590... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.026732
+processing layer with sum 1588... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.179267
+processing layer with sum 1586... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.168021
+processing layer with sum 1584... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.503891
+processing layer with sum 1582... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025433
+processing layer with sum 1580... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.176195
+processing layer with sum 1578... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.17453
+processing layer with sum 1576... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.566331
+processing layer with sum 1574... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.165035
+processing layer with sum 1572... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.539355
+processing layer with sum 1570... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.470862
+processing layer with sum 1568... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.821966
+processing layer with sum 1566... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025507
+processing layer with sum 1564... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.169012
+processing layer with sum 1562... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.163886
+processing layer with sum 1560... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.57857
+processing layer with sum 1558... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.16862
+processing layer with sum 1556... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.612919
+processing layer with sum 1554... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.536457
+processing layer with sum 1552... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.24067
+processing layer with sum 1550... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.157583
+processing layer with sum 1548... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.559303
+processing layer with sum 1546... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.516823
+processing layer with sum 1544... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.29849
+processing layer with sum 1542... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.473079
+processing layer with sum 1540... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.25252
+processing layer with sum 1538... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.959529
+processing layer with sum 1536... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.61993
+processing layer with sum 1534... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007178
+processing layer with sum 1532... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.237181
+processing layer with sum 1530... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.228593
+processing layer with sum 1528... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.1666
+processing layer with sum 1526... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.230289
+processing layer with sum 1524... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.233
+processing layer with sum 1522... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.0764
+processing layer with sum 1520... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.17709
+processing layer with sum 1518... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.232421
+processing layer with sum 1516... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.23004
+processing layer with sum 1514... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.17339
+processing layer with sum 1512... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.06928
+processing layer with sum 1510... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.10086
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.9025
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.73228
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 5.02743
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.231846
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.22629
+processing layer with sum 1498... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.14141
+processing layer with sum 1496... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.52141
+processing layer with sum 1494... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.15674
+processing layer with sum 1492... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.95002
+processing layer with sum 1490... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.18237
+processing layer with sum 1488... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 7.7604
+processing layer with sum 1486... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.10214
+processing layer with sum 1484... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.4977
+processing layer with sum 1482... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.07228
+processing layer with sum 1480... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 8.3261
+processing layer with sum 1478... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 3.35923
+processing layer with sum 1476... sizes in bytes of current, current+2, current+4: 0M 0M 1M
+	done in 7.87218
+processing layer with sum 1474... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 6.18435
+processing layer with sum 1472... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 9.30636
+processing layer with sum 1470... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 0.229349
+processing layer with sum 1468... sizes in bytes of current, current+2, current+4: 0M 0M 1M
+	done in 2.86345
+processing layer with sum 1466... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.79416
+processing layer with sum 1464... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 8.8062
+processing layer with sum 1462... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 2.67532
+processing layer with sum 1460... sizes in bytes of current, current+2, current+4: 1M 0M 1M
+	done in 9.28606
+processing layer with sum 1458... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 8.30823
+processing layer with sum 1456... sizes in bytes of current, current+2, current+4: 1M 1M 1M
+	done in 14.5284
+processing layer with sum 1454... sizes in bytes of current, current+2, current+4: 0M 1M 1M
+	done in 2.67794
+processing layer with sum 1452... sizes in bytes of current, current+2, current+4: 1M 0M 1M
+	done in 9.7743
+processing layer with sum 1450... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 8.69544
+processing layer with sum 1448... sizes in bytes of current, current+2, current+4: 2M 1M 1M
+	done in 17.6946
+processing layer with sum 1446... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 8.01054
+processing layer with sum 1444... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 16.1371
+processing layer with sum 1442... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 12.7564
+processing layer with sum 1440... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 19.4256
+processing layer with sum 1438... sizes in bytes of current, current+2, current+4: 0M 2M 1M
+	done in 2.52293
+processing layer with sum 1436... sizes in bytes of current, current+2, current+4: 1M 0M 2M
+	done in 9.54832
+processing layer with sum 1434... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 9.84253
+processing layer with sum 1432... sizes in bytes of current, current+2, current+4: 2M 1M 1M
+	done in 21.6845
+processing layer with sum 1430... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 9.3474
+processing layer with sum 1428... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 23.0132
+processing layer with sum 1426... sizes in bytes of current, current+2, current+4: 2M 2M 1M
+	done in 18.2383
+processing layer with sum 1424... sizes in bytes of current, current+2, current+4: 3M 2M 2M
+	done in 31.5206
+processing layer with sum 1422... sizes in bytes of current, current+2, current+4: 1M 3M 2M
+	done in 8.06539
+processing layer with sum 1420... sizes in bytes of current, current+2, current+4: 2M 1M 3M
+	done in 19.5755
+processing layer with sum 1418... sizes in bytes of current, current+2, current+4: 2M 2M 1M
+	done in 18.7408
+processing layer with sum 1416... sizes in bytes of current, current+2, current+4: 4M 2M 2M
+	done in 37.7161
+processing layer with sum 1414... sizes in bytes of current, current+2, current+4: 2M 4M 2M
+	done in 16.3128
+processing layer with sum 1412... sizes in bytes of current, current+2, current+4: 3M 2M 4M
+	done in 33.3958
+processing layer with sum 1410... sizes in bytes of current, current+2, current+4: 2M 3M 2M
+	done in 26.35
+processing layer with sum 1408... sizes in bytes of current, current+2, current+4: 3M 2M 3M
+	done in 35.3602
+processing layer with sum 1406... sizes in bytes of current, current+2, current+4: 0M 3M 2M
+	done in 4.1746
+processing layer with sum 1404... sizes in bytes of current, current+2, current+4: 2M 0M 3M
+	done in 19.1052
+processing layer with sum 1402... sizes in bytes of current, current+2, current+4: 2M 2M 0M
+	done in 17.7773
+processing layer with sum 1400... sizes in bytes of current, current+2, current+4: 4M 2M 2M
+	done in 37.9892
+processing layer with sum 1398... sizes in bytes of current, current+2, current+4: 2M 4M 2M
+	done in 18.4288
+processing layer with sum 1396... sizes in bytes of current, current+2, current+4: 5M 2M 4M
+	done in 41.1148
+processing layer with sum 1394... sizes in bytes of current, current+2, current+4: 4M 5M 2M
+	done in 34.0238
+processing layer with sum 1392... sizes in bytes of current, current+2, current+4: 6M 4M 5M
+	done in 52.815
+processing layer with sum 1390... sizes in bytes of current, current+2, current+4: 2M 6M 4M
+	done in 17.7722
+processing layer with sum 1388... sizes in bytes of current, current+2, current+4: 5M 2M 6M
+	done in 41.7158
+processing layer with sum 1386... sizes in bytes of current, current+2, current+4: 5M 5M 2M
+	done in 38.5745
+processing layer with sum 1384... sizes in bytes of current, current+2, current+4: 8M 5M 5M
+	done in 66.6456
+processing layer with sum 1382... sizes in bytes of current, current+2, current+4: 4M 8M 5M
+	done in 33.5114
+processing layer with sum 1380... sizes in bytes of current, current+2, current+4: 7M 4M 8M
+	done in 64.3016
+processing layer with sum 1378... sizes in bytes of current, current+2, current+4: 5M 7M 4M
+	done in 48.525
+processing layer with sum 1376... sizes in bytes of current, current+2, current+4: 7M 5M 7M
+	done in 67.0254
+processing layer with sum 1374... sizes in bytes of current, current+2, current+4: 2M 7M 5M
+	done in 17.0692
+processing layer with sum 1372... sizes in bytes of current, current+2, current+4: 6M 2M 7M
+	done in 46.9509
+processing layer with sum 1370... sizes in bytes of current, current+2, current+4: 5M 6M 2M
+	done in 42.8828
+processing layer with sum 1368... sizes in bytes of current, current+2, current+4: 10M 5M 6M
+	done in 81.8656
+processing layer with sum 1366... sizes in bytes of current, current+2, current+4: 5M 10M 5M
+	done in 43.0099
+processing layer with sum 1364... sizes in bytes of current, current+2, current+4: 10M 5M 10M
+	done in 88.2402
+processing layer with sum 1362... sizes in bytes of current, current+2, current+4: 8M 10M 5M
+	done in 72.0512
+processing layer with sum 1360... sizes in bytes of current, current+2, current+4: 12M 8M 10M
+	done in 108.12
+processing layer with sum 1358... sizes in bytes of current, current+2, current+4: 5M 12M 8M
+	done in 37.7266
+processing layer with sum 1356... sizes in bytes of current, current+2, current+4: 10M 5M 12M
+	done in 86.1831
+processing layer with sum 1354... sizes in bytes of current, current+2, current+4: 9M 10M 5M
+	done in 79.0278
+processing layer with sum 1352... sizes in bytes of current, current+2, current+4: 14M 9M 10M
+	done in 122.633
+processing layer with sum 1350... sizes in bytes of current, current+2, current+4: 7M 14M 9M
+	done in 61.7553
+processing layer with sum 1348... sizes in bytes of current, current+2, current+4: 13M 7M 14M
+	done in 118.955
+processing layer with sum 1346... sizes in bytes of current, current+2, current+4: 10M 13M 7M
+	done in 85.4148
+processing layer with sum 1344... sizes in bytes of current, current+2, current+4: 13M 10M 13M
+	done in 122.231
+processing layer with sum 1342... sizes in bytes of current, current+2, current+4: 4M 13M 10M
+	done in 28.5646
+processing layer with sum 1340... sizes in bytes of current, current+2, current+4: 12M 4M 13M
+	done in 90.7338
+processing layer with sum 1338... sizes in bytes of current, current+2, current+4: 11M 12M 4M
+	done in 88.0344
+processing layer with sum 1336... sizes in bytes of current, current+2, current+4: 18M 11M 12M
+	done in 163.886
+processing layer with sum 1334... sizes in bytes of current, current+2, current+4: 11M 18M 11M
+	done in 85.543
+processing layer with sum 1332... sizes in bytes of current, current+2, current+4: 20M 11M 18M
+	done in 180.481
+processing layer with sum 1330... sizes in bytes of current, current+2, current+4: 16M 20M 11M
+	done in 144.53
+processing layer with sum 1328... sizes in bytes of current, current+2, current+4: 22M 16M 20M
+	done in 204.217
+processing layer with sum 1326... sizes in bytes of current, current+2, current+4: 11M 22M 16M
+	done in 84.6282
+processing layer with sum 1324... sizes in bytes of current, current+2, current+4: 21M 11M 22M
+	done in 179.642
+processing layer with sum 1322... sizes in bytes of current, current+2, current+4: 19M 21M 11M
+	done in 164.917
+processing layer with sum 1320... sizes in bytes of current, current+2, current+4: 27M 19M 21M
+	done in 253.209
+processing layer with sum 1318... sizes in bytes of current, current+2, current+4: 16M 27M 19M
+	done in 143.156
+processing layer with sum 1316... sizes in bytes of current, current+2, current+4: 26M 16M 27M
+	done in 245.975
+processing layer with sum 1314... sizes in bytes of current, current+2, current+4: 20M 26M 16M
+	done in 186.915
+processing layer with sum 1312... sizes in bytes of current, current+2, current+4: 26M 20M 26M
+	done in 251.325
+processing layer with sum 1310... sizes in bytes of current, current+2, current+4: 11M 26M 20M
+	done in 91.3915
+processing layer with sum 1308... sizes in bytes of current, current+2, current+4: 25M 11M 26M
+	done in 211.819
+processing layer with sum 1306... sizes in bytes of current, current+2, current+4: 23M 25M 11M
+	done in 197.667
+processing layer with sum 1304... sizes in bytes of current, current+2, current+4: 35M 23M 25M
+	done in 328.279
+processing layer with sum 1302... sizes in bytes of current, current+2, current+4: 22M 35M 23M
+	done in 190.743
+processing layer with sum 1300... sizes in bytes of current, current+2, current+4: 37M 22M 35M
+	done in 354.637
+processing layer with sum 1298... sizes in bytes of current, current+2, current+4: 30M 37M 22M
+	done in 307.026
+processing layer with sum 1296... sizes in bytes of current, current+2, current+4: 39M 30M 37M
+	done in 381.862
+processing layer with sum 1294... sizes in bytes of current, current+2, current+4: 21M 39M 30M
+	done in 172.23
+processing layer with sum 1292... sizes in bytes of current, current+2, current+4: 37M 21M 39M
+	done in 339.431
+processing layer with sum 1290... sizes in bytes of current, current+2, current+4: 34M 37M 21M
+	done in 308.291
+processing layer with sum 1288... sizes in bytes of current, current+2, current+4: 47M 34M 37M
+	done in 447.885
+processing layer with sum 1286... sizes in bytes of current, current+2, current+4: 28M 47M 34M
+	done in 252.475
+processing layer with sum 1284... sizes in bytes of current, current+2, current+4: 46M 28M 47M
+	done in 435.078
+processing layer with sum 1282... sizes in bytes of current, current+2, current+4: 35M 46M 28M
+	done in 332.026
+processing layer with sum 1280... sizes in bytes of current, current+2, current+4: 45M 35M 46M
+	done in 437.485
+processing layer with sum 1278... sizes in bytes of current, current+2, current+4: 22M 45M 35M
+	done in 175.273
+processing layer with sum 1276... sizes in bytes of current, current+2, current+4: 47M 22M 45M
+	done in 413.826
+processing layer with sum 1274... sizes in bytes of current, current+2, current+4: 43M 47M 22M
+	done in 374.534
+processing layer with sum 1272... sizes in bytes of current, current+2, current+4: 64M 43M 47M
+	done in 605.638
+processing layer with sum 1270... sizes in bytes of current, current+2, current+4: 43M 64M 43M
+	done in 371.636
+processing layer with sum 1268... sizes in bytes of current, current+2, current+4: 69M 43M 64M
+	done in 654.97
+processing layer with sum 1266... sizes in bytes of current, current+2, current+4: 56M 69M 43M
+	done in 537.397
+processing layer with sum 1264... sizes in bytes of current, current+2, current+4: 71M 56M 69M
+	done in 703.281
+processing layer with sum 1262... sizes in bytes of current, current+2, current+4: 43M 71M 56M
+	done in 391.684
+processing layer with sum 1260... sizes in bytes of current, current+2, current+4: 72M 43M 71M
+	done in 678.498
+processing layer with sum 1258... sizes in bytes of current, current+2, current+4: 65M 72M 43M
+	done in 616.575
+processing layer with sum 1256... sizes in bytes of current, current+2, current+4: 86M 65M 72M
+	done in 865.551
+processing layer with sum 1254... sizes in bytes of current, current+2, current+4: 57M 86M 65M
+	done in 534.718
+processing layer with sum 1252... sizes in bytes of current, current+2, current+4: 85M 57M 86M
+	done in 840.661
+processing layer with sum 1250... sizes in bytes of current, current+2, current+4: 67M 85M 57M
+	done in 675.986
+processing layer with sum 1248... sizes in bytes of current, current+2, current+4: 83M 67M 85M
+	done in 828.875
+processing layer with sum 1246... sizes in bytes of current, current+2, current+4: 49M 83M 67M
+	done in 416.734
+processing layer with sum 1244... sizes in bytes of current, current+2, current+4: 89M 49M 83M
+	done in 820.539
+processing layer with sum 1242... sizes in bytes of current, current+2, current+4: 82M 89M 49M
+	done in 760.484
+processing layer with sum 1240... sizes in bytes of current, current+2, current+4: 113M 82M 89M
+	done in 1119.38
+processing layer with sum 1238... sizes in bytes of current, current+2, current+4: 79M 113M 82M
+	done in 729.009
+processing layer with sum 1236... sizes in bytes of current, current+2, current+4: 119M 79M 113M
+	done in 1176.6
+processing layer with sum 1234... sizes in bytes of current, current+2, current+4: 98M 119M 79M
+	done in 965.007
+processing layer with sum 1232... sizes in bytes of current, current+2, current+4: 120M 98M 119M
+	done in 1222.2
+processing layer with sum 1230... sizes in bytes of current, current+2, current+4: 76M 120M 98M
+	done in 689.526
+processing layer with sum 1228... sizes in bytes of current, current+2, current+4: 125M 76M 120M
+	done in 1197.54
+processing layer with sum 1226... sizes in bytes of current, current+2, current+4: 111M 125M 76M
+	done in 1068.94
+processing layer with sum 1224... sizes in bytes of current, current+2, current+4: 144M 111M 125M
+	done in 1474.38
+processing layer with sum 1222... sizes in bytes of current, current+2, current+4: 97M 144M 111M
+	done in 917.93
+processing layer with sum 1220... sizes in bytes of current, current+2, current+4: 144M 97M 144M
+	done in 1437.25
+processing layer with sum 1218... sizes in bytes of current, current+2, current+4: 114M 144M 97M
+	done in 1126.73
+processing layer with sum 1216... sizes in bytes of current, current+2, current+4: 142M 114M 144M
+	done in 1419.86
+processing layer with sum 1214... sizes in bytes of current, current+2, current+4: 92M 142M 114M
+	done in 781.287
+processing layer with sum 1212... sizes in bytes of current, current+2, current+4: 160M 92M 142M
+	done in 1508.39
+processing layer with sum 1210... sizes in bytes of current, current+2, current+4: 148M 160M 92M
+	done in 1389.48
+processing layer with sum 1208... sizes in bytes of current, current+2, current+4: 197M 148M 160M
+	done in 1979.15
+processing layer with sum 1206... sizes in bytes of current, current+2, current+4: 146M 197M 148M
+	done in 1367.04
+processing layer with sum 1204... sizes in bytes of current, current+2, current+4: 210M 146M 197M
+	done in 2107.24
+processing layer with sum 1202... sizes in bytes of current, current+2, current+4: 175M 210M 146M
+	done in 1759.14
+processing layer with sum 1200... sizes in bytes of current, current+2, current+4: 211M 175M 210M
+	done in 2171.93
+processing layer with sum 1198... sizes in bytes of current, current+2, current+4: 148M 211M 175M
+	done in 1369.32
+processing layer with sum 1196... sizes in bytes of current, current+2, current+4: 226M 148M 211M
+	done in 2256.6
+processing layer with sum 1194... sizes in bytes of current, current+2, current+4: 202M 226M 148M
+	done in 2003.7
+processing layer with sum 1192... sizes in bytes of current, current+2, current+4: 253M 202M 226M
+	done in 2623.66
+processing layer with sum 1190... sizes in bytes of current, current+2, current+4: 181M 253M 202M
+	done in 1785.53
+processing layer with sum 1188... sizes in bytes of current, current+2, current+4: 253M 181M 253M
+	done in 2597.38
+processing layer with sum 1186... sizes in bytes of current, current+2, current+4: 206M 253M 181M
+	done in 2089.43
+processing layer with sum 1184... sizes in bytes of current, current+2, current+4: 251M 206M 253M
+	done in 2564.49
+processing layer with sum 1182... sizes in bytes of current, current+2, current+4: 177M 251M 206M
+	done in 1618.55
+processing layer with sum 1180... sizes in bytes of current, current+2, current+4: 283M 177M 251M
+	done in 2745.35
+processing layer with sum 1178... sizes in bytes of current, current+2, current+4: 260M 283M 177M
+	done in 2561.03
+processing layer with sum 1176... sizes in bytes of current, current+2, current+4: 332M 260M 283M
+	done in 3409.06
+processing layer with sum 1174... sizes in bytes of current, current+2, current+4: 251M 332M 260M
+	done in 2440.28
+processing layer with sum 1172... sizes in bytes of current, current+2, current+4: 349M 251M 332M
+	done in 3611.34
+processing layer with sum 1170... sizes in bytes of current, current+2, current+4: 290M 349M 251M
+	done in 2950.15
+processing layer with sum 1168... sizes in bytes of current, current+2, current+4: 345M 290M 349M
+	done in 3593.74
+processing layer with sum 1166... sizes in bytes of current, current+2, current+4: 252M 345M 290M
+	done in 2374.89
+processing layer with sum 1164... sizes in bytes of current, current+2, current+4: 374M 252M 345M
+	done in 3809.12
+processing layer with sum 1162... sizes in bytes of current, current+2, current+4: 333M 374M 252M
+	done in 3375.2
+processing layer with sum 1160... sizes in bytes of current, current+2, current+4: 410M 333M 374M
+	done in 4301.59
+processing layer with sum 1158... sizes in bytes of current, current+2, current+4: 303M 410M 333M
+	done in 3011.23
+processing layer with sum 1156... sizes in bytes of current, current+2, current+4: 419M 303M 410M
+	done in 4333.79
+processing layer with sum 1154... sizes in bytes of current, current+2, current+4: 345M 419M 303M
+	done in 3484.34
+processing layer with sum 1152... sizes in bytes of current, current+2, current+4: 421M 345M 419M
+	done in 4328.13
+processing layer with sum 1150... sizes in bytes of current, current+2, current+4: 320M 421M 345M
+	done in 2907.55
+processing layer with sum 1148... sizes in bytes of current, current+2, current+4: 488M 320M 421M
+	done in 4840.09
+processing layer with sum 1146... sizes in bytes of current, current+2, current+4: 450M 488M 320M
+	done in 4492.94
+processing layer with sum 1144... sizes in bytes of current, current+2, current+4: 559M 450M 488M
+	done in 5873.82
+processing layer with sum 1142... sizes in bytes of current, current+2, current+4: 441M 559M 450M
+	done in 4401.45
+processing layer with sum 1140... sizes in bytes of current, current+2, current+4: 589M 441M 559M
+	done in 6190.69
+processing layer with sum 1138... sizes in bytes of current, current+2, current+4: 500M 589M 441M
+	done in 5194.22
+processing layer with sum 1136... sizes in bytes of current, current+2, current+4: 587M 500M 589M
+	done in 6279.18
+processing layer with sum 1134... sizes in bytes of current, current+2, current+4: 456M 587M 500M
+	done in 4460.05
+processing layer with sum 1132... sizes in bytes of current, current+2, current+4: 642M 456M 587M
+	done in 6663.6
+processing layer with sum 1130... sizes in bytes of current, current+2, current+4: 575M 642M 456M
+	done in 5822.08
+processing layer with sum 1128... sizes in bytes of current, current+2, current+4: 687M 575M 642M
+	done in 7425.91
+processing layer with sum 1126... sizes in bytes of current, current+2, current+4: 530M 687M 575M
+	done in 5403.54
+processing layer with sum 1124... sizes in bytes of current, current+2, current+4: 702M 530M 687M
+	done in 7441.01
+processing layer with sum 1122... sizes in bytes of current, current+2, current+4: 590M 702M 530M
+Mon  3 Jan 20:05:54 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000348
+CPU concurrency: start with layer (default 2048): processing layer with sum 1124... sizes in bytes of current, current+2, current+4: 702M 530M 687M
+	done in 7486.41
+processing layer with sum 1122... sizes in bytes of current, current+2, current+4: 590M 702M 530M
+	done in 6102.69
+processing layer with sum 1120... sizes in bytes of current, current+2, current+4: 705M 590M 702M
+	done in 7441.09
+processing layer with sum 1118... sizes in bytes of current, current+2, current+4: 563M 705M 590M
+	done in 5380.73
+processing layer with sum 1116... sizes in bytes of current, current+2, current+4: 810M 563M 705M
+	done in 8355.57
+processing layer with sum 1114... sizes in bytes of current, current+2, current+4: 743M 810M 563M
+	done in 7650.65
+processing layer with sum 1112... sizes in bytes of current, current+2, current+4: 895M 743M 810M
+	done in 9619.12
+processing layer with sum 1110... sizes in bytes of current, current+2, current+4: 720M 895M 743M
+	done in 7383.67
+processing layer with sum 1108... sizes in bytes of current, current+2, current+4: 937M 720M 895M
+	done in 10068
+processing layer with sum 1106... sizes in bytes of current, current+2, current+4: 796M 937M 720M
+	done in 8441.99
+processing layer with sum 1104... sizes in bytes of current, current+2, current+4: 928M 796M 937M
+	done in 9988.44
+processing layer with sum 1102... sizes in bytes of current, current+2, current+4: 746M 928M 796M
+	done in 7465.25
+processing layer with sum 1100... sizes in bytes of current, current+2, current+4: 1025M 746M 928M
+	done in 10783.6
+processing layer with sum 1098... sizes in bytes of current, current+2, current+4: 918M 1025M 746M
+	done in 9689.85
+processing layer with sum 1096... sizes in bytes of current, current+2, current+4: 1083M 918M 1025M
+	done in 11748.7
+processing layer with sum 1094... sizes in bytes of current, current+2, current+4: 866M 1083M 918M
+	done in 8905.26
+processing layer with sum 1092... sizes in bytes of current, current+2, current+4: 1126M 866M 1083M
+	done in 12096.2
+processing layer with sum 1090... sizes in bytes of current, current+2, current+4: 966M 1126M 866M
+	done in 10076
+processing layer with sum 1088... sizes in bytes of current, current+2, current+4: 1150M 966M 1126M
+	done in 12240.3
+processing layer with sum 1086... sizes in bytes of current, current+2, current+4: 965M 1150M 966M
+	done in 9464.37
+processing layer with sum 1084... sizes in bytes of current, current+2, current+4: 1332M 965M 1150M
+	done in 13978.7
+processing layer with sum 1082... sizes in bytes of current, current+2, current+4: 1227M 1332M 965M
+	done in 12897.7
+processing layer with sum 1080... sizes in bytes of current, current+2, current+4: 1448M 1227M 1332M
+	done in 15825.7
+processing layer with sum 1078... sizes in bytes of current, current+2, current+4: 1205M 1448M 1227M
+	done in 12610.1
+processing layer with sum 1076... sizes in bytes of current, current+2, current+4: 1518M 1205M 1448M
+	done in 16585.8
+processing layer with sum 1074... sizes in bytes of current, current+2, current+4: 1315M 1518M 1205M
+	done in 14169.6
+processing layer with sum 1072... sizes in bytes of current, current+2, current+4: 1514M 1315M 1518M
+	done in 16562.2
+processing layer with sum 1070... sizes in bytes of current, current+2, current+4: 1270M 1514M 1315M
+	done in 13048.8
+processing layer with sum 1068... sizes in bytes of current, current+2, current+4: 1669M 1270M 1514M
+	done in 18076.2
+processing layer with sum 1066... sizes in bytes of current, current+2, current+4: 1503M 1669M 1270M
+	done in 16181
+processing layer with sum 1064... sizes in bytes of current, current+2, current+4: 1733M 1503M 1669M
+	done in 19265
+processing layer with sum 1062... sizes in bytes of current, current+2, current+4: 1429M 1733M 1503M
+	done in 15057
+processing layer with sum 1060... sizes in bytes of current, current+2, current+4: 1801M 1429M 1733M
+	done in 19793.1
+processing layer with sum 1058... sizes in bytes of current, current+2, current+4: 1567M 1801M 1429M
+	done in 16749.9
+processing layer with sum 1056... sizes in bytes of current, current+2, current+4: 1834M 1567M 1801M
+	done in 19923.6
+processing layer with sum 1054... sizes in bytes of current, current+2, current+4: 1585M 1834M 1567M
+	done in 16053.1
+processing layer with sum 1052... sizes in bytes of current, current+2, current+4: 2100M 1585M 1834M
+	done in 22701.3
+processing layer with sum 1050... sizes in bytes of current, current+2, current+4: 1927M 2100M 1585M
+	done in 20899.4
+processing layer with sum 1048... sizes in bytes of current, current+2, current+4: 2227M 1927M 2100M
+	done in 24906.9
+processing layer with sum 1046... sizes in bytes of current, current+2, current+4: 1886M 2227M 1927M
+	done in 20203
+processing layer with sum 1044... sizes in bytes of current, current+2, current+4: 2326M 1886M 2227M
+	done in 26022.7
+processing layer with sum 1042... sizes in bytes of current, current+2, current+4: 2031M 2326M 1886M
+	done in 22391
+processing layer with sum 1040... sizes in bytes of current, current+2, current+4: 2325M 2031M 2326M
+	done in 25812.3
+processing layer with sum 1038... sizes in bytes of current, current+2, current+4: 2006M 2325M 2031M
+	done in 20969.1
+processing layer with sum 1036... sizes in bytes of current, current+2, current+4: 2575M 2006M 2325M
+	done in 28439.7
+processing layer with sum 1034... sizes in bytes of current, current+2, current+4: 2329M 2575M 2006M
+	done in 25601.6
+processing layer with sum 1032... sizes in bytes of current, current+2, current+4: 2663M 2329M 2575M
+	done in 29975.4
+processing layer with sum 1030... sizes in bytes of current, current+2, current+4: 2265M 2663M 2329M
+	done in 24192.4
+processing layer with sum 1028... sizes in bytes of current, current+2, current+4: 2801M 2265M 2663M
+	done in 31349.2
+processing layer with sum 1026... sizes in bytes of current, current+2, current+4: 2489M 2801M 2265M
+	done in 26951
+processing layer with sum 1024... sizes in bytes of current, current+2, current+4: 2892M 2489M 2801M
+	done in 31981.2
+processing layer with sum 1022... sizes in bytes of current, current+2, current+4: 2583M 2892M 2489M
+	done in 27072.3
+processing layer with sum 1020... sizes in bytes of current, current+2, current+4: 3302M 2583M 2892M
+	done in 36698.7
+processing layer with sum 1018... sizes in bytes of current, current+2, current+4: 3049M 3302M 2583M
+	done in 33761.7
+processing layer with sum 1016... sizes in bytes of current, current+2, current+4: 3463M 3049M 3302M
+	done in 39673.9
+processing layer with sum 1014... sizes in bytes of current, current+2, current+4: 3009M 3463M 3049M
+	done in 33122.8
+processing layer with sum 1012... sizes in bytes of current, current+2, current+4: 3617M 3009M 3463M
+	done in 41417.3
+processing layer with sum 1010... sizes in bytes of current, current+2, current+4: 3211M 3617M 3009M
+	done in 36087.2
+processing layer with sum 1008... sizes in bytes of current, current+2, current+4: 3630M 3211M 3617M
+	done in 41374.4
+processing layer with sum 1006... sizes in bytes of current, current+2, current+4: 3217M 3630M 3211M
+	done in 34903.5
+processing layer with sum 1004... sizes in bytes of current, current+2, current+4: 3988M 3217M 3630M
+	done in 45243.2
+processing layer with sum 1002... sizes in bytes of current, current+2, current+4: 3627M 3988M 3217M
+	done in 41096.3
+processing layer with sum 1000... sizes in bytes of current, current+2, current+4: 4074M 3627M 3988M
+	done in 47112.3
+processing layer with sum 998... sizes in bytes of current, current+2, current+4: 3544M 4074M 3627M
+	done in 39106
+processing layer with sum 996... sizes in bytes of current, current+2, current+4: 4274M 3544M 4074M
+	done in 49020.3
+processing layer with sum 994... sizes in bytes of current, current+2, current+4: 3839M 4274M 3544M
+	done in 42860.1
+processing layer with sum 992... sizes in bytes of current, current+2, current+4: 4398M 3839M 4274M
+	done in 50091.1
+processing layer with sum 990... sizes in bytes of current, current+2, current+4: 3999M 4398M 3839M
+	done in 43553.1
+processing layer with sum 988... sizes in bytes of current, current+2, current+4: 4955M 3999M 4398M
+	done in 56645.7
+processing layer with sum 986... sizes in bytes of current, current+2, current+4: 4568M 4955M 3999M
+	done in 52136.7
+processing layer with sum 984... sizes in bytes of current, current+2, current+4: 5116M 4568M 4955M
+	done in 60031.3
+processing layer with sum 982... sizes in bytes of current, current+2, current+4: 4517M 5116M 4568M
+	done in 51030.7
+processing layer with sum 980... sizes in bytes of current, current+2, current+4: 5338M 4517M 5116M
+	done in 62598.8
+processing layer with sum 978... sizes in bytes of current, current+2, current+4: 4789M 5338M 4517M
+	done in 54752.3
+processing layer with sum 976... sizes in bytes of current, current+2, current+4: 5390M 4789M 5338M
+	done in 62719.6
+processing layer with sum 974... sizes in bytes of current, current+2, current+4: 4882M 5390M 4789M
+	done in 54452.9
+processing layer with sum 972... sizes in bytes of current, current+2, current+4: 5924M 4882M 5390M
+	done in 69076.5
+processing layer with sum 970... sizes in bytes of current, current+2, current+4: 5429M 5924M 4882M
+	done in 62627.4
+processing layer with sum 968... sizes in bytes of current, current+2, current+4: 6057M 5429M 5924M
+	done in 71261
+processing layer with sum 966... sizes in bytes of current, current+2, current+4: 5405M 6057M 5429M
+	done in 60962.2
+processing layer with sum 964... sizes in bytes of current, current+2, current+4: 6409M 5405M 6057M
+	done in 75110.9
+processing layer with sum 962... sizes in bytes of current, current+2, current+4: 5859M 6409M 5405M
+	done in 66921.7
+processing layer with sum 960... sizes in bytes of current, current+2, current+4: 6656M 5859M 6409M
+	done in 77080.8
+processing layer with sum 958... sizes in bytes of current, current+2, current+4: 6178M 6656M 5859M
+	done in 69233.3
+processing layer with sum 956... sizes in bytes of current, current+2, current+4: 7438M 6178M 6656M
+	done in 87302
+processing layer with sum 954... sizes in bytes of current, current+2, current+4: 6901M 7438M 6178M
+	done in 80596.9
+processing layer with sum 952... sizes in bytes of current, current+2, current+4: 7626M 6901M 7438M
+	done in 91400.6
+processing layer with sum 950... sizes in bytes of current, current+2, current+4: 6867M 7626M 6901M
+	done in 79536.6
+processing layer with sum 948... sizes in bytes of current, current+2, current+4: 7948M 6867M 7626M
+	done in 95459
+processing layer with sum 946... sizes in bytes of current, current+2, current+4: 7228M 7948M 6867M
+	done in 84725.3
+processing layer with sum 944... sizes in bytes of current, current+2, current+4: 8041M 7228M 7948M
+	done in 95690.8
+processing layer with sum 942... sizes in bytes of current, current+2, current+4: 7407M 8041M 7228M
+	done in 85195.7
+processing layer with sum 940... sizes in bytes of current, current+2, current+4: 8747M 7407M 8041M
+	done in 104716
+processing layer with sum 938... sizes in bytes of current, current+2, current+4: 8057M 8747M 7407M
+	done in 96520.2
+processing layer with sum 936... sizes in bytes of current, current+2, current+4: 8871M 8057M 8747M
+	done in 108045
+processing layer with sum 934... sizes in bytes of current, current+2, current+4: 8050M 8871M 8057M
+	done in 93856.5
+processing layer with sum 932... sizes in bytes of current, current+2, current+4: 9353M 8050M 8871M
+	done in 112943
+processing layer with sum 930... sizes in bytes of current, current+2, current+4: 8627M 9353M 8050M
+	done in 101724
+processing layer with sum 928... sizes in bytes of current, current+2, current+4: 9683M 8627M 9353M
+	done in 115884
+processing layer with sum 926... sizes in bytes of current, current+2, current+4: 9088M 9683M 8627M
+	done in 105643
+processing layer with sum 924... sizes in bytes of current, current+2, current+4: 10678M 9088M 9683M
+	done in 130016
+processing layer with sum 922... sizes in bytes of current, current+2, current+4: 9927M 10678M 9088M
+	done in 119465
+processing layer with sum 920... sizes in bytes of current, current+2, current+4: 10864M 9927M 10678M
+	done in 133572
+processing layer with sum 918... sizes in bytes of current, current+2, current+4: 9925M 10864M 9927M
+	done in 118647
+processing layer with sum 916... sizes in bytes of current, current+2, current+4: 11330M 9925M 10864M
+	done in 139505
+processing layer with sum 914... sizes in bytes of current, current+2, current+4: 10425M 11330M 9925M
+	done in 125468
+processing layer with sum 912... sizes in bytes of current, current+2, current+4: 11541M 10425M 11330M
+	done in 140845
+processing layer with sum 910... sizes in bytes of current, current+2, current+4: 10805M 11541M 10425M
+	done in 127818
+processing layer with sum 908... sizes in bytes of current, current+2, current+4: 12526M 10805M 11541M
+	done in 153986
+processing layer with sum 906... sizes in bytes of current, current+2, current+4: 11649M 12526M 10805M
+	done in 141424
+processing layer with sum 904... sizes in bytes of current, current+2, current+4: 12747M 11649M 12526M
+	done in 157344
+processing layer with sum 902... sizes in bytes of current, current+2, current+4: 11797M 12747M 11649M
+	done in 140747
+processing layer with sum 900... sizes in bytes of current, current+2, current+4: 13498M 11797M 12747M
+	done in 166926
+processing layer with sum 898... sizes in bytes of current, current+2, current+4: 12627M 13498M 11797M
+	done in 153126
+processing layer with sum 896... sizes in bytes of current, current+2, current+4: 14035M 12627M 13498M
+	done in 172538
+processing layer with sum 894... sizes in bytes of current, current+2, current+4: 13342M 14035M 12627M
+Tue  4 Jan 21:28:43 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000322
+CPU concurrency: start with layer (default 2048): processing layer with sum 894... sizes in bytes of current, current+2, current+4: 13342M 14035M 12627M
+	done in 161232
+processing layer with sum 892... sizes in bytes of current, current+2, current+4: 15317M 13342M 14035M
+	done in 191846
+processing layer with sum 890... sizes in bytes of current, current+2, current+4: 14328M 15317M 13342M
+	done in 177504
+processing layer with sum 888... sizes in bytes of current, current+2, current+4: 15513M 14328M 15317M
+	done in 195915
+processing layer with sum 886... sizes in bytes of current, current+2, current+4: 14376M 15513M 14328M
+	done in 176818
+processing layer with sum 884... sizes in bytes of current, current+2, current+4: 16135M 14376M 15513M
+	done in 203382
+processing layer with sum 882... sizes in bytes of current, current+2, current+4: 14999M 16135M 14376M
+	done in 186446
+processing layer with sum 880... sizes in bytes of current, current+2, current+4: 16430M 14999M 16135M
+	done in 206609
+processing layer with sum 878... sizes in bytes of current, current+2, current+4: 15541M 16430M 14999M
+	done in 190125
+processing layer with sum 876... sizes in bytes of current, current+2, current+4: 17632M 15541M 16430M
+	done in 224061
+processing layer with sum 874... sizes in bytes of current, current+2, current+4: 16476M 17632M 15541M
+	done in 206434
+processing layer with sum 872... sizes in bytes of current, current+2, current+4: 17848M 16476M 17632M
+	done in 226752
+processing layer with sum 870... sizes in bytes of current, current+2, current+4: 16711M 17848M 16476M
+	done in 206375
+processing layer with sum 868... sizes in bytes of current, current+2, current+4: 18811M 16711M 17848M
+	done in 238392
+processing layer with sum 866... sizes in bytes of current, current+2, current+4: 17721M 18811M 16711M
+	done in 221730
+processing layer with sum 864... sizes in bytes of current, current+2, current+4: 19499M 17721M 18811M
+	done in 248373
+processing layer with sum 862... sizes in bytes of current, current+2, current+4: 18665M 19499M 17721M
+	done in 231590
+processing layer with sum 860... sizes in bytes of current, current+2, current+4: 21032M 18665M 19499M
+	done in 271063
+processing layer with sum 858... sizes in bytes of current, current+2, current+4: 19755M 21032M 18665M
+	done in 252590
+processing layer with sum 856... sizes in bytes of current, current+2, current+4: 21246M 19755M 21032M
+	done in 275593
+processing layer with sum 854... sizes in bytes of current, current+2, current+4: 19932M 21246M 19755M
+	done in 251990
+processing layer with sum 852... sizes in bytes of current, current+2, current+4: 22123M 19932M 21246M
+	done in 287381
+processing layer with sum 850... sizes in bytes of current, current+2, current+4: 20796M 22123M 19932M
+	done in 265381
+processing layer with sum 848... sizes in bytes of current, current+2, current+4: 22662M 20796M 22123M
+	done in 293165
+processing layer with sum 846... sizes in bytes of current, current+2, current+4: 21684M 22662M 20796M
+	done in 268637
+processing layer with sum 844... sizes in bytes of current, current+2, current+4: 24239M 21684M 22662M
+	done in 317543
+processing layer with sum 842... sizes in bytes of current, current+2, current+4: 22864M 24239M 21684M
+	done in 294278
+processing layer with sum 840... sizes in bytes of current, current+2, current+4: 24635M 22864M 24239M
+Fri  7 Jan 08:48:47 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000321
+CPU concurrency: start with layer (default 2048): 
