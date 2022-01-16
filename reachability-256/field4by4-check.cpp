@@ -21,6 +21,15 @@ int main() {
 
     system("date");
 
+    std::cout << "Initial query: enter some position id, this program will show this position (can be ignored)\n";
+    int entered_layer;
+    long long entered_id;
+    std::cout << "\tsum (layer): ";
+    std::cin >> entered_layer;
+    std::cout << "\tposition id (up to " << index_dp[16][entered_layer] - index_dp[16][entered_layer - 1] << "): ";
+    std::cin >> entered_id;
+    std::cout << decode_inside_layer(entered_id, entered_layer) << std::endl;
+
     reenter_pos:
 
     std::cout << "Enter position:\n";

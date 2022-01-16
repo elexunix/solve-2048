@@ -144,7 +144,7 @@ public:
         for (int i = 0; i < 4; ++i) {
             out << "\t";
             std::copy(b.f[i], b.f[i] + 4, std::ostream_iterator<int>(std::cout, " "));
-            std::cout << (i < 2 ? "\n" : "]");
+            std::cout << (i < 3 ? "\n" : "]");
         }
         return out;
     }
@@ -292,7 +292,7 @@ bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
     return result;
 }*/
 bool get_hater_value_from_disk_damn_slow(unsigned char *arr[layers_cnt], const board &b) {
-    for (int way = 0; way < 30; ++way) {
+    for (int way = 0; way < 32; ++way) {
         board temp(b);
         if (temp.addTile(way) && !get_user_value_from_disk(arr, temp))
             return false;

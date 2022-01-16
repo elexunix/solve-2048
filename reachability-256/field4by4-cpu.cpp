@@ -26,7 +26,7 @@ void process_user_layer(unsigned char *const user_layers[layers_cnt], const unsi
                 case 2: possible = temp.swipeUp(); break;
                 case 3: possible = temp.swipeDown(); break;
             }
-            assert(temp.sum() == sum);
+            //assert(temp.sum() == sum);
             winnable |= possible && (temp.won() || get_value(hater_layers, temp, sum));
         }
         set_value(user_layers[sum], position_id, winnable);
@@ -63,6 +63,7 @@ int main() {
     int init_layer_sum;
     std::cin >> init_layer_sum;
     for (int sum = init_layer_sum; sum >= 0; sum -= 2) {
+        system("date");
         report_start("processing layer with sum " + itos(sum));
         std::cout << " sizes in bytes of current, current+2, current+4: " << (index_dp[16][sum] / 8 + 1 >> 20) << "M ";
         sum + 2 < layers_cnt ? std::cout << (index_dp[16][sum + 2] / 8 + 1 >> 20) << "M " : std::cout << "[doesn't exist] ";
