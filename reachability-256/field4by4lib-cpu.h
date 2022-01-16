@@ -281,8 +281,17 @@ bool get_user_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &
     delete[] arr[b.sum()];
     return result;
 }
+bool get_user_value_from_disk_fast(unsigned char *arr[layers_cnt], const board &b) {
+    std::ifstream in("arrays4by4-256/ulayer" + itos(b.sum(), 4) + ".dat");
+    long long position_id = encode_inside_layer(b);
+    in.seekg(position_id / 8);
+    unsigned char ch;
+    in >> ch;
+    return ch & 1 << (position_id & 7);
+}
+
 bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
-    return get_user_value_from_disk_slow(arr, b);
+    return get_user_value_from_disk_fast(arr, b);
 }
 /*bool get_hater_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &b) [[deprecated]] {  // impossible to provide unless recorded
     arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
