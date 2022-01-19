@@ -281,7 +281,7 @@ bool get_user_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &
     delete[] arr[b.sum()];
     return result;
 }
-bool get_user_value_from_disk_fast(unsigned char *arr[layers_cnt], const board &b) {
+bool get_user_value_from_disk_fast(const board &b) {
     std::ifstream in("arrays4by4-256/ulayer" + itos(b.sum(), 4) + ".dat");
     long long position_id = encode_inside_layer(b);
     in.seekg(position_id / 8);
@@ -289,9 +289,8 @@ bool get_user_value_from_disk_fast(unsigned char *arr[layers_cnt], const board &
     in >> ch;
     return ch & 1 << (position_id & 7);
 }
-
-bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
-    return get_user_value_from_disk_fast(arr, b);
+bool get_user_value_from_disk(const board &b) {
+    return get_user_value_from_disk_fast(b);
 }
 /*bool get_hater_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &b) [[deprecated]] {  // impossible to provide unless recorded
     arr[b.sum()] = new unsigned char[index_dp[16][b.sum()] / 8 + 1];
@@ -300,16 +299,13 @@ bool get_user_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
     delete[] arr[b.sum()];
     return result;
 }*/
-bool get_hater_value_from_disk_damn_slow(unsigned char *arr[layers_cnt], const board &b) {
+bool get_hater_value_from_disk(const board &b) {
     for (int way = 0; way < 32; ++way) {
         board temp(b);
-        if (temp.addTile(way) && !get_user_value_from_disk(arr, temp))
+        if (temp.addTile(way) && !get_user_value_from_disk(temp))
             return false;
     }
     return true;
-}
-bool get_hater_value_from_disk(unsigned char *arr[layers_cnt], const board &b) {
-    return get_hater_value_from_disk_damn_slow(arr, b);
 }
 
 
@@ -342,8 +338,8 @@ void report_final_result(unsigned char* user_turn_positions[layers_cnt], unsigne
     for (int i = 0; i < 4; ++i)
         for (int j = 0; j < 4; ++j)
             empty.f[i][j] = 0;
-    std::cout << "\tuser " << get_user_value_from_disk(user_turn_positions, empty) << ", ";
-    std::cout << "hater " << get_hater_value_from_disk(hater_turn_positions, empty) << "\n";
+    std::cout << "\tuser " << get_user_value_from_disk(empty) << ", ";
+    std::cout << "hater " << get_hater_value_from_disk(empty) << "\n";
     std::cout << "field with just one tile:\n";
     for (int player = 0; player < 2; ++player) {
         std::cout << "\t" << (player == 0 ? "user" : "hater") << ":\n";
@@ -355,14 +351,14 @@ void report_final_result(unsigned char* user_turn_positions[layers_cnt], unsigne
                     for (int l = 0; l < 4; ++l)
                         b.f[k][l] = k == i && l == j ? 2 : 0;
                 if (player == 0)
-                    std::cout << get_user_value_from_disk(user_turn_positions, b);
+                    std::cout << get_user_value_from_disk(b);
                 else
-                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
+                    std::cout << get_hater_value_from_disk(b);
                 b.f[i][j] = 4;
                 if (player == 0)
-                    std::cout << get_user_value_from_disk(user_turn_positions, b) << " ";
+                    std::cout << get_user_value_from_disk(b) << " ";
                 else
-                    std::cout << get_hater_value_from_disk(hater_turn_positions, b) << " ";
+                    std::cout << get_hater_value_from_disk(b) << " ";
             }
             std::cout << "\n";
         }
@@ -387,9 +383,9 @@ void report_final_result(unsigned char* user_turn_positions[layers_cnt], unsigne
                             for (int u2 = 2; u2 <= 4; u2 += 2) {
                                 b.f[i1][j1] = u1, b.f[i2][j2] = u2;
                                 if (player == 0)
-                                    std::cout << get_user_value_from_disk(user_turn_positions, b);
+                                    std::cout << get_user_value_from_disk(b);
                                 else
-                                    std::cout << get_hater_value_from_disk(hater_turn_positions, b);
+                                    std::cout << get_hater_value_from_disk(b);
                             }
                         }
                         std::cout << " ";
