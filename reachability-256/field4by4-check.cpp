@@ -155,6 +155,7 @@ void demonstrate_hater_position_winnability_for_hater(board b) {
         assert(!ways.empty());
         int way = ways[rand() % ways.size()];
         assert(b.addTile(way));
+        std::cout << "position after tile addition: " << b << std::endl;
         assert(!get_user_value_from_disk(b));
         get_swipe(b);
     }
