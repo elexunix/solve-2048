@@ -143,7 +143,7 @@ public:
         out << "[board:\n";
         for (int i = 0; i < 4; ++i) {
             out << "\t";
-            std::copy(b.f[i], b.f[i] + 4, std::ostream_iterator<int>(std::cout, " "));
+            std::copy(b.f[i], b.f[i] + 4, std::ostream_iterator<int>(std::cout, "\t"));
             std::cout << (i < 3 ? "\n" : "]");
         }
         return out;
