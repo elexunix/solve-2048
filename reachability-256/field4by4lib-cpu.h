@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <iterator>
@@ -267,7 +268,7 @@ void read_arr_from_disk(long long n, unsigned char *arr, const std::string filen
     // report_start("reading \"" + filename + "\"");
     std::ifstream fin(filename, std::ios::in | std::ios::binary);
     if (!fin.is_open()) {
-        std::cerr << "read_arr_from_disk(" << n << ", " << arr << ", " << filename << "):\n";
+        std::cerr << "read_arr_from_disk(" << n << ", " << (int*)arr << ", " << filename << "):\n";
         std::cerr << "UNABLE TO OPEN " << filename << "\n";
         exit(1);
     }
