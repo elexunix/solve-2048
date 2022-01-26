@@ -267,8 +267,9 @@ void read_arr_from_disk(long long n, unsigned char *arr, const std::string filen
     // report_start("reading \"" + filename + "\"");
     std::ifstream fin(filename, std::ios::in | std::ios::binary);
     if (!fin.is_open()) {
+        std::cerr << "read_arr_from_disk(" << n << ", " << arr << ", " << filename << "):\n";
         std::cerr << "UNABLE TO OPEN " << filename << "\n";
-        // exit(1);
+        exit(1);
     }
     fin.read(reinterpret_cast<char*>(arr), n);
     // report_finish();
@@ -283,6 +284,11 @@ bool get_user_value_from_disk_slow(unsigned char *arr[layers_cnt], const board &
 }
 bool get_user_value_from_disk_fast(const board &b) {
     std::ifstream in("arrays4by4-256/ulayer" + itos(b.sum(), 4) + ".dat");
+    if (!in.is_open()) {
+        std::cerr << "get_user_value_from_disk_fast(" << b << ")\n";
+        std::cerr << "UNABLE TO OPEN arrays4by4-256/ulayer" << itos(b.sum(), 4) << ".dat\n";
+        exit(1);
+    }
     long long position_id = encode_inside_layer(b);
     in.seekg(position_id / 8);
     unsigned char ch;

@@ -168,7 +168,7 @@ int main() {
     unsigned char *user_turn_positions[layers_cnt], *hater_turn_positions[layers_cnt];  // sized index_dp[16][sum]/8+1
     // values are always _for user_; for example, a unit in hater's array means the position is winnable by user, same as with user's array
 
-    report_final_result(user_turn_positions, hater_turn_positions);
+    //report_final_result(user_turn_positions, hater_turn_positions);
 
     system("date");
 
@@ -182,13 +182,16 @@ int main() {
     std::cout << decode_inside_layer(entered_id, entered_layer) << std::endl;
 
     reenter_pos:
-
     std::cout << "Enter position:\n";
     board b;
     for (int i = 0; i < 4; ++i) {
         std::cout << '\t';
         for (int j = 0; j < 4; ++j)
             std::cin >> b.f[i][j];
+    }
+    if (b.sum() != entered_layer) {
+      std::cout << "sum mismatch (" << b.sum() << " and " << entered_layer << ")" << std::endl;
+      goto reenter_pos;
     }
     bool as_upos = get_user_value_from_disk(b), as_hpos = get_hater_value_from_disk(b);
     std::cout << "this user position is winnable for user: " << as_upos << "\n";
