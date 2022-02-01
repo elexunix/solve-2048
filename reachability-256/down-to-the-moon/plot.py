@@ -37,6 +37,8 @@ for label_and_cnt in fractions_stuff:
     continue
   available_fraction_labels.append(label)
   available_fractions.append(cnt / arr[label // 2 - 1])
+  if cnt / arr[label // 2 - 1] < 0.95:
+    print(label, cnt, arr[label // 2 - 1])
   #available_fractions.append(.5)
 for i in range(len(available_fraction_labels)):
   for j in range(i):

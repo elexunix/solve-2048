@@ -193,7 +193,6 @@ int main() {
       std::cout << "sum mismatch (" << b.sum() << " and " << entered_layer << ")" << std::endl;
       goto reenter_pos;
     }
-    std::cout << "position id inside layer: " << encode_inside_layer(b) << std::endl;
     bool as_upos = get_user_value_from_disk(b), as_hpos = get_hater_value_from_disk(b);
     std::cout << "this user position is winnable for user: " << as_upos << "\n";
     std::cout << "this hater position is winnable for user: " << as_hpos << "\n";
