@@ -261,6 +261,11 @@ bool get_value(const unsigned char *const arr[layers_cnt], const board &b) {
 void write_arr_to_disk(long long n, const unsigned char *arr, const std::string filename) {
     // report_start("writing to \"" + filename + "\"");
     std::ofstream fout(filename, std::ios::out | std::ios::binary);
+    if (!fout.is_open()) {
+        std::cerr << "write_arr_to_disk(" << n << ", " << (int*)arr << ", " << filename << "):\n";
+        std::cerr << "UNABLE TO OPEN " << filename << "\n";
+        exit(1);
+    }
     fout.write(reinterpret_cast<const char*>(arr), n);
     // report_finish();
 }
