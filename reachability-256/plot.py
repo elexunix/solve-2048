@@ -47,6 +47,7 @@ ax2.plot(available_fraction_labels, available_fractions, 'r')
 plt.savefig('Figure_1.png')
 plt.show()
 
+plt.clf()
 mem = 0
 done = 0
 percent = int(np.sum(arr) / 100)
