@@ -1,0 +1,2020 @@
+Tue  1 Feb 12:36:15 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000284
+CPU concurrency: Tue  1 Feb 12:36:36 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000271
+CPU concurrency: start with layer (default 2048): Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2048... sizes in bytes of current, current+2, current+4: 0M [doesn't exist] [doesn't exist] 
+	done in 0.016782
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2046... sizes in bytes of current, current+2, current+4: 0M 0M [doesn't exist] 
+	done in 0.007761
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2044... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007391
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2042... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007458
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2040... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.008367
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2038... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00786
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2036... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006881
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2034... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006821
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2032... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006722
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2030... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007457
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2028... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006082
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2026... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006872
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2024... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0064
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2022... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006156
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2020... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007313
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2018... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005636
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2016... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006523
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2014... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006321
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2012... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006511
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2010... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006497
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2008... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006298
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2006... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006589
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2004... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006112
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2002... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005564
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 2000... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006998
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1998... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006995
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1996... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00608
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1994... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006204
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1992... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005776
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1990... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005703
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1988... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005288
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1986... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007411
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1984... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006563
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1982... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006729
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1980... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006386
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1978... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006195
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1976... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005336
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1974... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005476
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1972... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006239
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1970... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006394
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1968... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0055
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1966... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005547
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1964... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005552
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1962... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005687
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1960... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005889
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1958... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005891
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1956... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00643
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1954... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006883
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1952... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005895
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1950... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005981
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1948... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006072
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1946... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005694
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1944... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005524
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1942... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006338
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1940... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005261
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1938... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005507
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1936... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006072
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1934... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005294
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1932... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005879
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1930... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005828
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1928... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006477
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1926... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0069
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1924... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005421
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1922... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005601
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1920... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005637
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1918... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005413
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1916... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005728
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1914... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00574
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1912... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005475
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1910... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005585
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1908... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005663
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1906... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005363
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1904... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00533
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1902... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00564
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1900... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00554
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1898... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005556
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1896... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005857
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1894... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005364
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1892... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005521
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1890... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00545
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1888... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005587
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1886... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005726
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1884... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005888
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1882... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005742
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1880... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005426
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1878... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005647
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1876... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006442
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1874... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00583
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1872... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005598
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1870... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00626
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1868... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005281
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1866... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005601
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1864... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006151
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1862... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005465
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1860... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005597
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1858... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005493
+Tue  1 Feb 12:37:41 UTC 2022
+processing layer with sum 1856... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006946
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1854... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005514
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1852... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005787
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1850... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006006
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1848... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005662
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1846... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005836
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1844... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005426
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1842... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005445
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1840... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006289
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1838... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00604
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1836... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005925
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1834... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005503
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1832... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005628
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1830... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006271
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1828... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005422
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1826... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005834
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1824... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006696
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1822... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007066
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1820... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005888
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1818... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005394
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1816... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005699
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1814... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005435
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1812... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005392
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1810... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005572
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1808... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007117
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1806... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005784
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1804... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007643
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1802... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006254
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1800... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006831
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1798... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005364
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1796... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00724
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1794... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0075
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1792... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.009153
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1790... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005567
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1788... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005372
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1786... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005307
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1784... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005533
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1782... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006227
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1780... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00608
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1778... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005766
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1776... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.008079
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1774... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005481
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1772... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006244
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1770... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005361
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1768... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007208
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1766... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006068
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1764... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007682
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1762... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00832
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1760... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.013393
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1758... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006229
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1756... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005796
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1754... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005356
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1752... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007128
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1750... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005349
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1748... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007182
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1746... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007483
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1744... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.013102
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1742... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005469
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1740... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007273
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1738... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007537
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1736... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.013648
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1734... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007526
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1732... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.013845
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1730... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.012669
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1728... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.022995
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1726... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005472
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1724... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005452
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1722... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005551
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1720... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007489
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1718... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005301
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1716... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007543
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1714... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007034
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1712... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.01964
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1710... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005386
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1708... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006897
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1706... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00724
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1704... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.020316
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1702... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007398
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1700... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019475
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1698... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019425
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1696... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.043675
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1694... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005387
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1692... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.00727
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1690... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007351
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1688... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019441
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1686... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.007425
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1684... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.019991
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1682... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.018603
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1680... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.050104
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1678... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0085
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1676... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.018828
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1674... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.018874
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1672... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.056798
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1670... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.018637
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1668... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.055859
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1666... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.044087
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1664... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.095948
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1662... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006344
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1660... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005349
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1658... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005185
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1656... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024763
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1654... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005848
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1652... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.02513
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1650... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024815
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1648... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.1065
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1646... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005801
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1644... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025916
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1642... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025874
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1640... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.10858
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1638... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.0257
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1636... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.101441
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1634... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.104316
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1632... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.243797
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1630... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006303
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1628... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024654
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1626... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025353
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1624... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.118944
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1622... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.030481
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1620... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.110595
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1618... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.104095
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1616... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.314906
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1614... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025136
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1612... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.103611
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1610... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.114628
+Tue  1 Feb 12:37:42 UTC 2022
+processing layer with sum 1608... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.335136
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1606... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.113288
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1604... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.305314
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1602... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.24281
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1600... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.44774
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1598... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.005689
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1596... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.024524
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1594... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025317
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1592... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.205908
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1590... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025454
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1588... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.231897
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1586... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.205283
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1584... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.630099
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1582... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025079
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1580... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.203074
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1578... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.226236
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1576... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.694277
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1574... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.205032
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1572... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.735976
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1570... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.588554
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1568... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.1074
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1566... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.025439
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1564... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.203896
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1562... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.197813
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1560... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.718268
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1558... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.198847
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1556... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.795358
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1554... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.701282
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1552... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.57048
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1550... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.189836
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1548... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.742688
+Tue  1 Feb 12:37:43 UTC 2022
+processing layer with sum 1546... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.71129
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1544... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.63469
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1542... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.606217
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1540... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.43726
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1538... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.24139
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1536... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.08261
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1534... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.006924
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1532... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.288218
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1530... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.299487
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1528... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.43239
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1526... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.312432
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1524... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.52365
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1522... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.42228
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1520... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.30379
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1518... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.315257
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1516... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.55767
+Tue  1 Feb 12:37:44 UTC 2022
+processing layer with sum 1514... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.49706
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1512... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.70714
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1510... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.34426
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1508... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.81679
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1506... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.94301
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1504... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.67115
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1502... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 0.309234
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1500... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.50702
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1498... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.52035
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1496... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.08028
+Tue  1 Feb 12:37:45 UTC 2022
+processing layer with sum 1494... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.54894
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1492... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 4.55939
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1490... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.81351
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1488... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 7.27511
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1486... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 1.3963
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1484... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.99769
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1482... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 3.87346
+Tue  1 Feb 12:37:46 UTC 2022
+processing layer with sum 1480... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 7.51398
+Tue  1 Feb 12:37:47 UTC 2022
+processing layer with sum 1478... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 3.20921
+Tue  1 Feb 12:37:47 UTC 2022
+processing layer with sum 1476... sizes in bytes of current, current+2, current+4: 0M 0M 1M
+	done in 7.16486
+Tue  1 Feb 12:37:47 UTC 2022
+processing layer with sum 1474... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 6.07292
+Tue  1 Feb 12:37:47 UTC 2022
+processing layer with sum 1472... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 8.91975
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1470... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 0.313881
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1468... sizes in bytes of current, current+2, current+4: 0M 0M 1M
+	done in 2.86895
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1466... sizes in bytes of current, current+2, current+4: 0M 0M 0M
+	done in 2.76388
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1464... sizes in bytes of current, current+2, current+4: 1M 0M 0M
+	done in 8.49815
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1462... sizes in bytes of current, current+2, current+4: 0M 1M 0M
+	done in 2.7935
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1460... sizes in bytes of current, current+2, current+4: 1M 0M 1M
+	done in 9.20137
+Tue  1 Feb 12:37:48 UTC 2022
+processing layer with sum 1458... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 7.88174
+Tue  1 Feb 12:37:49 UTC 2022
+processing layer with sum 1456... sizes in bytes of current, current+2, current+4: 1M 1M 1M
+	done in 13.805
+Tue  1 Feb 12:37:49 UTC 2022
+processing layer with sum 1454... sizes in bytes of current, current+2, current+4: 0M 1M 1M
+	done in 2.86228
+Tue  1 Feb 12:37:49 UTC 2022
+processing layer with sum 1452... sizes in bytes of current, current+2, current+4: 1M 0M 1M
+	done in 8.85184
+Tue  1 Feb 12:37:49 UTC 2022
+processing layer with sum 1450... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 8.32218
+Tue  1 Feb 12:37:50 UTC 2022
+processing layer with sum 1448... sizes in bytes of current, current+2, current+4: 2M 1M 1M
+	done in 15.8774
+Tue  1 Feb 12:37:50 UTC 2022
+processing layer with sum 1446... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 7.57432
+Tue  1 Feb 12:37:50 UTC 2022
+processing layer with sum 1444... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 15.622
+Tue  1 Feb 12:37:51 UTC 2022
+processing layer with sum 1442... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 12.273
+Tue  1 Feb 12:37:51 UTC 2022
+processing layer with sum 1440... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 18.1026
+Tue  1 Feb 12:37:52 UTC 2022
+processing layer with sum 1438... sizes in bytes of current, current+2, current+4: 0M 2M 1M
+	done in 2.55108
+Tue  1 Feb 12:37:52 UTC 2022
+processing layer with sum 1436... sizes in bytes of current, current+2, current+4: 1M 0M 2M
+	done in 9.12025
+Tue  1 Feb 12:37:52 UTC 2022
+processing layer with sum 1434... sizes in bytes of current, current+2, current+4: 1M 1M 0M
+	done in 8.7843
+Tue  1 Feb 12:37:52 UTC 2022
+processing layer with sum 1432... sizes in bytes of current, current+2, current+4: 2M 1M 1M
+	done in 19.8737
+Tue  1 Feb 12:37:53 UTC 2022
+processing layer with sum 1430... sizes in bytes of current, current+2, current+4: 1M 2M 1M
+	done in 8.67294
+Tue  1 Feb 12:37:53 UTC 2022
+processing layer with sum 1428... sizes in bytes of current, current+2, current+4: 2M 1M 2M
+	done in 21.4994
+Tue  1 Feb 12:37:54 UTC 2022
+processing layer with sum 1426... sizes in bytes of current, current+2, current+4: 2M 2M 1M
+	done in 17.0014
+Tue  1 Feb 12:37:54 UTC 2022
+processing layer with sum 1424... sizes in bytes of current, current+2, current+4: 3M 2M 2M
+	done in 28.3711
+Tue  1 Feb 12:37:55 UTC 2022
+processing layer with sum 1422... sizes in bytes of current, current+2, current+4: 1M 3M 2M
+	done in 7.95296
+Tue  1 Feb 12:37:55 UTC 2022
+processing layer with sum 1420... sizes in bytes of current, current+2, current+4: 2M 1M 3M
+	done in 18.6119
+Tue  1 Feb 12:37:55 UTC 2022
+processing layer with sum 1418... sizes in bytes of current, current+2, current+4: 2M 2M 1M
+	done in 16.5452
+Tue  1 Feb 12:37:56 UTC 2022
+processing layer with sum 1416... sizes in bytes of current, current+2, current+4: 4M 2M 2M
+	done in 28.2717
+Tue  1 Feb 12:37:57 UTC 2022
+processing layer with sum 1414... sizes in bytes of current, current+2, current+4: 2M 4M 2M
+	done in 13.6242
+Tue  1 Feb 12:37:57 UTC 2022
+processing layer with sum 1412... sizes in bytes of current, current+2, current+4: 3M 2M 4M
+	done in 26.6416
+Tue  1 Feb 12:37:58 UTC 2022
+processing layer with sum 1410... sizes in bytes of current, current+2, current+4: 2M 3M 2M
+	done in 20.328
+Tue  1 Feb 12:37:58 UTC 2022
+processing layer with sum 1408... sizes in bytes of current, current+2, current+4: 3M 2M 3M
+	done in 28.5918
+Tue  1 Feb 12:37:59 UTC 2022
+processing layer with sum 1406... sizes in bytes of current, current+2, current+4: 0M 3M 2M
+	done in 3.61484
+Tue  1 Feb 12:37:59 UTC 2022
+processing layer with sum 1404... sizes in bytes of current, current+2, current+4: 2M 0M 3M
+	done in 15.4384
+Tue  1 Feb 12:38:00 UTC 2022
+processing layer with sum 1402... sizes in bytes of current, current+2, current+4: 2M 2M 0M
+	done in 14.6256
+Tue  1 Feb 12:38:00 UTC 2022
+processing layer with sum 1400... sizes in bytes of current, current+2, current+4: 4M 2M 2M
+	done in 36.0496
+Tue  1 Feb 12:38:01 UTC 2022
+processing layer with sum 1398... sizes in bytes of current, current+2, current+4: 2M 4M 2M
+	done in 14.9667
+Tue  1 Feb 12:38:01 UTC 2022
+processing layer with sum 1396... sizes in bytes of current, current+2, current+4: 5M 2M 4M
+	done in 36.8312
+Tue  1 Feb 12:38:02 UTC 2022
+processing layer with sum 1394... sizes in bytes of current, current+2, current+4: 4M 5M 2M
+	done in 30.1833
+Tue  1 Feb 12:38:03 UTC 2022
+processing layer with sum 1392... sizes in bytes of current, current+2, current+4: 6M 4M 5M
+	done in 49.2384
+Tue  1 Feb 12:38:04 UTC 2022
+processing layer with sum 1390... sizes in bytes of current, current+2, current+4: 2M 6M 4M
+	done in 15.4348
+Tue  1 Feb 12:38:04 UTC 2022
+processing layer with sum 1388... sizes in bytes of current, current+2, current+4: 5M 2M 6M
+	done in 36.5356
+Tue  1 Feb 12:38:05 UTC 2022
+processing layer with sum 1386... sizes in bytes of current, current+2, current+4: 5M 5M 2M
+	done in 34.2932
+Tue  1 Feb 12:38:06 UTC 2022
+processing layer with sum 1384... sizes in bytes of current, current+2, current+4: 8M 5M 5M
+	done in 62.4919
+Tue  1 Feb 12:38:07 UTC 2022
+processing layer with sum 1382... sizes in bytes of current, current+2, current+4: 4M 8M 5M
+	done in 30.8145
+Tue  1 Feb 12:38:08 UTC 2022
+processing layer with sum 1380... sizes in bytes of current, current+2, current+4: 7M 4M 8M
+	done in 55.614
+Tue  1 Feb 12:38:09 UTC 2022
+processing layer with sum 1378... sizes in bytes of current, current+2, current+4: 5M 7M 4M
+	done in 42.0973
+Tue  1 Feb 12:38:10 UTC 2022
+processing layer with sum 1376... sizes in bytes of current, current+2, current+4: 7M 5M 7M
+	done in 58.4396
+Tue  1 Feb 12:38:11 UTC 2022
+processing layer with sum 1374... sizes in bytes of current, current+2, current+4: 2M 7M 5M
+	done in 14.7732
+Tue  1 Feb 12:38:12 UTC 2022
+processing layer with sum 1372... sizes in bytes of current, current+2, current+4: 6M 2M 7M
+	done in 42.309
+Tue  1 Feb 12:38:13 UTC 2022
+processing layer with sum 1370... sizes in bytes of current, current+2, current+4: 5M 6M 2M
+	done in 38.7762
+Tue  1 Feb 12:38:13 UTC 2022
+processing layer with sum 1368... sizes in bytes of current, current+2, current+4: 10M 5M 6M
+	done in 73.8949
+Tue  1 Feb 12:38:15 UTC 2022
+processing layer with sum 1366... sizes in bytes of current, current+2, current+4: 5M 10M 5M
+	done in 36.9693
+Tue  1 Feb 12:38:16 UTC 2022
+processing layer with sum 1364... sizes in bytes of current, current+2, current+4: 10M 5M 10M
+	done in 75.1902
+Tue  1 Feb 12:38:17 UTC 2022
+processing layer with sum 1362... sizes in bytes of current, current+2, current+4: 8M 10M 5M
+	done in 66.5481
+Tue  1 Feb 12:38:18 UTC 2022
+processing layer with sum 1360... sizes in bytes of current, current+2, current+4: 12M 8M 10M
+	done in 88.3303
+Tue  1 Feb 12:38:20 UTC 2022
+processing layer with sum 1358... sizes in bytes of current, current+2, current+4: 5M 12M 8M
+	done in 35.1469
+Tue  1 Feb 12:38:21 UTC 2022
+processing layer with sum 1356... sizes in bytes of current, current+2, current+4: 10M 5M 12M
+	done in 75.1762
+Tue  1 Feb 12:38:22 UTC 2022
+processing layer with sum 1354... sizes in bytes of current, current+2, current+4: 9M 10M 5M
+	done in 65.8206
+Tue  1 Feb 12:38:24 UTC 2022
+processing layer with sum 1352... sizes in bytes of current, current+2, current+4: 14M 9M 10M
+	done in 104.868
+Tue  1 Feb 12:38:26 UTC 2022
+processing layer with sum 1350... sizes in bytes of current, current+2, current+4: 7M 14M 9M
+	done in 55.6118
+Tue  1 Feb 12:38:27 UTC 2022
+processing layer with sum 1348... sizes in bytes of current, current+2, current+4: 13M 7M 14M
+	done in 101.256
+Tue  1 Feb 12:38:29 UTC 2022
+processing layer with sum 1346... sizes in bytes of current, current+2, current+4: 10M 13M 7M
+	done in 81.2258
+Tue  1 Feb 12:38:30 UTC 2022
+processing layer with sum 1344... sizes in bytes of current, current+2, current+4: 13M 10M 13M
+	done in 106.758
+Tue  1 Feb 12:38:32 UTC 2022
+processing layer with sum 1342... sizes in bytes of current, current+2, current+4: 4M 13M 10M
+	done in 27.5869
+Tue  1 Feb 12:38:33 UTC 2022
+processing layer with sum 1340... sizes in bytes of current, current+2, current+4: 12M 4M 13M
+	done in 79.5766
+Tue  1 Feb 12:38:34 UTC 2022
+processing layer with sum 1338... sizes in bytes of current, current+2, current+4: 11M 12M 4M
+	done in 76.9794
+Tue  1 Feb 12:38:36 UTC 2022
+processing layer with sum 1336... sizes in bytes of current, current+2, current+4: 18M 11M 12M
+	done in 137.353
+Tue  1 Feb 12:38:38 UTC 2022
+processing layer with sum 1334... sizes in bytes of current, current+2, current+4: 11M 18M 11M
+	done in 76.6552
+Tue  1 Feb 12:38:40 UTC 2022
+processing layer with sum 1332... sizes in bytes of current, current+2, current+4: 20M 11M 18M
+	done in 144.451
+Tue  1 Feb 12:38:42 UTC 2022
+processing layer with sum 1330... sizes in bytes of current, current+2, current+4: 16M 20M 11M
+	done in 120.168
+Tue  1 Feb 12:38:45 UTC 2022
+processing layer with sum 1328... sizes in bytes of current, current+2, current+4: 22M 16M 20M
+	done in 183.982
+Tue  1 Feb 12:38:48 UTC 2022
+processing layer with sum 1326... sizes in bytes of current, current+2, current+4: 11M 22M 16M
+	done in 75.3878
+Tue  1 Feb 12:38:49 UTC 2022
+processing layer with sum 1324... sizes in bytes of current, current+2, current+4: 21M 11M 22M
+	done in 165.22
+Tue  1 Feb 12:38:52 UTC 2022
+processing layer with sum 1322... sizes in bytes of current, current+2, current+4: 19M 21M 11M
+	done in 149.566
+Tue  1 Feb 12:38:55 UTC 2022
+processing layer with sum 1320... sizes in bytes of current, current+2, current+4: 27M 19M 21M
+	done in 229.558
+Tue  1 Feb 12:38:59 UTC 2022
+processing layer with sum 1318... sizes in bytes of current, current+2, current+4: 16M 27M 19M
+	done in 120.333
+Tue  1 Feb 12:39:01 UTC 2022
+processing layer with sum 1316... sizes in bytes of current, current+2, current+4: 26M 16M 27M
+	done in 202.859
+Tue  1 Feb 12:39:04 UTC 2022
+processing layer with sum 1314... sizes in bytes of current, current+2, current+4: 20M 26M 16M
+	done in 160.137
+Tue  1 Feb 12:39:07 UTC 2022
+processing layer with sum 1312... sizes in bytes of current, current+2, current+4: 26M 20M 26M
+	done in 202.85
+Tue  1 Feb 12:39:11 UTC 2022
+processing layer with sum 1310... sizes in bytes of current, current+2, current+4: 11M 26M 20M
+	done in 76.9232
+Tue  1 Feb 12:39:12 UTC 2022
+processing layer with sum 1308... sizes in bytes of current, current+2, current+4: 25M 11M 26M
+	done in 172.799
+Tue  1 Feb 12:39:15 UTC 2022
+processing layer with sum 1306... sizes in bytes of current, current+2, current+4: 23M 25M 11M
+	done in 169.052
+Tue  1 Feb 12:39:18 UTC 2022
+processing layer with sum 1304... sizes in bytes of current, current+2, current+4: 35M 23M 25M
+	done in 278.5
+Tue  1 Feb 12:39:22 UTC 2022
+processing layer with sum 1302... sizes in bytes of current, current+2, current+4: 22M 35M 23M
+	done in 163.239
+Tue  1 Feb 12:39:25 UTC 2022
+processing layer with sum 1300... sizes in bytes of current, current+2, current+4: 37M 22M 35M
+	done in 298.221
+Tue  1 Feb 12:39:30 UTC 2022
+processing layer with sum 1298... sizes in bytes of current, current+2, current+4: 30M 37M 22M
+	done in 236.97
+Tue  1 Feb 12:39:34 UTC 2022
+processing layer with sum 1296... sizes in bytes of current, current+2, current+4: 39M 30M 37M
+	done in 326.791
+Tue  1 Feb 12:39:39 UTC 2022
+processing layer with sum 1294... sizes in bytes of current, current+2, current+4: 21M 39M 30M
+	done in 147.953
+Tue  1 Feb 12:39:41 UTC 2022
+processing layer with sum 1292... sizes in bytes of current, current+2, current+4: 37M 21M 39M
+	done in 293.624
+Tue  1 Feb 12:39:46 UTC 2022
+processing layer with sum 1290... sizes in bytes of current, current+2, current+4: 34M 37M 21M
+	done in 276.38
+Tue  1 Feb 12:39:50 UTC 2022
+processing layer with sum 1288... sizes in bytes of current, current+2, current+4: 47M 34M 37M
+	done in 421.456
+Tue  1 Feb 12:39:56 UTC 2022
+processing layer with sum 1286... sizes in bytes of current, current+2, current+4: 28M 47M 34M
+	done in 217.008
+Tue  1 Feb 12:40:00 UTC 2022
+processing layer with sum 1284... sizes in bytes of current, current+2, current+4: 46M 28M 47M
+	done in 380.955
+Tue  1 Feb 12:40:05 UTC 2022
+processing layer with sum 1282... sizes in bytes of current, current+2, current+4: 35M 46M 28M
+	done in 284.001
+Tue  1 Feb 12:40:10 UTC 2022
+processing layer with sum 1280... sizes in bytes of current, current+2, current+4: 45M 35M 46M
+	done in 369.929
+Tue  1 Feb 12:40:15 UTC 2022
+processing layer with sum 1278... sizes in bytes of current, current+2, current+4: 22M 45M 35M
+	done in 138.095
+Tue  1 Feb 12:40:18 UTC 2022
+processing layer with sum 1276... sizes in bytes of current, current+2, current+4: 47M 22M 45M
+	done in 353.043
+Tue  1 Feb 12:40:23 UTC 2022
+processing layer with sum 1274... sizes in bytes of current, current+2, current+4: 43M 47M 22M
+	done in 326.968
+Tue  1 Feb 12:40:28 UTC 2022
+processing layer with sum 1272... sizes in bytes of current, current+2, current+4: 64M 43M 47M
+	done in 521.233
+Tue  1 Feb 12:40:35 UTC 2022
+processing layer with sum 1270... sizes in bytes of current, current+2, current+4: 43M 64M 43M
+	done in 306.764
+Tue  1 Feb 12:40:40 UTC 2022
+processing layer with sum 1268... sizes in bytes of current, current+2, current+4: 69M 43M 64M
+	done in 558.997
+Tue  1 Feb 12:40:49 UTC 2022
+processing layer with sum 1266... sizes in bytes of current, current+2, current+4: 56M 69M 43M
+	done in 497.802
+Tue  1 Feb 12:40:55 UTC 2022
+processing layer with sum 1264... sizes in bytes of current, current+2, current+4: 71M 56M 69M
+	done in 605.265
+Tue  1 Feb 12:41:04 UTC 2022
+processing layer with sum 1262... sizes in bytes of current, current+2, current+4: 43M 71M 56M
+	done in 315.489
+Tue  1 Feb 12:41:09 UTC 2022
+processing layer with sum 1260... sizes in bytes of current, current+2, current+4: 72M 43M 71M
+	done in 577.799
+Tue  1 Feb 12:41:18 UTC 2022
+processing layer with sum 1258... sizes in bytes of current, current+2, current+4: 65M 72M 43M
+	done in 525.995
+Tue  1 Feb 12:41:25 UTC 2022
+processing layer with sum 1256... sizes in bytes of current, current+2, current+4: 86M 65M 72M
+	done in 731.147
+Tue  1 Feb 12:41:36 UTC 2022
+processing layer with sum 1254... sizes in bytes of current, current+2, current+4: 57M 86M 65M
+	done in 462.567
+Tue  1 Feb 12:41:42 UTC 2022
+processing layer with sum 1252... sizes in bytes of current, current+2, current+4: 85M 57M 86M
+	done in 746.872
+Tue  1 Feb 12:41:53 UTC 2022
+processing layer with sum 1250... sizes in bytes of current, current+2, current+4: 67M 85M 57M
+	done in 577.311
+Tue  1 Feb 12:42:01 UTC 2022
+processing layer with sum 1248... sizes in bytes of current, current+2, current+4: 83M 67M 85M
+	done in 715.052
+Tue  1 Feb 12:42:11 UTC 2022
+processing layer with sum 1246... sizes in bytes of current, current+2, current+4: 49M 83M 67M
+	done in 347.088
+Tue  1 Feb 12:42:17 UTC 2022
+processing layer with sum 1244... sizes in bytes of current, current+2, current+4: 89M 49M 83M
+	done in 693.427
+Tue  1 Feb 12:42:27 UTC 2022
+processing layer with sum 1242... sizes in bytes of current, current+2, current+4: 82M 89M 49M
+	done in 651.166
+Tue  1 Feb 12:42:36 UTC 2022
+processing layer with sum 1240... sizes in bytes of current, current+2, current+4: 113M 82M 89M
+	done in 949.307
+Tue  1 Feb 12:42:49 UTC 2022
+processing layer with sum 1238... sizes in bytes of current, current+2, current+4: 79M 113M 82M
+	done in 645.562
+Tue  1 Feb 12:42:59 UTC 2022
+processing layer with sum 1236... sizes in bytes of current, current+2, current+4: 119M 79M 113M
+	done in 1007.74
+Tue  1 Feb 12:43:12 UTC 2022
+processing layer with sum 1234... sizes in bytes of current, current+2, current+4: 98M 119M 79M
+	done in 820.215
+Tue  1 Feb 12:43:24 UTC 2022
+processing layer with sum 1232... sizes in bytes of current, current+2, current+4: 120M 98M 119M
+	done in 1041.72
+Tue  1 Feb 12:43:38 UTC 2022
+processing layer with sum 1230... sizes in bytes of current, current+2, current+4: 76M 120M 98M
+	done in 594.322
+Tue  1 Feb 12:43:47 UTC 2022
+processing layer with sum 1228... sizes in bytes of current, current+2, current+4: 125M 76M 120M
+	done in 1059.82
+Tue  1 Feb 12:44:02 UTC 2022
+processing layer with sum 1226... sizes in bytes of current, current+2, current+4: 111M 125M 76M
+	done in 906.769
+Tue  1 Feb 12:44:14 UTC 2022
+processing layer with sum 1224... sizes in bytes of current, current+2, current+4: 144M 111M 125M
+	done in 1246.36
+Tue  1 Feb 12:44:32 UTC 2022
+processing layer with sum 1222... sizes in bytes of current, current+2, current+4: 97M 144M 111M
+	done in 778.8
+Tue  1 Feb 12:44:43 UTC 2022
+processing layer with sum 1220... sizes in bytes of current, current+2, current+4: 144M 97M 144M
+	done in 1273.01
+Tue  1 Feb 12:45:00 UTC 2022
+processing layer with sum 1218... sizes in bytes of current, current+2, current+4: 114M 144M 97M
+	done in 954.77
+Tue  1 Feb 12:45:13 UTC 2022
+processing layer with sum 1216... sizes in bytes of current, current+2, current+4: 142M 114M 144M
+	done in 1208.35
+Tue  1 Feb 12:45:30 UTC 2022
+processing layer with sum 1214... sizes in bytes of current, current+2, current+4: 92M 142M 114M
+	done in 666.068
+Tue  1 Feb 12:45:39 UTC 2022
+processing layer with sum 1212... sizes in bytes of current, current+2, current+4: 160M 92M 142M
+	done in 1292.5
+Tue  1 Feb 12:45:57 UTC 2022
+processing layer with sum 1210... sizes in bytes of current, current+2, current+4: 148M 160M 92M
+	done in 1180.11
+Tue  1 Feb 12:46:13 UTC 2022
+processing layer with sum 1208... sizes in bytes of current, current+2, current+4: 197M 148M 160M
+	done in 1667.81
+Tue  1 Feb 12:46:36 UTC 2022
+processing layer with sum 1206... sizes in bytes of current, current+2, current+4: 146M 197M 148M
+	done in 1173.01
+Tue  1 Feb 12:46:53 UTC 2022
+processing layer with sum 1204... sizes in bytes of current, current+2, current+4: 210M 146M 197M
+	done in 1792.24
+Tue  1 Feb 12:47:17 UTC 2022
+processing layer with sum 1202... sizes in bytes of current, current+2, current+4: 175M 210M 146M
+	done in 1482.03
+Tue  1 Feb 12:47:37 UTC 2022
+processing layer with sum 1200... sizes in bytes of current, current+2, current+4: 211M 175M 210M
+	done in 1886.03
+Tue  1 Feb 12:48:03 UTC 2022
+processing layer with sum 1198... sizes in bytes of current, current+2, current+4: 148M 211M 175M
+	done in 1166.27
+Tue  1 Feb 12:48:19 UTC 2022
+processing layer with sum 1196... sizes in bytes of current, current+2, current+4: 226M 148M 211M
+	done in 1889.68
+Tue  1 Feb 12:48:45 UTC 2022
+processing layer with sum 1194... sizes in bytes of current, current+2, current+4: 202M 226M 148M
+	done in 1750.09
+Tue  1 Feb 12:49:09 UTC 2022
+processing layer with sum 1192... sizes in bytes of current, current+2, current+4: 253M 202M 226M
+	done in 2218.23
+Tue  1 Feb 12:49:39 UTC 2022
+processing layer with sum 1190... sizes in bytes of current, current+2, current+4: 181M 253M 202M
+	done in 1543.49
+Tue  1 Feb 12:50:01 UTC 2022
+processing layer with sum 1188... sizes in bytes of current, current+2, current+4: 253M 181M 253M
+	done in 2193.71
+Tue  1 Feb 12:50:31 UTC 2022
+processing layer with sum 1186... sizes in bytes of current, current+2, current+4: 206M 253M 181M
+	done in 1781.57
+Tue  1 Feb 12:50:55 UTC 2022
+processing layer with sum 1184... sizes in bytes of current, current+2, current+4: 251M 206M 253M
+	done in 2172.55
+Tue  1 Feb 12:51:24 UTC 2022
+processing layer with sum 1182... sizes in bytes of current, current+2, current+4: 177M 251M 206M
+	done in 1360.24
+Tue  1 Feb 12:51:43 UTC 2022
+processing layer with sum 1180... sizes in bytes of current, current+2, current+4: 283M 177M 251M
+	done in 2379.23
+Tue  1 Feb 12:52:15 UTC 2022
+processing layer with sum 1178... sizes in bytes of current, current+2, current+4: 260M 283M 177M
+	done in 2137.46
+Tue  1 Feb 12:52:45 UTC 2022
+processing layer with sum 1176... sizes in bytes of current, current+2, current+4: 332M 260M 283M
+	done in 2939.73
+Tue  1 Feb 12:53:24 UTC 2022
+processing layer with sum 1174... sizes in bytes of current, current+2, current+4: 251M 332M 260M
+	done in 2097.72
+Tue  1 Feb 12:53:53 UTC 2022
+processing layer with sum 1172... sizes in bytes of current, current+2, current+4: 349M 251M 332M
+	done in 3046.54
+Tue  1 Feb 12:54:34 UTC 2022
+processing layer with sum 1170... sizes in bytes of current, current+2, current+4: 290M 349M 251M
+	done in 2546.03
+Tue  1 Feb 12:55:09 UTC 2022
+processing layer with sum 1168... sizes in bytes of current, current+2, current+4: 345M 290M 349M
+	done in 3050.15
+Tue  1 Feb 12:55:50 UTC 2022
+processing layer with sum 1166... sizes in bytes of current, current+2, current+4: 252M 345M 290M
+	done in 2031.64
+Tue  1 Feb 12:56:18 UTC 2022
+processing layer with sum 1164... sizes in bytes of current, current+2, current+4: 374M 252M 345M
+	done in 3197.73
+Tue  1 Feb 12:57:01 UTC 2022
+processing layer with sum 1162... sizes in bytes of current, current+2, current+4: 333M 374M 252M
+	done in 2833.49
+Tue  1 Feb 12:57:39 UTC 2022
+processing layer with sum 1160... sizes in bytes of current, current+2, current+4: 410M 333M 374M
+	done in 3633.13
+Tue  1 Feb 12:58:28 UTC 2022
+processing layer with sum 1158... sizes in bytes of current, current+2, current+4: 303M 410M 333M
+	done in 2525.64
+Tue  1 Feb 12:59:03 UTC 2022
+processing layer with sum 1156... sizes in bytes of current, current+2, current+4: 419M 303M 410M
+	done in 3654.05
+Tue  1 Feb 12:59:52 UTC 2022
+processing layer with sum 1154... sizes in bytes of current, current+2, current+4: 345M 419M 303M
+	done in 2926.31
+Tue  1 Feb 13:00:32 UTC 2022
+processing layer with sum 1152... sizes in bytes of current, current+2, current+4: 421M 345M 419M
+	done in 3643.69
+Tue  1 Feb 13:01:21 UTC 2022
+processing layer with sum 1150... sizes in bytes of current, current+2, current+4: 320M 421M 345M
+	done in 2491.72
+Tue  1 Feb 13:01:55 UTC 2022
+processing layer with sum 1148... sizes in bytes of current, current+2, current+4: 488M 320M 421M
+	done in 4105.35
+Tue  1 Feb 13:02:50 UTC 2022
+processing layer with sum 1146... sizes in bytes of current, current+2, current+4: 450M 488M 320M
+	done in 3766.23
+Tue  1 Feb 13:03:40 UTC 2022
+processing layer with sum 1144... sizes in bytes of current, current+2, current+4: 559M 450M 488M
+	done in 4938.75
+Tue  1 Feb 13:04:47 UTC 2022
+processing layer with sum 1142... sizes in bytes of current, current+2, current+4: 441M 559M 450M
+	done in 3718.97
+Tue  1 Feb 13:05:38 UTC 2022
+processing layer with sum 1140... sizes in bytes of current, current+2, current+4: 589M 441M 559M
+	done in 5249.87
+Tue  1 Feb 13:06:48 UTC 2022
+processing layer with sum 1138... sizes in bytes of current, current+2, current+4: 500M 589M 441M
+	done in 4370.26
+Tue  1 Feb 13:07:47 UTC 2022
+processing layer with sum 1136... sizes in bytes of current, current+2, current+4: 587M 500M 589M
+	done in 5296.38
+Tue  1 Feb 13:08:58 UTC 2022
+processing layer with sum 1134... sizes in bytes of current, current+2, current+4: 456M 587M 500M
+	done in 3792.3
+Tue  1 Feb 13:09:50 UTC 2022
+processing layer with sum 1132... sizes in bytes of current, current+2, current+4: 642M 456M 587M
+	done in 5653.25
+Tue  1 Feb 13:11:06 UTC 2022
+processing layer with sum 1130... sizes in bytes of current, current+2, current+4: 575M 642M 456M
+	done in 5066.32
+Tue  1 Feb 13:12:14 UTC 2022
+processing layer with sum 1128... sizes in bytes of current, current+2, current+4: 687M 575M 642M
+	done in 6252.99
+Tue  1 Feb 13:13:37 UTC 2022
+processing layer with sum 1126... sizes in bytes of current, current+2, current+4: 530M 687M 575M
+	done in 4576.92
+Tue  1 Feb 13:14:39 UTC 2022
+processing layer with sum 1124... sizes in bytes of current, current+2, current+4: 702M 530M 687M
+	done in 6329.95
+Tue  1 Feb 13:16:04 UTC 2022
+processing layer with sum 1122... sizes in bytes of current, current+2, current+4: 590M 702M 530M
+	done in 5178.84
+Tue  1 Feb 13:17:13 UTC 2022
+processing layer with sum 1120... sizes in bytes of current, current+2, current+4: 705M 590M 702M
+	done in 6270.46
+Tue  1 Feb 13:18:37 UTC 2022
+processing layer with sum 1118... sizes in bytes of current, current+2, current+4: 563M 705M 590M
+	done in 4604.47
+Tue  1 Feb 13:19:39 UTC 2022
+processing layer with sum 1116... sizes in bytes of current, current+2, current+4: 810M 563M 705M
+	done in 7050.67
+Tue  1 Feb 13:21:14 UTC 2022
+processing layer with sum 1114... sizes in bytes of current, current+2, current+4: 743M 810M 563M
+	done in 6471.32
+Tue  1 Feb 13:22:41 UTC 2022
+processing layer with sum 1112... sizes in bytes of current, current+2, current+4: 895M 743M 810M
+	done in 8184.2
+Tue  1 Feb 13:24:30 UTC 2022
+processing layer with sum 1110... sizes in bytes of current, current+2, current+4: 720M 895M 743M
+	done in 6301.39
+Tue  1 Feb 13:25:54 UTC 2022
+processing layer with sum 1108... sizes in bytes of current, current+2, current+4: 937M 720M 895M
+	done in 8490.39
+Tue  1 Feb 13:27:47 UTC 2022
+processing layer with sum 1106... sizes in bytes of current, current+2, current+4: 796M 937M 720M
+	done in 7137.46
+Tue  1 Feb 13:29:23 UTC 2022
+processing layer with sum 1104... sizes in bytes of current, current+2, current+4: 928M 796M 937M
+	done in 8457.5
+Tue  1 Feb 13:31:16 UTC 2022
+processing layer with sum 1102... sizes in bytes of current, current+2, current+4: 746M 928M 796M
+	done in 6307.24
+Tue  1 Feb 13:32:40 UTC 2022
+processing layer with sum 1100... sizes in bytes of current, current+2, current+4: 1025M 746M 928M
+	done in 9165
+Tue  1 Feb 13:34:42 UTC 2022
+processing layer with sum 1098... sizes in bytes of current, current+2, current+4: 918M 1025M 746M
+	done in 8189.45
+Tue  1 Feb 13:36:33 UTC 2022
+processing layer with sum 1096... sizes in bytes of current, current+2, current+4: 1083M 918M 1025M
+	done in 9989.16
+Tue  1 Feb 13:38:45 UTC 2022
+processing layer with sum 1094... sizes in bytes of current, current+2, current+4: 866M 1083M 918M
+	done in 7537.39
+Tue  1 Feb 13:40:26 UTC 2022
+processing layer with sum 1092... sizes in bytes of current, current+2, current+4: 1126M 866M 1083M
+	done in 10161.3
+Tue  1 Feb 13:42:40 UTC 2022
+processing layer with sum 1090... sizes in bytes of current, current+2, current+4: 966M 1126M 866M
+	done in 8462.31
+Tue  1 Feb 13:44:33 UTC 2022
+processing layer with sum 1088... sizes in bytes of current, current+2, current+4: 1150M 966M 1126M
+	done in 10274
+Tue  1 Feb 13:46:49 UTC 2022
+processing layer with sum 1086... sizes in bytes of current, current+2, current+4: 965M 1150M 966M
+	done in 7976.27
+Tue  1 Feb 13:48:35 UTC 2022
+processing layer with sum 1084... sizes in bytes of current, current+2, current+4: 1332M 965M 1150M
+	done in 11849.4
+Tue  1 Feb 13:51:12 UTC 2022
+processing layer with sum 1082... sizes in bytes of current, current+2, current+4: 1227M 1332M 965M
+	done in 10894
+Tue  1 Feb 13:53:37 UTC 2022
+processing layer with sum 1080... sizes in bytes of current, current+2, current+4: 1448M 1227M 1332M
+	done in 13391
+Tue  1 Feb 13:56:34 UTC 2022
+processing layer with sum 1078... sizes in bytes of current, current+2, current+4: 1205M 1448M 1227M
+	done in 10724.8
+Tue  1 Feb 13:58:56 UTC 2022
+processing layer with sum 1076... sizes in bytes of current, current+2, current+4: 1518M 1205M 1448M
+	done in 14104.4
+Tue  1 Feb 14:02:03 UTC 2022
+processing layer with sum 1074... sizes in bytes of current, current+2, current+4: 1315M 1518M 1205M
+	done in 12010.5
+Tue  1 Feb 14:04:42 UTC 2022
+processing layer with sum 1072... sizes in bytes of current, current+2, current+4: 1514M 1315M 1518M
+	done in 14059.7
+Tue  1 Feb 14:07:49 UTC 2022
+processing layer with sum 1070... sizes in bytes of current, current+2, current+4: 1270M 1514M 1315M
+	done in 11079.2
+Tue  1 Feb 14:10:16 UTC 2022
+processing layer with sum 1068... sizes in bytes of current, current+2, current+4: 1669M 1270M 1514M
+	done in 15472.8
+Tue  1 Feb 14:13:40 UTC 2022
+processing layer with sum 1066... sizes in bytes of current, current+2, current+4: 1503M 1669M 1270M
+	done in 13783.3
+Tue  1 Feb 14:16:42 UTC 2022
+processing layer with sum 1064... sizes in bytes of current, current+2, current+4: 1733M 1503M 1669M
+	done in 16378.6
+Tue  1 Feb 14:20:19 UTC 2022
+processing layer with sum 1062... sizes in bytes of current, current+2, current+4: 1429M 1733M 1503M
+	done in 12792
+Tue  1 Feb 14:23:10 UTC 2022
+processing layer with sum 1060... sizes in bytes of current, current+2, current+4: 1801M 1429M 1733M
+	done in 16650.8
+Tue  1 Feb 14:26:50 UTC 2022
+processing layer with sum 1058... sizes in bytes of current, current+2, current+4: 1567M 1801M 1429M
+	done in 14134.6
+Tue  1 Feb 14:29:58 UTC 2022
+processing layer with sum 1056... sizes in bytes of current, current+2, current+4: 1834M 1567M 1801M
+	done in 16784.3
+Tue  1 Feb 14:33:40 UTC 2022
+processing layer with sum 1054... sizes in bytes of current, current+2, current+4: 1585M 1834M 1567M
+	done in 13615.2
+Tue  1 Feb 14:36:41 UTC 2022
+processing layer with sum 1052... sizes in bytes of current, current+2, current+4: 2100M 1585M 1834M
+	done in 19470.9
+Tue  1 Feb 14:40:58 UTC 2022
+processing layer with sum 1050... sizes in bytes of current, current+2, current+4: 1927M 2100M 1585M
+	done in 17827
+Tue  1 Feb 14:44:51 UTC 2022
+processing layer with sum 1048... sizes in bytes of current, current+2, current+4: 2227M 1927M 2100M
+	done in 21363.3
+Tue  1 Feb 14:49:30 UTC 2022
+processing layer with sum 1046... sizes in bytes of current, current+2, current+4: 1886M 2227M 1927M
+	done in 17335
+Tue  1 Feb 14:53:19 UTC 2022
+processing layer with sum 1044... sizes in bytes of current, current+2, current+4: 2326M 1886M 2227M
+	done in 22321.7
+Tue  1 Feb 14:58:11 UTC 2022
+processing layer with sum 1042... sizes in bytes of current, current+2, current+4: 2031M 2326M 1886M
+	done in 19091.6
+Tue  1 Feb 15:02:23 UTC 2022
+processing layer with sum 1040... sizes in bytes of current, current+2, current+4: 2325M 2031M 2326M
+	done in 22135.2
+Tue  1 Feb 15:07:11 UTC 2022
+processing layer with sum 1038... sizes in bytes of current, current+2, current+4: 2006M 2325M 2031M
+	done in 17947.7
+Tue  1 Feb 15:11:07 UTC 2022
+processing layer with sum 1036... sizes in bytes of current, current+2, current+4: 2575M 2006M 2325M
+	done in 24268.7
+Tue  1 Feb 15:16:25 UTC 2022
+processing layer with sum 1034... sizes in bytes of current, current+2, current+4: 2329M 2575M 2006M
+	done in 21854.5
+Tue  1 Feb 15:21:12 UTC 2022
+processing layer with sum 1032... sizes in bytes of current, current+2, current+4: 2663M 2329M 2575M
+	done in 25570.8
+Tue  1 Feb 15:26:50 UTC 2022
+processing layer with sum 1030... sizes in bytes of current, current+2, current+4: 2265M 2663M 2329M
+	done in 20573.4
+Tue  1 Feb 15:31:24 UTC 2022
+processing layer with sum 1028... sizes in bytes of current, current+2, current+4: 2801M 2265M 2663M
+	done in 26446.9
+Tue  1 Feb 15:37:15 UTC 2022
+processing layer with sum 1026... sizes in bytes of current, current+2, current+4: 2489M 2801M 2265M
+	done in 22908.4
+Tue  1 Feb 15:42:19 UTC 2022
+processing layer with sum 1024... sizes in bytes of current, current+2, current+4: 2892M 2489M 2801M
+	done in 27070.7
+Tue  1 Feb 15:48:17 UTC 2022
+processing layer with sum 1022... sizes in bytes of current, current+2, current+4: 2583M 2892M 2489M
+	done in 22771.2
+Tue  1 Feb 15:53:20 UTC 2022
+processing layer with sum 1020... sizes in bytes of current, current+2, current+4: 3302M 2583M 2892M
+	done in 30919.5
+Tue  1 Feb 16:00:09 UTC 2022
+processing layer with sum 1018... sizes in bytes of current, current+2, current+4: 3049M 3302M 2583M
+	done in 28462.5
+Tue  1 Feb 16:06:27 UTC 2022
+processing layer with sum 1016... sizes in bytes of current, current+2, current+4: 3463M 3049M 3302M
+	done in 33399.2
+Tue  1 Feb 16:13:49 UTC 2022
+processing layer with sum 1014... sizes in bytes of current, current+2, current+4: 3009M 3463M 3049M
+	done in 28120.4
+Tue  1 Feb 16:20:03 UTC 2022
+processing layer with sum 1012... sizes in bytes of current, current+2, current+4: 3617M 3009M 3463M
+	done in 34929.6
+Tue  1 Feb 16:27:45 UTC 2022
+processing layer with sum 1010... sizes in bytes of current, current+2, current+4: 3211M 3617M 3009M
+	done in 30504.4
+Tue  1 Feb 16:34:30 UTC 2022
+processing layer with sum 1008... sizes in bytes of current, current+2, current+4: 3630M 3211M 3617M
+	done in 34775.5
+Tue  1 Feb 16:42:11 UTC 2022
+processing layer with sum 1006... sizes in bytes of current, current+2, current+4: 3217M 3630M 3211M
+	done in 29482.7
+Tue  1 Feb 16:48:43 UTC 2022
+processing layer with sum 1004... sizes in bytes of current, current+2, current+4: 3988M 3217M 3630M
+	done in 38480.7
+Tue  1 Feb 16:57:11 UTC 2022
+processing layer with sum 1002... sizes in bytes of current, current+2, current+4: 3627M 3988M 3217M
+	done in 34779.4
+Tue  1 Feb 17:04:52 UTC 2022
+processing layer with sum 1000... sizes in bytes of current, current+2, current+4: 4074M 3627M 3988M
+	done in 39849.2
+Tue  1 Feb 17:13:40 UTC 2022
+processing layer with sum 998... sizes in bytes of current, current+2, current+4: 3544M 4074M 3627M
+	done in 33035.1
+Tue  1 Feb 17:21:01 UTC 2022
+processing layer with sum 996... sizes in bytes of current, current+2, current+4: 4274M 3544M 4074M
+	done in 41250.1
+Tue  1 Feb 17:30:08 UTC 2022
+processing layer with sum 994... sizes in bytes of current, current+2, current+4: 3839M 4274M 3544M
+	done in 36170.2
+Tue  1 Feb 17:38:08 UTC 2022
+processing layer with sum 992... sizes in bytes of current, current+2, current+4: 4398M 3839M 4274M
+	done in 42167.3
+Tue  1 Feb 17:47:26 UTC 2022
+processing layer with sum 990... sizes in bytes of current, current+2, current+4: 3999M 4398M 3839M
+	done in 36736.9
+Tue  1 Feb 17:55:34 UTC 2022
+processing layer with sum 988... sizes in bytes of current, current+2, current+4: 4955M 3999M 4398M
+	done in 47879.4
+Tue  1 Feb 18:06:08 UTC 2022
+processing layer with sum 986... sizes in bytes of current, current+2, current+4: 4568M 4955M 3999M
+	done in 43878.3
+Tue  1 Feb 18:15:51 UTC 2022
+processing layer with sum 984... sizes in bytes of current, current+2, current+4: 5116M 4568M 4955M
+	done in 50640.2
+Tue  1 Feb 18:27:01 UTC 2022
+processing layer with sum 982... sizes in bytes of current, current+2, current+4: 4517M 5116M 4568M
+	done in 43143.3
+Tue  1 Feb 18:36:36 UTC 2022
+processing layer with sum 980... sizes in bytes of current, current+2, current+4: 5338M 4517M 5116M
+	done in 52742.6
+Tue  1 Feb 18:48:13 UTC 2022
+processing layer with sum 978... sizes in bytes of current, current+2, current+4: 4789M 5338M 4517M
+	done in 46153.8
+Tue  1 Feb 18:58:25 UTC 2022
+processing layer with sum 976... sizes in bytes of current, current+2, current+4: 5390M 4789M 5338M
+	done in 52850
+Tue  1 Feb 19:10:06 UTC 2022
+processing layer with sum 974... sizes in bytes of current, current+2, current+4: 4882M 5390M 4789M
+	done in 45882.8
+Tue  1 Feb 19:20:16 UTC 2022
+processing layer with sum 972... sizes in bytes of current, current+2, current+4: 5924M 4882M 5390M
+	done in 58267.6
+Tue  1 Feb 19:33:08 UTC 2022
+processing layer with sum 970... sizes in bytes of current, current+2, current+4: 5429M 5924M 4882M
+	done in 52693.6
+Tue  1 Feb 19:44:48 UTC 2022
+processing layer with sum 968... sizes in bytes of current, current+2, current+4: 6057M 5429M 5924M
+	done in 60310.8
+Tue  1 Feb 19:58:09 UTC 2022
+processing layer with sum 966... sizes in bytes of current, current+2, current+4: 5405M 6057M 5429M
+	done in 51634.6
+Tue  1 Feb 20:09:36 UTC 2022
+processing layer with sum 964... sizes in bytes of current, current+2, current+4: 6409M 5405M 6057M
+	done in 63021.5
+Tue  1 Feb 20:23:32 UTC 2022
+processing layer with sum 962... sizes in bytes of current, current+2, current+4: 5859M 6409M 5405M
+	done in 56302.5
+Tue  1 Feb 20:35:56 UTC 2022
+processing layer with sum 960... sizes in bytes of current, current+2, current+4: 6656M 5859M 6409M
+	done in 65315.6
+Tue  1 Feb 20:50:11 UTC 2022
+processing layer with sum 958... sizes in bytes of current, current+2, current+4: 6178M 6656M 5859M
+	done in 58187.2
+Tue  1 Feb 21:02:56 UTC 2022
+processing layer with sum 956... sizes in bytes of current, current+2, current+4: 7438M 6178M 6656M
+	done in 73704.1
+Tue  1 Feb 21:19:01 UTC 2022
+processing layer with sum 954... sizes in bytes of current, current+2, current+4: 6901M 7438M 6178M
+	done in 68192.1
+Tue  1 Feb 21:34:01 UTC 2022
+processing layer with sum 952... sizes in bytes of current, current+2, current+4: 7626M 6901M 7438M
+	done in 76936.7
+Tue  1 Feb 21:50:53 UTC 2022
+processing layer with sum 950... sizes in bytes of current, current+2, current+4: 6867M 7626M 6901M
+	done in 67125
+Tue  1 Feb 22:05:39 UTC 2022
+processing layer with sum 948... sizes in bytes of current, current+2, current+4: 7948M 6867M 7626M
+	done in 80675.3
+Tue  1 Feb 22:23:20 UTC 2022
+processing layer with sum 946... sizes in bytes of current, current+2, current+4: 7228M 7948M 6867M
+	done in 71394
+Tue  1 Feb 22:39:01 UTC 2022
+processing layer with sum 944... sizes in bytes of current, current+2, current+4: 8041M 7228M 7948M
+	done in 80785.6
+Tue  1 Feb 22:56:43 UTC 2022
+processing layer with sum 942... sizes in bytes of current, current+2, current+4: 7407M 8041M 7228M
+	done in 71754.7
+Tue  1 Feb 23:12:29 UTC 2022
+processing layer with sum 940... sizes in bytes of current, current+2, current+4: 8747M 7407M 8041M
+	done in 88382.4
+Tue  1 Feb 23:31:51 UTC 2022
+processing layer with sum 938... sizes in bytes of current, current+2, current+4: 8057M 8747M 7407M
+	done in 80579.1
+Tue  1 Feb 23:49:33 UTC 2022
+processing layer with sum 936... sizes in bytes of current, current+2, current+4: 8871M 8057M 8747M
+	done in 90066.7
+Wed  2 Feb 00:09:18 UTC 2022
+processing layer with sum 934... sizes in bytes of current, current+2, current+4: 8050M 8871M 8057M
+	done in 78949.6
+Wed  2 Feb 00:26:39 UTC 2022
+processing layer with sum 932... sizes in bytes of current, current+2, current+4: 9353M 8050M 8871M
+	done in 94579.8
+Wed  2 Feb 00:47:20 UTC 2022
+processing layer with sum 930... sizes in bytes of current, current+2, current+4: 8627M 9353M 8050M
+	done in 85399.8
+Wed  2 Feb 01:06:05 UTC 2022
+processing layer with sum 928... sizes in bytes of current, current+2, current+4: 9683M 8627M 9353M
+	done in 97225.3
+Wed  2 Feb 01:27:24 UTC 2022
+processing layer with sum 926... sizes in bytes of current, current+2, current+4: 9088M 9683M 8627M
+	done in 88679.6
+Wed  2 Feb 01:46:52 UTC 2022
+processing layer with sum 924... sizes in bytes of current, current+2, current+4: 10678M 9088M 9683M
+	done in 108971
+Wed  2 Feb 02:10:40 UTC 2022
+processing layer with sum 922... sizes in bytes of current, current+2, current+4: 9927M 10678M 9088M
+	done in 100570
+Wed  2 Feb 02:32:38 UTC 2022
+processing layer with sum 920... sizes in bytes of current, current+2, current+4: 10864M 9927M 10678M
+	done in 112406
+Wed  2 Feb 02:57:17 UTC 2022
+processing layer with sum 918... sizes in bytes of current, current+2, current+4: 9925M 10864M 9927M
+	done in 99505.1
+Wed  2 Feb 03:19:08 UTC 2022
+processing layer with sum 916... sizes in bytes of current, current+2, current+4: 11330M 9925M 10864M
+	done in 116995
+Wed  2 Feb 03:44:43 UTC 2022
+processing layer with sum 914... sizes in bytes of current, current+2, current+4: 10425M 11330M 9925M
+	done in 105515
+Wed  2 Feb 04:07:50 UTC 2022
+processing layer with sum 912... sizes in bytes of current, current+2, current+4: 11541M 10425M 11330M
+	done in 118347
+Wed  2 Feb 04:33:45 UTC 2022
+processing layer with sum 910... sizes in bytes of current, current+2, current+4: 10805M 11541M 10425M
+	done in 107544
+Wed  2 Feb 04:57:17 UTC 2022
+processing layer with sum 908... sizes in bytes of current, current+2, current+4: 12526M 10805M 11541M
+	done in 129499
+Wed  2 Feb 05:25:58 UTC 2022
+processing layer with sum 906... sizes in bytes of current, current+2, current+4: 11649M 12526M 10805M
+	done in 118916
+Wed  2 Feb 05:52:31 UTC 2022
+processing layer with sum 904... sizes in bytes of current, current+2, current+4: 12747M 11649M 12526M
+	done in 132523
+Wed  2 Feb 06:21:41 UTC 2022
+processing layer with sum 902... sizes in bytes of current, current+2, current+4: 11797M 12747M 11649M
+	done in 118602
+Wed  2 Feb 06:47:35 UTC 2022
+processing layer with sum 900... sizes in bytes of current, current+2, current+4: 13498M 11797M 12747M
+	done in 140151
+Wed  2 Feb 07:18:09 UTC 2022
+processing layer with sum 898... sizes in bytes of current, current+2, current+4: 12627M 13498M 11797M
+	done in 128371
+Wed  2 Feb 07:46:11 UTC 2022
+processing layer with sum 896... sizes in bytes of current, current+2, current+4: 14035M 12627M 13498M
+	done in 145069
+Wed  2 Feb 08:17:46 UTC 2022
+processing layer with sum 894... sizes in bytes of current, current+2, current+4: 13342M 14035M 12627M
+	done in 134389
+Wed  2 Feb 08:47:24 UTC 2022
+processing layer with sum 892... sizes in bytes of current, current+2, current+4: 15317M 13342M 14035M
+	done in 160382
+Wed  2 Feb 09:22:36 UTC 2022
+processing layer with sum 890... sizes in bytes of current, current+2, current+4: 14328M 15317M 13342M
+	done in 148416
+Wed  2 Feb 09:55:02 UTC 2022
+processing layer with sum 888... sizes in bytes of current, current+2, current+4: 15513M 14328M 15317M
+	done in 163517
+Wed  2 Feb 10:31:13 UTC 2022
+processing layer with sum 886... sizes in bytes of current, current+2, current+4: 14376M 15513M 14328M
+	done in 147681
+Wed  2 Feb 11:03:48 UTC 2022
+processing layer with sum 884... sizes in bytes of current, current+2, current+4: 16135M 14376M 15513M
+	done in 170478
+Wed  2 Feb 11:41:04 UTC 2022
+processing layer with sum 882... sizes in bytes of current, current+2, current+4: 14999M 16135M 14376M
+Wed  2 Feb 11:52:07 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000331
+CPU concurrency: start with layer (default 2048): Wed  2 Feb 11:52:10 UTC 2022
+processing layer with sum 882... sizes in bytes of current, current+2, current+4: 14999M 16135M 14376M
+	done in 159276
+Wed  2 Feb 12:27:34 UTC 2022
+processing layer with sum 880... sizes in bytes of current, current+2, current+4: 16430M 14999M 16135M
+	done in 175636
+Wed  2 Feb 13:06:33 UTC 2022
+processing layer with sum 878... sizes in bytes of current, current+2, current+4: 15541M 16430M 14999M
+	done in 161112
+Wed  2 Feb 13:41:47 UTC 2022
+processing layer with sum 876... sizes in bytes of current, current+2, current+4: 17632M 15541M 16430M
+	done in 189328
+Wed  2 Feb 14:23:02 UTC 2022
+processing layer with sum 874... sizes in bytes of current, current+2, current+4: 16476M 17632M 15541M
+	done in 174601
+Wed  2 Feb 15:01:09 UTC 2022
+processing layer with sum 872... sizes in bytes of current, current+2, current+4: 17848M 16476M 17632M
+	done in 191700
+Wed  2 Feb 15:43:05 UTC 2022
+processing layer with sum 870... sizes in bytes of current, current+2, current+4: 16711M 17848M 16476M
+	done in 174285
+Wed  2 Feb 16:21:14 UTC 2022
+processing layer with sum 868... sizes in bytes of current, current+2, current+4: 18811M 16711M 17848M
+	done in 202472
+Wed  2 Feb 17:05:17 UTC 2022
+processing layer with sum 866... sizes in bytes of current, current+2, current+4: 17721M 18811M 16711M
+	done in 188608
+Wed  2 Feb 17:46:07 UTC 2022
+processing layer with sum 864... sizes in bytes of current, current+2, current+4: 19499M 17721M 18811M
+	done in 210323
+Wed  2 Feb 18:32:55 UTC 2022
+processing layer with sum 862... sizes in bytes of current, current+2, current+4: 18665M 19499M 17721M
+	done in 195935
+Wed  2 Feb 19:16:39 UTC 2022
+processing layer with sum 860... sizes in bytes of current, current+2, current+4: 21032M 18665M 19499M
+	done in 229405
+Wed  2 Feb 20:06:40 UTC 2022
+processing layer with sum 858... sizes in bytes of current, current+2, current+4: 19755M 21032M 18665M
+	done in 213286
+Wed  2 Feb 20:53:10 UTC 2022
+processing layer with sum 856... sizes in bytes of current, current+2, current+4: 21246M 19755M 21032M
+	done in 232803
+Wed  2 Feb 21:43:57 UTC 2022
+processing layer with sum 854... sizes in bytes of current, current+2, current+4: 19932M 21246M 19755M
+	done in 212720
+Wed  2 Feb 22:30:32 UTC 2022
+processing layer with sum 852... sizes in bytes of current, current+2, current+4: 22123M 19932M 21246M
+	done in 243153
+Wed  2 Feb 23:23:33 UTC 2022
+processing layer with sum 850... sizes in bytes of current, current+2, current+4: 20796M 22123M 19932M
+	done in 223919
+Thu  3 Feb 00:12:23 UTC 2022
+processing layer with sum 848... sizes in bytes of current, current+2, current+4: 22662M 20796M 22123M
+	done in 247417
+Thu  3 Feb 01:06:20 UTC 2022
+processing layer with sum 846... sizes in bytes of current, current+2, current+4: 21684M 22662M 20796M
+	done in 231631
+Thu  3 Feb 01:56:55 UTC 2022
+processing layer with sum 844... sizes in bytes of current, current+2, current+4: 24239M 21684M 22662M
+	done in 267492
+Thu  3 Feb 02:55:12 UTC 2022
+processing layer with sum 842... sizes in bytes of current, current+2, current+4: 22864M 24239M 21684M
+	done in 249102
+Thu  3 Feb 03:50:04 UTC 2022
+processing layer with sum 840... sizes in bytes of current, current+2, current+4: 24635M 22864M 24239M
+	done in 272380
+Thu  3 Feb 04:50:10 UTC 2022
+processing layer with sum 838... sizes in bytes of current, current+2, current+4: 23396M 24635M 22864M
+	done in 252402
+Thu  3 Feb 05:46:16 UTC 2022
+processing layer with sum 836... sizes in bytes of current, current+2, current+4: 25995M 23396M 24635M
+	done in 288268
+Thu  3 Feb 06:50:06 UTC 2022
+processing layer with sum 834... sizes in bytes of current, current+2, current+4: 24745M 25995M 23396M
+	done in 270150
+Thu  3 Feb 07:49:53 UTC 2022
+processing layer with sum 832... sizes in bytes of current, current+2, current+4: 26969M 24745M 25995M
+	done in 299758
+Thu  3 Feb 08:55:08 UTC 2022
+processing layer with sum 830... sizes in bytes of current, current+2, current+4: 26017M 26969M 24745M
+	done in 284170
+Thu  3 Feb 09:57:11 UTC 2022
+processing layer with sum 828... sizes in bytes of current, current+2, current+4: 28791M 26017M 26969M
+	done in 324537
+Thu  3 Feb 11:07:49 UTC 2022
+processing layer with sum 826... sizes in bytes of current, current+2, current+4: 27203M 28791M 26017M
+Thu  3 Feb 11:14:13 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000381
+CPU concurrency: start with layer (default 2048): Thu  3 Feb 11:14:15 UTC 2022
+processing layer with sum 826... sizes in bytes of current, current+2, current+4: 27203M 28791M 26017M
+	done in 308503
+Thu  3 Feb 12:21:35 UTC 2022
+processing layer with sum 824... sizes in bytes of current, current+2, current+4: 29010M 27203M 28791M
+	done in 333531
+Thu  3 Feb 13:32:46 UTC 2022
+processing layer with sum 822... sizes in bytes of current, current+2, current+4: 27499M 29010M 27203M
+	done in 309657
+Thu  3 Feb 14:38:59 UTC 2022
+processing layer with sum 820... sizes in bytes of current, current+2, current+4: 30100M 27499M 29010M
+	done in 346706
+Thu  3 Feb 15:53:11 UTC 2022
+processing layer with sum 818... sizes in bytes of current, current+2, current+4: 28519M 30100M 27499M
+	done in 323017
+Thu  3 Feb 17:02:33 UTC 2022
+processing layer with sum 816... sizes in bytes of current, current+2, current+4: 30780M 28519M 30100M
+	done in 353224
+Thu  3 Feb 18:17:41 UTC 2022
+processing layer with sum 814... sizes in bytes of current, current+2, current+4: 29637M 30780M 28519M
+	done in 333776
+Thu  3 Feb 19:28:44 UTC 2022
+processing layer with sum 812... sizes in bytes of current, current+2, current+4: 32575M 29637M 30780M
+	done in 377047
+Thu  3 Feb 20:49:01 UTC 2022
+processing layer with sum 810... sizes in bytes of current, current+2, current+4: 30881M 32575M 29637M
+	done in 352735
+Thu  3 Feb 22:04:49 UTC 2022
+processing layer with sum 808... sizes in bytes of current, current+2, current+4: 33007M 30881M 32575M
+	done in 381994
+Thu  3 Feb 23:26:00 UTC 2022
+processing layer with sum 806... sizes in bytes of current, current+2, current+4: 31609M 33007M 30881M
+	done in 358206
+Fri  4 Feb 00:42:51 UTC 2022
+processing layer with sum 804... sizes in bytes of current, current+2, current+4: 34656M 31609M 33007M
+	done in 401578
+Fri  4 Feb 02:08:59 UTC 2022
+processing layer with sum 802... sizes in bytes of current, current+2, current+4: 33187M 34656M 31609M
+	done in 379043
+Fri  4 Feb 03:31:36 UTC 2022
+processing layer with sum 800... sizes in bytes of current, current+2, current+4: 35850M 33187M 34656M
+	done in 416365
+Fri  4 Feb 05:00:45 UTC 2022
+processing layer with sum 798... sizes in bytes of current, current+2, current+4: 34751M 35850M 33187M
+	done in 398506
+Fri  4 Feb 06:26:16 UTC 2022
+processing layer with sum 796... sizes in bytes of current, current+2, current+4: 37915M 34751M 35850M
+	done in 446424
+Fri  4 Feb 08:02:53 UTC 2022
+processing layer with sum 794... sizes in bytes of current, current+2, current+4: 36028M 37915M 34751M
+	done in 419740
+Fri  4 Feb 09:34:28 UTC 2022
+processing layer with sum 792... sizes in bytes of current, current+2, current+4: 38228M 36028M 37915M
+Fri  4 Feb 09:38:14 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000358
+CPU concurrency: start with layer (default 2048): Fri  4 Feb 09:38:16 UTC 2022
+processing layer with sum 792... sizes in bytes of current, current+2, current+4: 38228M 36028M 37915M
+	done in 449992
+Fri  4 Feb 11:17:59 UTC 2022
+processing layer with sum 790... sizes in bytes of current, current+2, current+4: 36603M 38228M 36028M
+	done in 422918
+Fri  4 Feb 12:49:34 UTC 2022
+processing layer with sum 788... sizes in bytes of current, current+2, current+4: 39699M 36603M 38228M
+Fri  4 Feb 13:04:59 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000302
+CPU concurrency: start with layer (default 2048): Fri  4 Feb 13:05:04 UTC 2022
+processing layer with sum 788... sizes in bytes of current, current+2, current+4: 39699M 36603M 38228M
+	done in 468316
+Fri  4 Feb 14:48:14 UTC 2022
+processing layer with sum 786... sizes in bytes of current, current+2, current+4: 37977M 39699M 36603M
+	done in 442732
+Fri  4 Feb 16:23:18 UTC 2022
+processing layer with sum 784... sizes in bytes of current, current+2, current+4: 40758M 37977M 39699M
+	done in 481687
+Fri  4 Feb 18:22:42 UTC 2022
+processing layer with sum 782... sizes in bytes of current, current+2, current+4: 39562M 40758M 37977M
+	done in 457091
+Fri  4 Feb 20:08:59 UTC 2022
+processing layer with sum 780... sizes in bytes of current, current+2, current+4: 42967M 39562M 40758M
+	done in 505983
+Fri  4 Feb 21:58:54 UTC 2022
+processing layer with sum 778... sizes in bytes of current, current+2, current+4: 41076M 42967M 39562M
+	done in 478543
+Fri  4 Feb 23:42:53 UTC 2022
+processing layer with sum 776... sizes in bytes of current, current+2, current+4: 43670M 41076M 42967M
+	done in 512440
+Sat  5 Feb 01:35:51 UTC 2022
+processing layer with sum 774... sizes in bytes of current, current+2, current+4: 42227M 43670M 41076M
+	done in 487267
+Sat  5 Feb 03:21:52 UTC 2022
+processing layer with sum 772... sizes in bytes of current, current+2, current+4: 45773M 42227M 43670M
+	done in 538563
+Sat  5 Feb 05:19:05 UTC 2022
+processing layer with sum 770... sizes in bytes of current, current+2, current+4: 44147M 45773M 42227M
+	done in 513654
+Sat  5 Feb 07:10:43 UTC 2022
+processing layer with sum 768... sizes in bytes of current, current+2, current+4: 47256M 44147M 45773M
+	done in 558474
+Sat  5 Feb 09:13:05 UTC 2022
+processing layer with sum 766... sizes in bytes of current, current+2, current+4: 46011M 47256M 44147M
+Sat  5 Feb 11:47:53 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000281
+CPU concurrency: start with layer (default 2048): Sat  5 Feb 11:47:56 UTC 2022
+processing layer with sum 766... sizes in bytes of current, current+2, current+4: 46011M 47256M 44147M
+	done in 540078
+Sat  5 Feb 13:48:47 UTC 2022
+processing layer with sum 764... sizes in bytes of current, current+2, current+4: 49492M 46011M 47256M
+	done in 592409
+Sat  5 Feb 15:57:04 UTC 2022
+processing layer with sum 762... sizes in bytes of current, current+2, current+4: 47271M 49492M 46011M
+	done in 559712
+Sat  5 Feb 17:58:52 UTC 2022
+processing layer with sum 760... sizes in bytes of current, current+2, current+4: 49799M 47271M 49492M
+	done in 597022
+Sat  5 Feb 20:08:11 UTC 2022
+processing layer with sum 758... sizes in bytes of current, current+2, current+4: 48010M 49799M 47271M
+	done in 565963
+Sat  5 Feb 22:12:15 UTC 2022
+processing layer with sum 756... sizes in bytes of current, current+2, current+4: 51473M 48010M 49799M
+	done in 617479
+Sun  6 Feb 00:26:15 UTC 2022
+processing layer with sum 754... sizes in bytes of current, current+2, current+4: 49512M 51473M 48010M
+	done in 586042
+Sun  6 Feb 02:34:45 UTC 2022
+processing layer with sum 752... sizes in bytes of current, current+2, current+4: 52678M 49512M 51473M
+	done in 631444
+Sun  6 Feb 04:53:39 UTC 2022
+processing layer with sum 750... sizes in bytes of current, current+2, current+4: 51312M 52678M 49512M
+	done in 608793
+Sun  6 Feb 07:07:49 UTC 2022
+processing layer with sum 748... sizes in bytes of current, current+2, current+4: 55004M 51312M 52678M
+	done in 673975
+Sun  6 Feb 09:33:00 UTC 2022
+processing layer with sum 746... sizes in bytes of current, current+2, current+4: 52818M 55004M 51312M
+Sun  6 Feb 10:29:49 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000352
+CPU concurrency: start with layer (default 2048): Sun  6 Feb 10:29:52 UTC 2022
+processing layer with sum 746... sizes in bytes of current, current+2, current+4: 52818M 55004M 51312M
+	done in 636130
+Sun  6 Feb 12:51:00 UTC 2022
+processing layer with sum 744... sizes in bytes of current, current+2, current+4: 55784M 52818M 55004M
+	done in 678430
+Sun  6 Feb 15:17:23 UTC 2022
+processing layer with sum 742... sizes in bytes of current, current+2, current+4: 54237M 55784M 52818M
+	done in 650725
+Sun  6 Feb 17:42:24 UTC 2022
+processing layer with sum 740... sizes in bytes of current, current+2, current+4: 58170M 54237M 55784M
+	done in 713447
+Sun  6 Feb 20:24:30 UTC 2022
+processing layer with sum 738... sizes in bytes of current, current+2, current+4: 56366M 58170M 54237M
+	done in 682027
+Sun  6 Feb 22:55:14 UTC 2022
+processing layer with sum 736... sizes in bytes of current, current+2, current+4: 59882M 56366M 58170M
+	done in 733000
+Mon  7 Feb 01:33:32 UTC 2022
+processing layer with sum 734... sizes in bytes of current, current+2, current+4: 58504M 59882M 56366M
+	done in 704062
+Mon  7 Feb 04:06:36 UTC 2022
+processing layer with sum 732... sizes in bytes of current, current+2, current+4: 62277M 58504M 59882M
+	done in 764322
+Mon  7 Feb 06:52:39 UTC 2022
+processing layer with sum 730... sizes in bytes of current, current+2, current+4: 59843M 62277M 58504M
+                                                                                                                                                    Mon  7 Feb 09:33:15 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000319
+CPU concurrency: start with layer (default 2048): Mon  7 Feb 09:33:17 UTC 2022
+processing layer with sum 728... sizes in bytes of current, current+2, current+4: 62796M 59843M 62277M
