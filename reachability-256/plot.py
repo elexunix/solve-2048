@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-
-import matplotlib.pyplot as plt
-import numpy as np
-import sys
+import matplotlib.pyplot as plt, numpy as np, random
+import sys, multiprocessing
+from subprocess import Popen, PIPE
 
 arr = list(map(int, open('layer_sizes', 'r').read().split()))
 #plt.plot(arr)
-
 #brr = [100 * 2**30 * 8 / 3] * 1024
 #plt.plot(brr)
-
 #x_100gb=400
 #plt.fill_between(range(x_100gb, 1024), [0] * (1024 - x_100gb), arr[x_100gb:])
 #plt.show()
@@ -44,8 +41,40 @@ for i in range(len(available_fraction_labels)):
       available_fraction_labels[i], available_fraction_labels[j] = available_fraction_labels[j], available_fraction_labels[i]
       available_fractions[i], available_fractions[j] = available_fractions[j], available_fractions[i]
 ax2.plot(available_fraction_labels, available_fractions, 'r')
+
+def estimate_forward(sum, p_sum_plus_2, p_sum_plus_4, cnt_samples=100000, predict_steps=30):
+  #stat, output = commands.getstatusoutput(f'./estimate.out {sum} {p_sum_plus_2} {p_sum_plus_4} {cnt_samples} {predict_steps}')
+  process = Popen(['./estimate.out', str(sum), str(p_sum_plus_2), str(p_sum_plus_4), str(cnt_samples), str(predict_steps)], stdout=PIPE, stderr=PIPE)
+  stdout, stderr = process.communicate()
+  output = list(map(float, stdout.split()[10:]))
+  assert len(output) == predict_steps
+  #print('output:', output)
+  return sum, output
+q = []
+with multiprocessing.Pool() as pool:
+  for sum in range(60, 1500, 2):
+    if random.random() > 0.2:
+      continue
+    whatever_p = random.random()
+    q.append(pool.apply_async(estimate_forward, (sum, whatever_p, whatever_p, 10000)))
+  ax3 = ax1.twinx()
+  ax3.set_ylim(0, 1)
+  ax3.set_xticklabels([])
+  ax3.set_yticklabels([])
+  for p in q:
+    sum = p.get()[0]
+    result = list(reversed(p.get()[1]))
+    al = 0
+    while al < len(result) and result[al] > result[0] - 0.1 and result[al] < result[0] + 0.1:
+      al += 1
+    ax3.plot(range(sum - al * 2 + 2, sum + 2, 2), result[0:al], color='green')
+
 plt.savefig('Figure_1.png')
 plt.show()
+
+
+quit(0)
+# don't draw memory requirements
 
 plt.clf()
 mem = 0
