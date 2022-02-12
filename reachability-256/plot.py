@@ -42,7 +42,8 @@ for i in range(len(available_fraction_labels)):
       available_fractions[i], available_fractions[j] = available_fractions[j], available_fractions[i]
 ax2.plot(available_fraction_labels, available_fractions, 'r')
 
-def estimate_forward(sum, p_sum_plus_2, p_sum_plus_4, cnt_samples=100000, predict_steps=30):
+'''
+def estimate_forward_impl(sum, p_sum_plus_2, p_sum_plus_4, cnt_samples, predict_steps):
   #stat, output = commands.getstatusoutput(f'./estimate.out {sum} {p_sum_plus_2} {p_sum_plus_4} {cnt_samples} {predict_steps}')
   process = Popen(['./estimate.out', str(sum), str(p_sum_plus_2), str(p_sum_plus_4), str(cnt_samples), str(predict_steps)], stdout=PIPE, stderr=PIPE)
   stdout, stderr = process.communicate()
@@ -50,11 +51,21 @@ def estimate_forward(sum, p_sum_plus_2, p_sum_plus_4, cnt_samples=100000, predic
   assert len(output) == predict_steps
   #print('output:', output)
   return sum, output
+def estimate_forward(sum, p_sum_plus_2, p_sum_plus_4, predict_steps):
+  prev = 2
+  steps = 50000
+  while True:
+    sum, output = estimate_forward_impl(sum, p_sum_plus_2, p_sum_plus_4, steps, predict_steps)
+    if -0.01 < output[-1] - prev < +0.01:
+      print('steps', steps)
+      return sum, output
+    prev = output[-1]
+    steps *= 2
 def estimate_mediator(sum):
   l, r, mid = 0, 1, 0.5
-  while r - l > 1e-6:
+  while r - l > 0.005:
     mid = (l + r) / 2
-    last = estimate_forward(sum, mid, mid)[1][-1]
+    last = estimate_forward(sum, mid, mid, 5)[1][-1]
     if last > mid:
       r = mid
     else:
@@ -62,7 +73,7 @@ def estimate_mediator(sum):
   return sum, l
 q = []
 with multiprocessing.Pool() as pool:
-  for sum in range(60, 1500, 2):
+  for sum in range(10, 1500, 2):
     #if random.random() > 0.1:
     #  continue
 #    whatever_p = random.random()
@@ -87,6 +98,7 @@ with multiprocessing.Pool() as pool:
     r2.append(mid)
   print(r1, r2)
   ax3.plot(r1, r2, color='green')
+'''
 
 plt.savefig('Figure_1.png')
 plt.show()
