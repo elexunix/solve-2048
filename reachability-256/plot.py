@@ -50,24 +50,43 @@ def estimate_forward(sum, p_sum_plus_2, p_sum_plus_4, cnt_samples=100000, predic
   assert len(output) == predict_steps
   #print('output:', output)
   return sum, output
+def estimate_mediator(sum):
+  l, r, mid = 0, 1, 0.5
+  while r - l > 1e-6:
+    mid = (l + r) / 2
+    last = estimate_forward(sum, mid, mid)[1][-1]
+    if last > mid:
+      r = mid
+    else:
+      l = mid
+  return sum, l
 q = []
 with multiprocessing.Pool() as pool:
   for sum in range(60, 1500, 2):
-    if random.random() > 0.2:
-      continue
-    whatever_p = random.random()
-    q.append(pool.apply_async(estimate_forward, (sum, whatever_p, whatever_p, 10000)))
+    #if random.random() > 0.1:
+    #  continue
+#    whatever_p = random.random()
+#    q.append(pool.apply_async(estimate_forward, (sum, whatever_p, whatever_p, 10000)))
+    q.append(pool.apply_async(estimate_mediator, (sum,)))
   ax3 = ax1.twinx()
   ax3.set_ylim(0, 1)
   ax3.set_xticklabels([])
   ax3.set_yticklabels([])
+#  for p in q:
+#    sum = p.get()[0]
+#    result = list(reversed(p.get()[1]))
+#    al = 0
+#    while al < len(result) and result[al] > result[0] - 0.1 and result[al] < result[0] + 0.1:
+#      al += 1
+#    ax3.plot(range(sum - al * 2 + 2, sum + 2, 2), result[0:al], color='green')
+  r1, r2 = [], []
   for p in q:
-    sum = p.get()[0]
-    result = list(reversed(p.get()[1]))
-    al = 0
-    while al < len(result) and result[al] > result[0] - 0.1 and result[al] < result[0] + 0.1:
-      al += 1
-    ax3.plot(range(sum - al * 2 + 2, sum + 2, 2), result[0:al], color='green')
+    sum, mid = p.get()
+    print('sum', sum, 'mid', mid)
+    r1.append(sum)
+    r2.append(mid)
+  print(r1, r2)
+  ax3.plot(r1, r2, color='green')
 
 plt.savefig('Figure_1.png')
 plt.show()
