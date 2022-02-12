@@ -104,7 +104,7 @@ plt.savefig('Figure_1.png')
 plt.show()
 
 
-quit(0)
+#quit(0)
 # don't draw memory requirements
 
 plt.clf()
