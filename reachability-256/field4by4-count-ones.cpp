@@ -55,12 +55,25 @@ entry count_ones(std::string folder, std::string filename) {
   ss << filename;
   ss >> layer_sum;
   unsigned char *layer;
-  layer = new unsigned char[index_dp[16][layer_sum] / 8 + 1];
-  read_arr_from_disk(index_dp[16][layer_sum] / 8 + 1, layer, folder + "/ulayer" + itos(layer_sum, 4) + ".dat");
-  long long cnt_ones = 0;
-  for (long long i = 0; i < index_dp[16][layer_sum] / 8 + 1; ++i) {
-    cnt_ones += ones_cnt[layer[i]];
+  //layer = new unsigned char[index_dp[16][layer_sum] / 8 + 1];
+  //read_arr_from_disk(index_dp[16][layer_sum] / 8 + 1, layer, folder + "/ulayer" + itos(layer_sum, 4) + ".dat");
+  std::ifstream fin(folder + "/ulayer" + itos(layer_sum, 4) + ".dat", std::ios::binary);
+  if (!fin.is_open()) {
+    throw std::runtime_error("no file named " + folder + "/ulayer" + itos(layer_sum, 4) + ".dat");
+    exit(1);
   }
+  const int64_t kBlockSize = 1'000'000'000, layer_size = index_dp[16][layer_sum] / 8 + 1;
+  layer = new unsigned char[kBlockSize];
+  int64_t cnt_ones = 0;
+  for (int64_t i = 0; i + kBlockSize <= layer_size; i += kBlockSize) {
+    fin.read(reinterpret_cast<char*>(layer), kBlockSize);
+    for (int64_t i = 0; i < kBlockSize; ++i)
+      cnt_ones += ones_cnt[layer[i]];
+  }
+  int64_t remainder = layer_size % kBlockSize;
+  fin.read(reinterpret_cast<char*>(layer), remainder % kBlockSize);
+  for (int64_t i = 0; i < kBlockSize; ++i)
+    cnt_ones += ones_cnt[layer[i]];
   delete[] layer;
   return {layer_sum, cnt_ones};
 }
