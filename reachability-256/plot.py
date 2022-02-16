@@ -11,7 +11,7 @@ arr = list(map(int, open('layer_sizes', 'r').read().split()))
 #plt.fill_between(range(x_100gb, 1024), [0] * (1024 - x_100gb), arr[x_100gb:])
 #plt.show()
 
-fig = plt.figure(figsize=(16,9))
+fig = plt.figure(figsize=(19.2, 10.8))
 ax1 = fig.add_axes([0.1, 0.1, 0.8, 0.8])
 ax1.set_xlabel('Layer sum')
 ax1.set_xlim(0, len(arr) * 2)
@@ -34,6 +34,7 @@ for label_and_cnt in fractions_stuff:
     continue
   available_fraction_labels.append(label)
   available_fractions.append(cnt / arr[label // 2 - 1])
+  print(label_and_cnt, arr[label // 2 - 1],  available_fractions[-1])
   #available_fractions.append(.5)
 for i in range(len(available_fraction_labels)):
   for j in range(i):

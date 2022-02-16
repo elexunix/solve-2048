@@ -71,8 +71,8 @@ entry count_ones(std::string folder, std::string filename) {
       cnt_ones += ones_cnt[layer[i]];
   }
   int64_t remainder = layer_size % kBlockSize;
-  fin.read(reinterpret_cast<char*>(layer), remainder % kBlockSize);
-  for (int64_t i = 0; i < kBlockSize; ++i)
+  fin.read(reinterpret_cast<char*>(layer), remainder);
+  for (int64_t i = 0; i < remainder; ++i)
     cnt_ones += ones_cnt[layer[i]];
   delete[] layer;
   return {layer_sum, cnt_ones};
