@@ -60,9 +60,17 @@ int main() {
     std::cin >> CPU_concurrency;
     std::thread jobs[CPU_concurrency];
     std::cout << "start with layer (default " << 4 * 4 * win_const / 2 << "): ";
-    int init_layer_sum;
-    std::cin >> init_layer_sum;
-    for (int sum = init_layer_sum; sum >= 0; sum -= 2) {
+    int sum;
+    std::cin >> sum;
+    if (sum + 2 < layers_cnt) {
+        user_turn_positions[sum + 2] = new unsigned char[index_dp[16][sum + 2] / 8 + 1];
+        read_arr_from_disk(index_dp[16][sum + 2] / 8 + 1, user_turn_positions[sum + 2], "arrays4by4-256/ulayer" + itos(sum + 2, 4) + ".dat");
+    }
+    if (sum + 4 < layers_cnt) {
+        user_turn_positions[sum + 4] = new unsigned char[index_dp[16][sum + 4] / 8 + 1];
+        read_arr_from_disk(index_dp[16][sum + 4] / 8 + 1, user_turn_positions[sum + 4], "arrays4by4-256/ulayer" + itos(sum + 4, 4) + ".dat");
+    }
+    for (; sum >= 0; sum -= 2) {
         system("date");
         report_start("processing layer with sum " + itos(sum));
         std::cout << " sizes in bytes of current, current+2, current+4: " << (index_dp[16][sum] / 8 + 1 >> 20) << "M ";
@@ -70,14 +78,6 @@ int main() {
         sum + 4 < layers_cnt ? std::cout << (index_dp[16][sum + 4] / 8 + 1 >> 20) << "M" : std::cout << "[doesn't exist] ";
         std::cout << std::endl;
         long long total_cnt = index_dp[16][sum];  // in a layer for one player
-        if (sum + 2 < layers_cnt) {
-            user_turn_positions[sum + 2] = new unsigned char[index_dp[16][sum + 2] / 8 + 1];
-            read_arr_from_disk(index_dp[16][sum + 2] / 8 + 1, user_turn_positions[sum + 2], "arrays4by4-256/ulayer" + itos(sum + 2, 4) + ".dat");
-        }
-        if (sum + 4 < layers_cnt) {
-            user_turn_positions[sum + 4] = new unsigned char[index_dp[16][sum + 4] / 8 + 1];
-            read_arr_from_disk(index_dp[16][sum + 4] / 8 + 1, user_turn_positions[sum + 4], "arrays4by4-256/ulayer" + itos(sum + 4, 4) + ".dat");
-        }
         // first hater positions
         hater_turn_positions[sum] = new unsigned char[index_dp[16][sum] / 8 + 1];
         hater_turn_positions[sum][index_dp[16][sum] / 8] = 0;  // useless line to avoid UB later
@@ -91,8 +91,6 @@ int main() {
         }
         for (int thread_id = 0; thread_id < CPU_concurrency; ++thread_id)
             jobs[thread_id].join();
-        if (sum + 2 < layers_cnt)
-            delete[] user_turn_positions[sum + 2];
         if (sum + 4 < layers_cnt)
             delete[] user_turn_positions[sum + 4];
         // then user positions
@@ -109,8 +107,6 @@ int main() {
             jobs[thread_id].join();
         delete[] hater_turn_positions[sum];
         write_arr_to_disk(index_dp[16][sum] / 8 + 1, user_turn_positions[sum], "arrays4by4-256/ulayer" + itos(sum, 4) + ".dat");
-        // system("gzip arrays4by4-256/ulayer" + itos(sum, 4) + ".dat &");  -- this is impossible, because it will not allow this program to read this layer later
-        delete[] user_turn_positions[sum];
         report_finish();
     }
 
