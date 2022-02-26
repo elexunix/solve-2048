@@ -57,7 +57,7 @@ int main() {
 
     int CPU_concurrency;
     std::cout << "CPU concurrency: ";
-    std::cin >> CPU_concurrency;
+    std::cin >> CPU_concurrency, --CPU_concurrency;
     std::thread jobs[CPU_concurrency];
     std::cout << "start with layer (default " << 4 * 4 * win_const / 2 << "): ";
     int sum;
@@ -70,6 +70,7 @@ int main() {
         user_turn_positions[sum + 4] = new unsigned char[index_dp[16][sum + 4] / 8 + 1];
         read_arr_from_disk(index_dp[16][sum + 4] / 8 + 1, user_turn_positions[sum + 4], "arrays4by4-256/ulayer" + itos(sum + 4, 4) + ".dat");
     }
+    std::thread writer;
     for (; sum >= 0; sum -= 2) {
         system("date");
         report_start("processing layer with sum " + itos(sum));
@@ -106,8 +107,12 @@ int main() {
         for (int thread_id = 0; thread_id < CPU_concurrency; ++thread_id)
             jobs[thread_id].join();
         delete[] hater_turn_positions[sum];
-        write_arr_to_disk(index_dp[16][sum] / 8 + 1, user_turn_positions[sum], "arrays4by4-256/ulayer" + itos(sum, 4) + ".dat");
-        report_finish();
+        if (writer.joinable())
+            writer.join();
+        writer = std::thread([&](){
+            write_arr_to_disk(index_dp[16][sum] / 8 + 1, user_turn_positions[sum], "arrays4by4-256/ulayer" + itos(sum, 4) + ".dat");
+            report_finish();
+        });
     }
 
     report_final_result(user_turn_positions, hater_turn_positions);
