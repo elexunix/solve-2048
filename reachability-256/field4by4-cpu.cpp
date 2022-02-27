@@ -109,7 +109,7 @@ int main() {
         delete[] hater_turn_positions[sum];
         if (writer.joinable())
             writer.join();
-        writer = std::thread([&](){
+        writer = std::thread([&, sum](){
             write_arr_to_disk(index_dp[16][sum] / 8 + 1, user_turn_positions[sum], "arrays4by4-256/ulayer" + itos(sum, 4) + ".dat");
             report_finish();
         });
