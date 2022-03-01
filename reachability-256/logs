@@ -2018,3 +2018,309 @@ calculating index dp...max size of layer: 1353817378016
 	done in 0.000319
 CPU concurrency: start with layer (default 2048): Mon  7 Feb 09:33:17 UTC 2022
 processing layer with sum 728... sizes in bytes of current, current+2, current+4: 62796M 59843M 62277M
+Tue  8 Feb 22:13:23 UTC 2022
+mkdir: cannot create directory ‘arrays4by4-256’: File exists
+calculating index dp...max size of layer: 1353817378016
+        done in 0.000377
+CPU concurrency: 79
+start with layer (default 2048): 730
+Tue  8 Feb 22:13:31 UTC 2022
+processing layer with sum 730... sizes in bytes of current, current+2, current+4: 59843M 62277M 58504M
+        done in 737330
+Wed  9 Feb 00:57:14 UTC 2022
+processing layer with sum 728... sizes in bytes of current, current+2, current+4: 62796M 59843M 62277M
+        done in 780979
+Wed  9 Feb 03:52:19 UTC 2022
+processing layer with sum 726... sizes in bytes of current, current+2, current+4: 61010M 62796M 59843M
+        done in 743207
+Wed  9 Feb 06:38:12 UTC 2022
+processing layer with sum 724... sizes in bytes of current, current+2, current+4: 64926M 61010M 62796M
+        done in 800657
+Wed  9 Feb 09:31:34 UTC 2022
+processing layer with sum 722... sizes in bytes of current, current+2, current+4: 62928M 64926M 61010M
+^C
+Wed  9 Feb 09:42:22 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.0003
+CPU concurrency: start with layer (default 2048): Wed  9 Feb 09:42:25 UTC 2022
+processing layer with sum 722... sizes in bytes of current, current+2, current+4: 62928M 64926M 61010M
+	done in 766076
+Wed  9 Feb 12:27:59 UTC 2022
+processing layer with sum 720... sizes in bytes of current, current+2, current+4: 66585M 62928M 64926M
+	done in 820580
+Wed  9 Feb 15:25:47 UTC 2022
+processing layer with sum 718... sizes in bytes of current, current+2, current+4: 65216M 66585M 62928M
+	done in 803300
+Wed  9 Feb 18:20:01 UTC 2022
+processing layer with sum 716... sizes in bytes of current, current+2, current+4: 69262M 65216M 66585M
+	done in 870092
+Wed  9 Feb 21:28:41 UTC 2022
+processing layer with sum 714... sizes in bytes of current, current+2, current+4: 66972M 69262M 65216M
+Wed  9 Feb 21:40:04 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000433
+CPU concurrency: start with layer (default 2048): Wed  9 Feb 21:40:08 UTC 2022
+processing layer with sum 714... sizes in bytes of current, current+2, current+4: 66972M 69262M 65216M
+	done in 828643
+Thu 10 Feb 01:34:25 UTC 2022
+processing layer with sum 712... sizes in bytes of current, current+2, current+4: 70377M 66972M 69262M
+	done in 876745
+Thu 10 Feb 04:47:17 UTC 2022
+processing layer with sum 710... sizes in bytes of current, current+2, current+4: 68853M 70377M 66972M
+	done in 849519
+Thu 10 Feb 07:51:25 UTC 2022
+processing layer with sum 708... sizes in bytes of current, current+2, current+4: 73138M 68853M 70377M
+	done in 916637
+Thu 10 Feb 11:09:41 UTC 2022
+processing layer with sum 706... sizes in bytes of current, current+2, current+4: 71214M 73138M 68853M
+	done in 883770
+Thu 10 Feb 14:21:15 UTC 2022
+processing layer with sum 704... sizes in bytes of current, current+2, current+4: 75039M 71214M 73138M
+	done in 943666
+Thu 10 Feb 17:47:41 UTC 2022
+processing layer with sum 702... sizes in bytes of current, current+2, current+4: 73500M 75039M 71214M
+	done in 922130
+Thu 10 Feb 21:06:44 UTC 2022
+processing layer with sum 700... sizes in bytes of current, current+2, current+4: 77394M 73500M 75039M
+Thu 10 Feb 21:42:04 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000419
+CPU concurrency: start with layer (default 2048): Thu 10 Feb 21:42:18 UTC 2022
+processing layer with sum 700... sizes in bytes of current, current+2, current+4: 77394M 73500M 75039M
+	done in 981916
+Fri 11 Feb 01:21:11 UTC 2022
+processing layer with sum 698... sizes in bytes of current, current+2, current+4: 74705M 77394M 73500M
+	done in 937319
+Fri 11 Feb 04:44:14 UTC 2022
+processing layer with sum 696... sizes in bytes of current, current+2, current+4: 77913M 74705M 77394M
+	done in 986548
+Fri 11 Feb 08:17:43 UTC 2022
+processing layer with sum 694... sizes in bytes of current, current+2, current+4: 76032M 77913M 74705M
+	done in 963740
+Fri 11 Feb 11:48:55 UTC 2022
+processing layer with sum 692... sizes in bytes of current, current+2, current+4: 80148M 76032M 77913M
+	done in 1.02681e+06
+Fri 11 Feb 15:41:08 UTC 2022
+processing layer with sum 690... sizes in bytes of current, current+2, current+4: 77987M 80148M 76032M
+	done in 983390
+Fri 11 Feb 19:14:09 UTC 2022
+processing layer with sum 688... sizes in bytes of current, current+2, current+4: 81886M 77987M 80148M
+Fri 11 Feb 19:18:25 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000286
+CPU concurrency: start with layer (default 2048): Fri 11 Feb 19:18:31 UTC 2022
+processing layer with sum 688... sizes in bytes of current, current+2, current+4: 81886M 77987M 80148M
+	done in 1.04135e+06
+Fri 11 Feb 23:11:19 UTC 2022
+processing layer with sum 686... sizes in bytes of current, current+2, current+4: 80367M 81886M 77987M
+	done in 1.01349e+06
+Sat 12 Feb 02:51:16 UTC 2022
+processing layer with sum 684... sizes in bytes of current, current+2, current+4: 84509M 80367M 81886M
+	done in 1.08164e+06
+Sat 12 Feb 06:45:10 UTC 2022
+processing layer with sum 682... sizes in bytes of current, current+2, current+4: 82047M 84509M 80367M
+	done in 1.0441e+06
+Sat 12 Feb 10:31:37 UTC 2022
+processing layer with sum 680... sizes in bytes of current, current+2, current+4: 85726M 82047M 84509M
+	done in 1.09678e+06
+Sat 12 Feb 14:33:06 UTC 2022
+processing layer with sum 678... sizes in bytes of current, current+2, current+4: 84177M 85726M 82047M
+	done in 1.06963e+06
+Sat 12 Feb 18:26:04 UTC 2022
+processing layer with sum 676... sizes in bytes of current, current+2, current+4: 88653M 84177M 85726M
+Sat 12 Feb 18:36:11 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000332
+CPU concurrency: start with layer (default 2048): Sat 12 Feb 18:36:24 UTC 2022
+processing layer with sum 676... sizes in bytes of current, current+2, current+4: 88653M 84177M 85726M
+	done in 1.14065e+06
+Sat 12 Feb 22:50:30 UTC 2022
+processing layer with sum 674... sizes in bytes of current, current+2, current+4: 86644M 88653M 84177M
+	done in 1.10623e+06
+Sun 13 Feb 02:49:35 UTC 2022
+processing layer with sum 672... sizes in bytes of current, current+2, current+4: 90705M 86644M 88653M
+	done in 1.17041e+06
+Sun 13 Feb 07:02:37 UTC 2022
+processing layer with sum 670... sizes in bytes of current, current+2, current+4: 89087M 90705M 86644M
+	done in 1.14359e+06
+Sun 13 Feb 11:13:00 UTC 2022
+processing layer with sum 668... sizes in bytes of current, current+2, current+4: 93093M 89087M 90705M
+	done in 1.21319e+06
+Sun 13 Feb 15:38:15 UTC 2022
+processing layer with sum 666... sizes in bytes of current, current+2, current+4: 90369M 93093M 89087M
+Sun 13 Feb 16:01:34 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000328
+CPU concurrency: start with layer (default 2048): Sun 13 Feb 16:01:44 UTC 2022
+processing layer with sum 666... sizes in bytes of current, current+2, current+4: 90369M 93093M 89087M
+	done in 1.17885e+06
+Sun 13 Feb 20:20:24 UTC 2022
+processing layer with sum 664... sizes in bytes of current, current+2, current+4: 93912M 90369M 93093M
+	done in 1.233e+06
+Mon 14 Feb 00:42:14 UTC 2022
+processing layer with sum 662... sizes in bytes of current, current+2, current+4: 92155M 93912M 90369M
+	done in 1.19953e+06
+Mon 14 Feb 04:57:33 UTC 2022
+processing layer with sum 660... sizes in bytes of current, current+2, current+4: 96527M 92155M 93912M
+	done in 1.27261e+06
+Mon 14 Feb 09:31:52 UTC 2022
+processing layer with sum 658... sizes in bytes of current, current+2, current+4: 94442M 96527M 92155M
+	done in 1.23725e+06
+Mon 14 Feb 13:58:39 UTC 2022
+processing layer with sum 656... sizes in bytes of current, current+2, current+4: 98624M 94442M 96527M
+Mon 14 Feb 15:49:15 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000377
+CPU concurrency: start with layer (default 2048): Mon 14 Feb 15:49:17 UTC 2022
+processing layer with sum 656... sizes in bytes of current, current+2, current+4: 98624M 94442M 96527M
+	done in 1.30484e+06
+Mon 14 Feb 20:35:56 UTC 2022
+processing layer with sum 654... sizes in bytes of current, current+2, current+4: 97135M 98624M 94442M
+	done in 1.27695e+06
+Tue 15 Feb 01:07:30 UTC 2022
+processing layer with sum 652... sizes in bytes of current, current+2, current+4: 101374M 97135M 98624M
+	done in 1.3501e+06
+Tue 15 Feb 05:54:49 UTC 2022
+processing layer with sum 650... sizes in bytes of current, current+2, current+4: 98919M 101374M 97135M
+	done in 1.30839e+06
+Tue 15 Feb 10:34:15 UTC 2022
+processing layer with sum 648... sizes in bytes of current, current+2, current+4: 102825M 98919M 101374M
+	done in 1.3737e+06
+Tue 15 Feb 15:32:14 UTC 2022
+processing layer with sum 646... sizes in bytes of current, current+2, current+4: 101309M 102825M 98919M
+Tue 15 Feb 15:44:15 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000383
+CPU concurrency: start with layer (default 2048): Tue 15 Feb 15:44:24 UTC 2022
+processing layer with sum 646... sizes in bytes of current, current+2, current+4: 101309M 102825M 98919M
+	done in 1.34291e+06
+Tue 15 Feb 20:39:10 UTC 2022
+processing layer with sum 644... sizes in bytes of current, current+2, current+4: 105805M 101309M 102825M
+	done in 1.42038e+06
+Wed 16 Feb 01:43:26 UTC 2022
+processing layer with sum 642... sizes in bytes of current, current+2, current+4: 103694M 105805M 101309M
+	done in 1.38262e+06
+Wed 16 Feb 06:41:09 UTC 2022
+processing layer with sum 640... sizes in bytes of current, current+2, current+4: 107750M 103694M 105805M
+	done in 1.45153e+06
+Wed 16 Feb 11:52:49 UTC 2022
+processing layer with sum 638... sizes in bytes of current, current+2, current+4: 105946M 107750M 103694M
+Wed 16 Feb 12:00:16 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000331
+CPU concurrency: start with layer (default 2048): Wed 16 Feb 12:00:41 UTC 2022
+processing layer with sum 638... sizes in bytes of current, current+2, current+4: 105946M 107750M 103694M
+	done in 1.41968e+06
+Wed 16 Feb 17:13:11 UTC 2022
+processing layer with sum 636... sizes in bytes of current, current+2, current+4: 109769M 105946M 107750M
+	done in 1.49238e+06
+Wed 16 Feb 22:35:58 UTC 2022
+processing layer with sum 634... sizes in bytes of current, current+2, current+4: 106904M 109769M 105946M
+	done in 1.44491e+06
+Thu 17 Feb 03:51:29 UTC 2022
+processing layer with sum 632... sizes in bytes of current, current+2, current+4: 110470M 106904M 109769M
+	done in 1.49748e+06
+Thu 17 Feb 09:15:13 UTC 2022
+processing layer with sum 630... sizes in bytes of current, current+2, current+4: 108648M 110470M 106904M
+Thu 17 Feb 09:52:35 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.00042
+CPU concurrency: start with layer (default 2048): Thu 17 Feb 09:52:54 UTC 2022
+processing layer with sum 630... sizes in bytes of current, current+2, current+4: 108648M 110470M 106904M
+	done in 1.4606e+06
+Thu 17 Feb 15:14:21 UTC 2022
+processing layer with sum 628... sizes in bytes of current, current+2, current+4: 112899M 108648M 110470M
+	done in 1.53387e+06
+Thu 17 Feb 20:42:16 UTC 2022
+processing layer with sum 626... sizes in bytes of current, current+2, current+4: 110716M 112899M 108648M
+Thu 17 Feb 20:43:32 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000318
+CPU concurrency: start with layer (default 2048): Thu 17 Feb 20:43:38 UTC 2022
+processing layer with sum 626... sizes in bytes of current, current+2, current+4: 110716M 112899M 108648M
+	done in 1.49719e+06
+Fri 18 Feb 02:07:01 UTC 2022
+processing layer with sum 624... sizes in bytes of current, current+2, current+4: 114832M 110716M 112899M
+	done in 1.56058e+06
+Fri 18 Feb 07:47:40 UTC 2022
+processing layer with sum 622... sizes in bytes of current, current+2, current+4: 113203M 114832M 110716M
+Fri 18 Feb 10:37:19 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000315
+CPU concurrency: start with layer (default 2048): Fri 18 Feb 10:50:40 UTC 2022
+processing layer with sum 622... sizes in bytes of current, current+2, current+4: 113203M 114832M 110716M
+	done in 1.5403e+06
+Fri 18 Feb 16:15:50 UTC 2022
+processing layer with sum 620... sizes in bytes of current, current+2, current+4: 117247M 113203M 114832M
+	done in 1.612e+06
+Fri 18 Feb 21:56:22 UTC 2022
+processing layer with sum 618... sizes in bytes of current, current+2, current+4: 114763M 117247M 113203M
+	done in 1.56928e+06
+Sat 19 Feb 03:28:19 UTC 2022
+processing layer with sum 616... sizes in bytes of current, current+2, current+4: 118693M 114763M 117247M
+	done in 1.63272e+06
+Sat 19 Feb 09:13:36 UTC 2022
+processing layer with sum 614... sizes in bytes of current, current+2, current+4: 117194M 118693M 114763M
+Sat 19 Feb 09:20:28 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000297
+CPU concurrency: start with layer (default 2048): Sat 19 Feb 09:36:09 UTC 2022
+processing layer with sum 614... sizes in bytes of current, current+2, current+4: 117194M 118693M 114763M
+	done in 1.59824e+06
+Sat 19 Feb 15:15:30 UTC 2022
+processing layer with sum 612... sizes in bytes of current, current+2, current+4: 121564M 117194M 118693M
+Sat 19 Feb 15:22:48 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000298
+CPU concurrency: start with layer (default 2048): Sat 19 Feb 15:28:31 UTC 2022
+processing layer with sum 612... sizes in bytes of current, current+2, current+4: 121564M 117194M 118693M
+	done in 1.67156e+06
+Sat 19 Feb 21:25:24 UTC 2022
+processing layer with sum 610... sizes in bytes of current, current+2, current+4: 119467M 121564M 117194M
+	done in 1.6369e+06
+Sun 20 Feb 03:14:41 UTC 2022
+processing layer with sum 608... sizes in bytes of current, current+2, current+4: 123470M 119467M 121564M
+Sun 20 Feb 04:26:19 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000451
+CPU concurrency: start with layer (default 2048): Sun 20 Feb 04:43:10 UTC 2022
+processing layer with sum 608... sizes in bytes of current, current+2, current+4: 123470M 119467M 121564M
+	done in 1.67239e+06
+Sun 20 Feb 10:58:34 UTC 2022
+processing layer with sum 606... sizes in bytes of current, current+2, current+4: 121660M 123470M 119467M
+	done in 1.6268e+06
+Sun 20 Feb 17:05:54 UTC 2022
+processing layer with sum 604... sizes in bytes of current, current+2, current+4: 125360M 121660M 123470M
+Sun 20 Feb 17:06:24 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000335
+CPU concurrency: start with layer (default 2048): Sun 20 Feb 17:10:07 UTC 2022
+processing layer with sum 604... sizes in bytes of current, current+2, current+4: 125360M 121660M 123470M
+Sun 20 Feb 17:44:48 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000406
+CPU concurrency: start with layer (default 2048): Sun 20 Feb 18:02:38 UTC 2022
+processing layer with sum 604... sizes in bytes of current, current+2, current+4: 125360M 121660M 123470M
+	done in 1.85377e+06
+Mon 21 Feb 00:34:02 UTC 2022
+processing layer with sum 602... sizes in bytes of current, current+2, current+4: 122666M 125360M 121660M
+	done in 1.80271e+06
+Mon 21 Feb 06:54:47 UTC 2022
+processing layer with sum 600... sizes in bytes of current, current+2, current+4: 126344M 122666M 125360M
+	done in 1.8675e+06
+Mon 21 Feb 13:29:15 UTC 2022
+processing layer with sum 598... sizes in bytes of current, current+2, current+4: 124719M 126344M 122666M
+Mon 21 Feb 16:32:57 UTC 2022
+calculating index dp...max size of layer: 1353817378016
+	done in 0.000336
+CPU concurrency: start with layer (default 2048): Mon 21 Feb 16:50:23 UTC 2022
+processing layer with sum 598... sizes in bytes of current, current+2, current+4: 124719M 126344M 122666M
+	done in 1.71473e+06
+Mon 21 Feb 22:56:47 UTC 2022
+processing layer with sum 596... sizes in bytes of current, current+2, current+4: 128913M 124719M 126344M
+	done in 1.78724e+06
+Tue 22 Feb 05:19:18 UTC 2022
+processing layer with sum 594... sizes in bytes of current, current+2, current+4: 126894M 128913M 124719M
+	done in 1.74823e+06
+Tue 22 Feb 11:33:12 UTC 2022
+processing layer with sum 592... sizes in bytes of current, current+2, current+4: 130958M 126894M 128913M
