@@ -57,7 +57,7 @@ int main() {
 
     int CPU_concurrency;
     std::cout << "CPU concurrency: ";
-    std::cin >> CPU_concurrency, --CPU_concurrency;
+    std::cin >> CPU_concurrency;
     std::thread jobs[CPU_concurrency];
     std::cout << "start with layer (default " << 4 * 4 * win_const / 2 << "): ";
     int sum;
@@ -72,7 +72,9 @@ int main() {
     }
     std::thread writer;
     for (; sum >= 0; sum -= 2) {
-        system("date");
+        if (!system("date")) {
+            std::cout << "unable to execute 'date'\n";
+        }
         report_start("processing layer with sum " + itos(sum));
         std::cout << " sizes in bytes of current, current+2, current+4: " << (index_dp[16][sum] / 8 + 1 >> 20) << "M ";
         sum + 2 < layers_cnt ? std::cout << (index_dp[16][sum + 2] / 8 + 1 >> 20) << "M " : std::cout << "[doesn't exist] ";
