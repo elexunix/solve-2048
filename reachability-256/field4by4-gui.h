@@ -6,7 +6,8 @@
 struct board;
 
 
-#define _BLACK_WHITE_COLOR_SCHEME
+//#define _BLACK_WHITE_COLOR_SCHEME
+#define _COLORFUL_COLOR_SCHEME
 
 #ifdef _BLACK_WHITE_COLOR_SCHEME
 std::string background_symbol_for_tile(int tile) {
@@ -27,14 +28,6 @@ std::string background_symbol_for_tile(int tile) {
       return "!";
   }
 }
-#endif
-
-#ifdef _COLORFUL_COLOR_SCHEME
-std::string background_symbol_for_tile(int tile) {
-  return " ";
-}
-#endif
-
 
 std::string string_for_tile(int tile) {
   switch (tile) {
@@ -61,6 +54,53 @@ std::string string_for_tile(int tile) {
           + background_symbol_for_tile(tile);
   }
 }
+#endif
+
+#ifdef _COLORFUL_COLOR_SCHEME
+std::string background_symbol_for_tile(int tile) {
+  switch (tile) {
+    case 0:
+      return " ";
+    case 2:
+    case 4:
+    case 8:
+      return "\033[42m \033[0m";  // green
+    case 16:
+      return "\033[44m \033[0m";  // blue
+    case 32:
+      return "\033[43m \033[0m";  // yellow
+    case 64:
+      return "\033[41m \033[0m";  // red
+    case 128:
+      return "\033[45m \033[0m";  // magenta
+    default:
+      return "\033[46m \033[0m";  // cyan
+  }
+}
+
+std::string string_for_tile(int tile) {
+  switch (tile) {
+    case 0:
+      return "    ";
+    case 2:
+      return "\033[42m 2  \033[0m";
+    case 4:
+      return "\033[42m 4  \033[0m";
+    case 8:
+      return "\033[42m 8  \033[0m";
+    case 16:
+      return "\033[44m 16 \033[0m";
+    case 32:
+      return "\033[43m 32 \033[0m";
+    case 64:
+      return "\033[41m 64 \033[0m";
+    case 128:
+      return "\033[45m128 \033[0m";
+    default:
+      return "\033[46m????\033[0m";
+  }
+}
+#endif
 
 
 void fancy_draw_board(std::ostream &out, const board &b) {
